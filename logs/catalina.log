@@ -1,0 +1,13 @@
+2021-11-22 17:28:43 INFO [Main] - 로그야로그그
+2021-11-22 17:28:44 INFO [aop.LogAdvice] - logAdvice 생성
+2021-11-22 17:31:51 INFO [Main] - 로그야로그그
+2021-11-22 17:31:52 INFO [aop.LogAdvice] - logAdvice 생성
+2021-11-22 18:09:11 INFO [Main] - 로그야로그그
+2021-11-22 18:09:12 INFO [aop.LogAdvice] - logAdvice 생성
+2021-11-22 18:21:09 INFO [Main] - 로그야로그그
+2021-11-22 18:21:09 INFO [aop.LogAdvice] - logAdvice 생성
+2021-11-22 18:42:29 INFO [Main] - 로그야로그그
+2021-11-22 18:42:30 INFO [aop.LogAdvice] - logAdvice 생성
+2021-11-22 18:44:14 INFO [Main] - 로그야로그그
+2021-11-22 18:44:15 WARN [org.springframework.context.support.ClassPathXmlApplicationContext] - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'consumeService' defined in file [C:\Users\Mobigen-01\oidevProject1\target\classes\service\ConsumeService.class]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [service.ConsumeService]: Constructor threw exception; nested exception is java.lang.NullPointerException
+2021-11-22 18:44:15 WARN [org.springframework.context.support.ClassPathXmlApplicationContext] - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'consumeService' defined in file [C:\Users\Mobigen-01\oidevProject1\target\classes\service\ConsumeService.class]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [service.ConsumeService]: Constructor threw exception; nested exception is java.lang.NullPointerException

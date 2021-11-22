@@ -1,46 +1,46 @@
 package service;
 
-import org.springframework.core.io.ClassPathResource;
-import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Service;
 
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
 import java.io.IOException;
+import java.io.InputStream;
+import java.util.HashMap;
 import java.util.Map;
 import java.util.Properties;
 
 @Service
 public class ConsumeService {
-    Map kafkaConfig;
+    private Map<String, String> setConfig;
 
-    ConsumeService(){
-        System.out.println("Consumeservice 생성");
+    ConsumeService() {
+//        if (kafkaConfig == null) {
+//            kafkaConfig = serConfig();
+//        }
     }
-    public void configConsume(String realpath) {
+
+    public Map setconfig() {
+        Map configMap = new HashMap();
         Properties properties = new Properties();
-//        FileInputStream fileInputStream = new FileInputStream("");
-//        properties.load();
-
-    }
-
-
-    @Component
-    class Config {
-        String groupId;
-        //    String port;
-        String zookeeper;
-        String bootstrapServer;
-//        String contextPath= req.getServletContext().getContextPath();
-//        System.out.println(contextPath);
-
-        String testPath;
-
+        InputStream inputStream = ClassLoader.getSystemResourceAsStream("consume-config.properties");
+        try
         {
-            try {
-                testPath = new ClassPathResource("kafka-config.xml").getFile().getAbsolutePath();
-                System.out.println("testPath : " + testPath);
-            } catch (IOException e) {
-                e.printStackTrace();
-            }
+            properties.load(inputStream);
+            properties.forEach((k, v) -> {
+                        System.out.println(k);
+                        System.out.println(v);
+                        configMap.put(k,v);
+                    }
+            );
+            System.out.println(inputStream.toString());
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        } catch (IOException e) {
+            e.printStackTrace();
         }
+//        properties.load();
+        return configMap;
     }
+
 }
