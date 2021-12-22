@@ -1,0 +1,7602 @@
+[
+  {
+    "system_seq": "803",
+    "process_seq": "1007",
+    "metric_name": "cpu_intr",
+    "table_name": "RRD",
+    "metric_value": "0.0",
+    "timestamp": "1546570260"
+  },
+  {
+    "system_seq": "803",
+    "process_seq": "1007",
+    "metric_name": "diskstat_sda_write_bytes_per_sec",
+    "table_name": "RRD",
+    "metric_value": "0.000000",
+    "timestamp": "1546570260"
+  },
+  {
+    "system_seq": "803",
+    "process_seq": "1007",
+    "metric_name": "mem_swap_cached",
+    "table_name": "RRD",
+    "metric_value": "69111808",
+    "timestamp": "1546570260"
+  },
+  {
+    "system_seq": "803",
+    "process_seq": "1007",
+    "metric_name": "softirq_block",
+    "table_name": "RRD",
+    "metric_value": "5",
+    "timestamp": "1546570260"
+  },
+  {
+    "system_seq": "803",
+    "process_seq": "1007",
+    "metric_name": "tcp_synwait",
+    "table_name": "RRD",
+    "metric_value": "0",
+    "timestamp": "1546570260"
+  },
+  {
+    "system_seq": "803",
+    "process_seq": "1007",
+    "metric_name": "tcp_unknown",
+    "table_name": "RRD",
+    "metric_value": "0",
+    "timestamp": "1546570260"
+  },
+  {
+    "system_seq": "803",
+    "process_seq": "1007",
+    "metric_name": "disk_free_percent_rootfs",
+    "table_name": "RRD",
+    "metric_value": "51.223953",
+    "timestamp": "1546570260"
+  },
+  {
+    "system_seq": "803",
+    "process_seq": "1007",
+    "metric_name": "diskstat_sda_writes",
+    "table_name": "RRD",
+    "metric_value": "0.000000",
+    "timestamp": "1546570260"
+  },
+  {
+    "system_seq": "803",
+    "process_seq": "1007",
+    "metric_name": "multicpu_intr0",
+    "table_name": "RRD",
+    "metric_value": "0.0",
+    "timestamp": "1546570260"
+  },
+  {
+    "system_seq": "803",
+    "process_seq": "1007",
+    "metric_name": "multicpu_intr1",
+    "table_name": "RRD",
+    "metric_value": "0.0",
+    "timestamp": "1546570260"
+  },
+  {
+    "system_seq": "803",
+    "process_seq": "1007",
+    "metric_name": "diskstat_sdb_read_bytes_per_sec",
+    "table_name": "RRD",
+    "metric_value": "0.000000",
+    "timestamp": "1546570260"
+  },
+  {
+    "system_seq": "803",
+    "process_seq": "1007",
+    "metric_name": "diskstat_sdb_reads_merged",
+    "table_name": "RRD",
+    "metric_value": "0.000000",
+    "timestamp": "1546570260"
+  },
+  {
+    "system_seq": "803",
+    "process_seq": "1007",
+    "metric_name": "multicpu_intr2",
+    "table_name": "RRD",
+    "metric_value": "0.0",
+    "timestamp": "1546570260"
+  },
+  {
+    "system_seq": "803",
+    "process_seq": "1007",
+    "metric_name": "disk_free_percent_dev_shm",
+    "table_name": "RRD",
+    "metric_value": "99.999557",
+    "timestamp": "1546570260"
+  },
+  {
+    "system_seq": "803",
+    "process_seq": "1007",
+    "metric_name": "multicpu_intr3",
+    "table_name": "RRD",
+    "metric_value": "0.0",
+    "timestamp": "1546570260"
+  },
+  {
+    "system_seq": "803",
+    "process_seq": "1007",
+    "metric_name": "multicpu_intr4",
+    "table_name": "RRD",
+    "metric_value": "0.0",
+    "timestamp": "1546570260"
+  },
+  {
+    "system_seq": "803",
+    "process_seq": "1007",
+    "metric_name": "multicpu_intr5",
+    "table_name": "RRD",
+    "metric_value": "0.0",
+    "timestamp": "1546570260"
+  },
+  {
+    "system_seq": "803",
+    "process_seq": "1007",
+    "metric_name": "multicpu_intr6",
+    "table_name": "RRD",
+    "metric_value": "0.0",
+    "timestamp": "1546570260"
+  },
+  {
+    "system_seq": "803",
+    "process_seq": "1007",
+    "metric_name": "multicpu_intr7",
+    "table_name": "RRD",
+    "metric_value": "0.0",
+    "timestamp": "1546570260"
+  },
+  {
+    "system_seq": "803",
+    "process_seq": "1007",
+    "metric_name": "cpu_aidle",
+    "table_name": "RRD",
+    "metric_value": "98.7",
+    "timestamp": "1546570260"
+  },
+  {
+    "system_seq": "803",
+    "process_seq": "1007",
+    "metric_name": "diskstat_sda_read_time",
+    "table_name": "RRD",
+    "metric_value": "0.000000",
+    "timestamp": "1546570260"
+  },
+  {
+    "system_seq": "803",
+    "process_seq": "1007",
+    "metric_name": "tcp_timewait",
+    "table_name": "RRD",
+    "metric_value": "1",
+    "timestamp": "1546570260"
+  },
+  {
+    "system_seq": "803",
+    "process_seq": "1007",
+    "metric_name": "diskstat_sda_reads",
+    "table_name": "RRD",
+    "metric_value": "0.000000",
+    "timestamp": "1546570260"
+  },
+  {
+    "system_seq": "803",
+    "process_seq": "1007",
+    "metric_name": "multicpu_wio0",
+    "table_name": "RRD",
+    "metric_value": "0.4",
+    "timestamp": "1546570260"
+  },
+  {
+    "system_seq": "803",
+    "process_seq": "1007",
+    "metric_name": "multicpu_wio1",
+    "table_name": "RRD",
+    "metric_value": "0.0",
+    "timestamp": "1546570260"
+  },
+  {
+    "system_seq": "803",
+    "process_seq": "1007",
+    "metric_name": "multicpu_wio2",
+    "table_name": "RRD",
+    "metric_value": "0.0",
+    "timestamp": "1546570260"
+  },
+  {
+    "system_seq": "803",
+    "process_seq": "1007",
+    "metric_name": "multicpu_wio3",
+    "table_name": "RRD",
+    "metric_value": "0.0",
+    "timestamp": "1546570260"
+  },
+  {
+    "system_seq": "803",
+    "process_seq": "1007",
+    "metric_name": "multicpu_wio4",
+    "table_name": "RRD",
+    "metric_value": "0.0",
+    "timestamp": "1546570260"
+  },
+  {
+    "system_seq": "803",
+    "process_seq": "1007",
+    "metric_name": "multicpu_wio5",
+    "table_name": "RRD",
+    "metric_value": "0.5",
+    "timestamp": "1546570260"
+  },
+  {
+    "system_seq": "803",
+    "process_seq": "1007",
+    "metric_name": "cpu_wio",
+    "table_name": "RRD",
+    "metric_value": "0.1",
+    "timestamp": "1546570260"
+  },
+  {
+    "system_seq": "803",
+    "process_seq": "1007",
+    "metric_name": "multicpu_wio6",
+    "table_name": "RRD",
+    "metric_value": "0.0",
+    "timestamp": "1546570260"
+  },
+  {
+    "system_seq": "803",
+    "process_seq": "1007",
+    "metric_name": "multicpu_wio7",
+    "table_name": "RRD",
+    "metric_value": "0.0",
+    "timestamp": "1546570260"
+  },
+  {
+    "system_seq": "803",
+    "process_seq": "1007",
+    "metric_name": "cpu_speed",
+    "table_name": "RRD",
+    "metric_value": "3401",
+    "timestamp": "1546570260"
+  },
+  {
+    "system_seq": "803",
+    "process_seq": "1007",
+    "metric_name": "tcp_synsent",
+    "table_name": "RRD",
+    "metric_value": "0",
+    "timestamp": "1546570260"
+  },
+  {
+    "system_seq": "803",
+    "process_seq": "1007",
+    "metric_name": "multicpu_steal0",
+    "table_name": "RRD",
+    "metric_value": "0.0",
+    "timestamp": "1546570260"
+  },
+  {
+    "system_seq": "803",
+    "process_seq": "1007",
+    "metric_name": "multicpu_steal1",
+    "table_name": "RRD",
+    "metric_value": "0.0",
+    "timestamp": "1546570260"
+  },
+  {
+    "system_seq": "803",
+    "process_seq": "1007",
+    "metric_name": "multicpu_steal2",
+    "table_name": "RRD",
+    "metric_value": "0.0",
+    "timestamp": "1546570260"
+  },
+  {
+    "system_seq": "803",
+    "process_seq": "1007",
+    "metric_name": "multicpu_steal3",
+    "table_name": "RRD",
+    "metric_value": "0.0",
+    "timestamp": "1546570260"
+  },
+  {
+    "system_seq": "803",
+    "process_seq": "1007",
+    "metric_name": "multicpu_steal4",
+    "table_name": "RRD",
+    "metric_value": "0.0",
+    "timestamp": "1546570260"
+  },
+  {
+    "system_seq": "803",
+    "process_seq": "1007",
+    "metric_name": "multicpu_steal5",
+    "table_name": "RRD",
+    "metric_value": "0.0",
+    "timestamp": "1546570260"
+  },
+  {
+    "system_seq": "803",
+    "process_seq": "1007",
+    "metric_name": "cpu_steal",
+    "table_name": "RRD",
+    "metric_value": "0.0",
+    "timestamp": "1546570260"
+  },
+  {
+    "system_seq": "803",
+    "process_seq": "1007",
+    "metric_name": "multicpu_user0",
+    "table_name": "RRD",
+    "metric_value": "0.0",
+    "timestamp": "1546570260"
+  },
+  {
+    "system_seq": "803",
+    "process_seq": "1007",
+    "metric_name": "multicpu_steal6",
+    "table_name": "RRD",
+    "metric_value": "0.0",
+    "timestamp": "1546570260"
+  },
+  {
+    "system_seq": "803",
+    "process_seq": "1007",
+    "metric_name": "multicpu_user1",
+    "table_name": "RRD",
+    "metric_value": "0.0",
+    "timestamp": "1546570260"
+  },
+  {
+    "system_seq": "803",
+    "process_seq": "1007",
+    "metric_name": "multicpu_steal7",
+    "table_name": "RRD",
+    "metric_value": "0.0",
+    "timestamp": "1546570260"
+  },
+  {
+    "system_seq": "803",
+    "process_seq": "1007",
+    "metric_name": "multicpu_user2",
+    "table_name": "RRD",
+    "metric_value": "0.0",
+    "timestamp": "1546570260"
+  },
+  {
+    "system_seq": "803",
+    "process_seq": "1007",
+    "metric_name": "multicpu_user3",
+    "table_name": "RRD",
+    "metric_value": "0.0",
+    "timestamp": "1546570260"
+  },
+  {
+    "system_seq": "803",
+    "process_seq": "1007",
+    "metric_name": "multicpu_user4",
+    "table_name": "RRD",
+    "metric_value": "0.0",
+    "timestamp": "1546570260"
+  },
+  {
+    "system_seq": "803",
+    "process_seq": "1007",
+    "metric_name": "multicpu_user5",
+    "table_name": "RRD",
+    "metric_value": "0.0",
+    "timestamp": "1546570260"
+  },
+  {
+    "system_seq": "803",
+    "process_seq": "1007",
+    "metric_name": "multicpu_user6",
+    "table_name": "RRD",
+    "metric_value": "0.0",
+    "timestamp": "1546570260"
+  },
+  {
+    "system_seq": "803",
+    "process_seq": "1007",
+    "metric_name": "multicpu_system0",
+    "table_name": "RRD",
+    "metric_value": "5.0",
+    "timestamp": "1546570260"
+  },
+  {
+    "system_seq": "803",
+    "process_seq": "1007",
+    "metric_name": "multicpu_user7",
+    "table_name": "RRD",
+    "metric_value": "0.0",
+    "timestamp": "1546570260"
+  },
+  {
+    "system_seq": "803",
+    "process_seq": "1007",
+    "metric_name": "multicpu_system1",
+    "table_name": "RRD",
+    "metric_value": "0.2",
+    "timestamp": "1546570260"
+  },
+  {
+    "system_seq": "803",
+    "process_seq": "1007",
+    "metric_name": "tcp_lastack",
+    "table_name": "RRD",
+    "metric_value": "0",
+    "timestamp": "1546570260"
+  },
+  {
+    "system_seq": "803",
+    "process_seq": "1007",
+    "metric_name": "multicpu_system2",
+    "table_name": "RRD",
+    "metric_value": "0.1",
+    "timestamp": "1546570260"
+  },
+  {
+    "system_seq": "803",
+    "process_seq": "1007",
+    "metric_name": "multicpu_system3",
+    "table_name": "RRD",
+    "metric_value": "0.1",
+    "timestamp": "1546570260"
+  },
+  {
+    "system_seq": "803",
+    "process_seq": "1007",
+    "metric_name": "multicpu_system4",
+    "table_name": "RRD",
+    "metric_value": "0.4",
+    "timestamp": "1546570260"
+  },
+  {
+    "system_seq": "803",
+    "process_seq": "1007",
+    "metric_name": "multicpu_system5",
+    "table_name": "RRD",
+    "metric_value": "0.3",
+    "timestamp": "1546570260"
+  },
+  {
+    "system_seq": "803",
+    "process_seq": "1007",
+    "metric_name": "multicpu_system6",
+    "table_name": "RRD",
+    "metric_value": "0.3",
+    "timestamp": "1546570260"
+  },
+  {
+    "system_seq": "803",
+    "process_seq": "1007",
+    "metric_name": "multicpu_system7",
+    "table_name": "RRD",
+    "metric_value": "0.2",
+    "timestamp": "1546570260"
+  },
+  {
+    "system_seq": "803",
+    "process_seq": "1007",
+    "metric_name": "diskstat_sdb_writes_merged",
+    "table_name": "RRD",
+    "metric_value": "129.000000",
+    "timestamp": "1546570260"
+  },
+  {
+    "system_seq": "803",
+    "process_seq": "1007",
+    "metric_name": "diskstat_sda_percent_io_time",
+    "table_name": "RRD",
+    "metric_value": "0.000000",
+    "timestamp": "1546570260"
+  },
+  {
+    "system_seq": "803",
+    "process_seq": "1007",
+    "metric_name": "diskstat_sdb_percent_io_time",
+    "table_name": "RRD",
+    "metric_value": "1.792258",
+    "timestamp": "1546570260"
+  },
+  {
+    "system_seq": "803",
+    "process_seq": "1007",
+    "metric_name": "mem_cached",
+    "table_name": "RRD",
+    "metric_value": "1054836",
+    "timestamp": "1546570260"
+  },
+  {
+    "system_seq": "803",
+    "process_seq": "1007",
+    "metric_name": "procs_blocked",
+    "table_name": "RRD",
+    "metric_value": "0",
+    "timestamp": "1546570260"
+  },
+  {
+    "system_seq": "803",
+    "process_seq": "1007",
+    "metric_name": "procs_created",
+    "table_name": "RRD",
+    "metric_value": "4",
+    "timestamp": "1546570260"
+  },
+  {
+    "system_seq": "803",
+    "process_seq": "1007",
+    "metric_name": "bytes_out",
+    "table_name": "RRD",
+    "metric_value": "7915.74",
+    "timestamp": "1546570260"
+  },
+  {
+    "system_seq": "803",
+    "process_seq": "1007",
+    "metric_name": "mem_free",
+    "table_name": "RRD",
+    "metric_value": "310184",
+    "timestamp": "1546570260"
+  },
+  {
+    "system_seq": "803",
+    "process_seq": "1007",
+    "metric_name": "cpu_idle",
+    "table_name": "RRD",
+    "metric_value": "98.5",
+    "timestamp": "1546570260"
+  },
+  {
+    "system_seq": "803",
+    "process_seq": "1007",
+    "metric_name": "cpu_nice",
+    "table_name": "RRD",
+    "metric_value": "0.0",
+    "timestamp": "1546570260"
+  },
+  {
+    "system_seq": "803",
+    "process_seq": "1007",
+    "metric_name": "diskstat_sdb_read_time",
+    "table_name": "RRD",
+    "metric_value": "0.000000",
+    "timestamp": "1546570260"
+  },
+  {
+    "system_seq": "803",
+    "process_seq": "1007",
+    "metric_name": "tcp_finwait1",
+    "table_name": "RRD",
+    "metric_value": "0",
+    "timestamp": "1546570260"
+  },
+  {
+    "system_seq": "803",
+    "process_seq": "1007",
+    "metric_name": "tcp_finwait2",
+    "table_name": "RRD",
+    "metric_value": "0",
+    "timestamp": "1546570260"
+  },
+  {
+    "system_seq": "803",
+    "process_seq": "1007",
+    "metric_name": "cpu_system",
+    "table_name": "RRD",
+    "metric_value": "0.8",
+    "timestamp": "1546570260"
+  },
+  {
+    "system_seq": "803",
+    "process_seq": "1007",
+    "metric_name": "tcp_established",
+    "table_name": "RRD",
+    "metric_value": "87",
+    "timestamp": "1546570260"
+  },
+  {
+    "system_seq": "803",
+    "process_seq": "1007",
+    "metric_name": "tcp_synrecv",
+    "table_name": "RRD",
+    "metric_value": "0",
+    "timestamp": "1546570260"
+  },
+  {
+    "system_seq": "803",
+    "process_seq": "1007",
+    "metric_name": "tcp_closing",
+    "table_name": "RRD",
+    "metric_value": "0",
+    "timestamp": "1546570260"
+  },
+  {
+    "system_seq": "803",
+    "process_seq": "1007",
+    "metric_name": "cpu_num",
+    "table_name": "RRD",
+    "metric_value": "8",
+    "timestamp": "1546570260"
+  },
+  {
+    "system_seq": "803",
+    "process_seq": "1007",
+    "metric_name": "swap_free",
+    "table_name": "RRD",
+    "metric_value": "48093232",
+    "timestamp": "1546570260"
+  },
+  {
+    "system_seq": "803",
+    "process_seq": "1007",
+    "metric_name": "diskstat_sda_reads_merged",
+    "table_name": "RRD",
+    "metric_value": "0.000000",
+    "timestamp": "1546570260"
+  },
+  {
+    "system_seq": "803",
+    "process_seq": "1007",
+    "metric_name": "softirq_blockiopoll",
+    "table_name": "RRD",
+    "metric_value": "0",
+    "timestamp": "1546570260"
+  },
+  {
+    "system_seq": "803",
+    "process_seq": "1007",
+    "metric_name": "proc_run",
+    "table_name": "RRD",
+    "metric_value": "1",
+    "timestamp": "1546570260"
+  },
+  {
+    "system_seq": "803",
+    "process_seq": "1007",
+    "metric_name": "disk_free",
+    "table_name": "RRD",
+    "metric_value": "1630.142",
+    "timestamp": "1546570260"
+  },
+  {
+    "system_seq": "803",
+    "process_seq": "1007",
+    "metric_name": "diskstat_sda_writes_merged",
+    "table_name": "RRD",
+    "metric_value": "0.000000",
+    "timestamp": "1546570260"
+  },
+  {
+    "system_seq": "803",
+    "process_seq": "1007",
+    "metric_name": "diskstat_sdb_write_bytes_per_sec",
+    "table_name": "RRD",
+    "metric_value": "31110.925781",
+    "timestamp": "1546570260"
+  },
+  {
+    "system_seq": "803",
+    "process_seq": "1007",
+    "metric_name": "tcp_closewait",
+    "table_name": "RRD",
+    "metric_value": "0",
+    "timestamp": "1546570260"
+  },
+  {
+    "system_seq": "803",
+    "process_seq": "1007",
+    "metric_name": "mem_mapped",
+    "table_name": "RRD",
+    "metric_value": "27701248",
+    "timestamp": "1546570260"
+  },
+  {
+    "system_seq": "803",
+    "process_seq": "1007",
+    "metric_name": "diskstat_sda_write_time",
+    "table_name": "RRD",
+    "metric_value": "0.000000",
+    "timestamp": "1546570260"
+  },
+  {
+    "system_seq": "803",
+    "process_seq": "1007",
+    "metric_name": "softirq_hi",
+    "table_name": "RRD",
+    "metric_value": "0",
+    "timestamp": "1546570260"
+  },
+  {
+    "system_seq": "803",
+    "process_seq": "1007",
+    "metric_name": "swap_total",
+    "table_name": "RRD",
+    "metric_value": "65535996",
+    "timestamp": "1546570260"
+  },
+  {
+    "system_seq": "803",
+    "process_seq": "1007",
+    "metric_name": "multicpu_idle0",
+    "table_name": "RRD",
+    "metric_value": "94.1",
+    "timestamp": "1546570260"
+  },
+  {
+    "system_seq": "803",
+    "process_seq": "1007",
+    "metric_name": "multicpu_idle1",
+    "table_name": "RRD",
+    "metric_value": "99.3",
+    "timestamp": "1546570260"
+  },
+  {
+    "system_seq": "803",
+    "process_seq": "1007",
+    "metric_name": "softirq_hrtimer",
+    "table_name": "RRD",
+    "metric_value": "1",
+    "timestamp": "1546570260"
+  },
+  {
+    "system_seq": "803",
+    "process_seq": "1007",
+    "metric_name": "multicpu_idle2",
+    "table_name": "RRD",
+    "metric_value": "99.4",
+    "timestamp": "1546570260"
+  },
+  {
+    "system_seq": "803",
+    "process_seq": "1007",
+    "metric_name": "diskstat_sda_io_time",
+    "table_name": "RRD",
+    "metric_value": "0.000000",
+    "timestamp": "1546570260"
+  },
+  {
+    "system_seq": "803",
+    "process_seq": "1007",
+    "metric_name": "multicpu_idle3",
+    "table_name": "RRD",
+    "metric_value": "99.5",
+    "timestamp": "1546570260"
+  },
+  {
+    "system_seq": "803",
+    "process_seq": "1007",
+    "metric_name": "diskstat_sdb_io_time",
+    "table_name": "RRD",
+    "metric_value": "0.538000",
+    "timestamp": "1546570260"
+  },
+  {
+    "system_seq": "803",
+    "process_seq": "1007",
+    "metric_name": "multicpu_idle4",
+    "table_name": "RRD",
+    "metric_value": "98.7",
+    "timestamp": "1546570260"
+  },
+  {
+    "system_seq": "803",
+    "process_seq": "1007",
+    "metric_name": "multicpu_idle5",
+    "table_name": "RRD",
+    "metric_value": "98.7",
+    "timestamp": "1546570260"
+  },
+  {
+    "system_seq": "803",
+    "process_seq": "1007",
+    "metric_name": "multicpu_idle6",
+    "table_name": "RRD",
+    "metric_value": "99.2",
+    "timestamp": "1546570260"
+  },
+  {
+    "system_seq": "803",
+    "process_seq": "1007",
+    "metric_name": "multicpu_idle7",
+    "table_name": "RRD",
+    "metric_value": "98.9",
+    "timestamp": "1546570260"
+  },
+  {
+    "system_seq": "803",
+    "process_seq": "1007",
+    "metric_name": "mem_dirty",
+    "table_name": "RRD",
+    "metric_value": "458752",
+    "timestamp": "1546570260"
+  },
+  {
+    "system_seq": "803",
+    "process_seq": "1007",
+    "metric_name": "part_max_used",
+    "table_name": "RRD",
+    "metric_value": "48.8",
+    "timestamp": "1546570260"
+  },
+  {
+    "system_seq": "803",
+    "process_seq": "1007",
+    "metric_name": "softirq_sched",
+    "table_name": "RRD",
+    "metric_value": "307",
+    "timestamp": "1546570260"
+  },
+  {
+    "system_seq": "803",
+    "process_seq": "1007",
+    "metric_name": "disk_total",
+    "table_name": "RRD",
+    "metric_value": "2138.556",
+    "timestamp": "1546570260"
+  },
+  {
+    "system_seq": "803",
+    "process_seq": "1007",
+    "metric_name": "disk_free_absolute_dev_shm",
+    "table_name": "RRD",
+    "metric_value": "15.529495",
+    "timestamp": "1546570260"
+  },
+  {
+    "system_seq": "803",
+    "process_seq": "1007",
+    "metric_name": "multicpu_sintr0",
+    "table_name": "RRD",
+    "metric_value": "0.0",
+    "timestamp": "1546570260"
+  },
+  {
+    "system_seq": "803",
+    "process_seq": "1007",
+    "metric_name": "diskstat_sda_weighted_io_time",
+    "table_name": "RRD",
+    "metric_value": "0.000000",
+    "timestamp": "1546570260"
+  },
+  {
+    "system_seq": "803",
+    "process_seq": "1007",
+    "metric_name": "multicpu_sintr1",
+    "table_name": "RRD",
+    "metric_value": "0.0",
+    "timestamp": "1546570260"
+  },
+  {
+    "system_seq": "803",
+    "process_seq": "1007",
+    "metric_name": "multicpu_sintr2",
+    "table_name": "RRD",
+    "metric_value": "0.0",
+    "timestamp": "1546570260"
+  },
+  {
+    "system_seq": "803",
+    "process_seq": "1007",
+    "metric_name": "mem_shared",
+    "table_name": "RRD",
+    "metric_value": "0",
+    "timestamp": "1546570260"
+  },
+  {
+    "system_seq": "803",
+    "process_seq": "1007",
+    "metric_name": "tcp_listen",
+    "table_name": "RRD",
+    "metric_value": "38",
+    "timestamp": "1546570260"
+  },
+  {
+    "system_seq": "803",
+    "process_seq": "1007",
+    "metric_name": "multicpu_sintr3",
+    "table_name": "RRD",
+    "metric_value": "0.0",
+    "timestamp": "1546570260"
+  },
+  {
+    "system_seq": "803",
+    "process_seq": "1007",
+    "metric_name": "multicpu_sintr4",
+    "table_name": "RRD",
+    "metric_value": "0.0",
+    "timestamp": "1546570260"
+  },
+  {
+    "system_seq": "803",
+    "process_seq": "1007",
+    "metric_name": "proc_total",
+    "table_name": "RRD",
+    "metric_value": "1078",
+    "timestamp": "1546570260"
+  },
+  {
+    "system_seq": "803",
+    "process_seq": "1007",
+    "metric_name": "multicpu_sintr5",
+    "table_name": "RRD",
+    "metric_value": "0.0",
+    "timestamp": "1546570260"
+  },
+  {
+    "system_seq": "803",
+    "process_seq": "1007",
+    "metric_name": "softirq_netrx",
+    "table_name": "RRD",
+    "metric_value": "107",
+    "timestamp": "1546570260"
+  },
+  {
+    "system_seq": "803",
+    "process_seq": "1007",
+    "metric_name": "multicpu_sintr6",
+    "table_name": "RRD",
+    "metric_value": "0.0",
+    "timestamp": "1546570260"
+  },
+  {
+    "system_seq": "803",
+    "process_seq": "1007",
+    "metric_name": "pkts_out",
+    "table_name": "RRD",
+    "metric_value": "34.52",
+    "timestamp": "1546570260"
+  },
+  {
+    "system_seq": "803",
+    "process_seq": "1007",
+    "metric_name": "multicpu_sintr7",
+    "table_name": "RRD",
+    "metric_value": "0.0",
+    "timestamp": "1546570260"
+  },
+  {
+    "system_seq": "803",
+    "process_seq": "1007",
+    "metric_name": "mem_writeback",
+    "table_name": "RRD",
+    "metric_value": "0",
+    "timestamp": "1546570260"
+  },
+  {
+    "system_seq": "803",
+    "process_seq": "1007",
+    "metric_name": "diskstat_sda_read_bytes_per_sec",
+    "table_name": "RRD",
+    "metric_value": "0.000000",
+    "timestamp": "1546570260"
+  },
+  {
+    "system_seq": "803",
+    "process_seq": "1007",
+    "metric_name": "tcp_closed",
+    "table_name": "RRD",
+    "metric_value": "0",
+    "timestamp": "1546570260"
+  },
+  {
+    "system_seq": "803",
+    "process_seq": "1007",
+    "metric_name": "load_one",
+    "table_name": "RRD",
+    "metric_value": "1.00",
+    "timestamp": "1546570260"
+  },
+  {
+    "system_seq": "803",
+    "process_seq": "1007",
+    "metric_name": "multicpu_nice0",
+    "table_name": "RRD",
+    "metric_value": "0.0",
+    "timestamp": "1546570260"
+  },
+  {
+    "system_seq": "803",
+    "process_seq": "1007",
+    "metric_name": "multicpu_nice1",
+    "table_name": "RRD",
+    "metric_value": "0.0",
+    "timestamp": "1546570260"
+  },
+  {
+    "system_seq": "803",
+    "process_seq": "1007",
+    "metric_name": "multicpu_nice2",
+    "table_name": "RRD",
+    "metric_value": "0.0",
+    "timestamp": "1546570260"
+  },
+  {
+    "system_seq": "803",
+    "process_seq": "1007",
+    "metric_name": "multicpu_nice3",
+    "table_name": "RRD",
+    "metric_value": "0.0",
+    "timestamp": "1546570260"
+  },
+  {
+    "system_seq": "803",
+    "process_seq": "1007",
+    "metric_name": "multicpu_nice4",
+    "table_name": "RRD",
+    "metric_value": "0.0",
+    "timestamp": "1546570260"
+  },
+  {
+    "system_seq": "803",
+    "process_seq": "1007",
+    "metric_name": "disk_free_percent_DATA1",
+    "table_name": "RRD",
+    "metric_value": "89.043213",
+    "timestamp": "1546570260"
+  },
+  {
+    "system_seq": "803",
+    "process_seq": "1007",
+    "metric_name": "multicpu_nice5",
+    "table_name": "RRD",
+    "metric_value": "0.0",
+    "timestamp": "1546570260"
+  },
+  {
+    "system_seq": "803",
+    "process_seq": "1007",
+    "metric_name": "disk_free_percent_DATA2",
+    "table_name": "RRD",
+    "metric_value": "88.581306",
+    "timestamp": "1546570260"
+  },
+  {
+    "system_seq": "803",
+    "process_seq": "1007",
+    "metric_name": "multicpu_nice6",
+    "table_name": "RRD",
+    "metric_value": "0.0",
+    "timestamp": "1546570260"
+  },
+  {
+    "system_seq": "803",
+    "process_seq": "1007",
+    "metric_name": "softirq_timer",
+    "table_name": "RRD",
+    "metric_value": "1164",
+    "timestamp": "1546570260"
+  },
+  {
+    "system_seq": "803",
+    "process_seq": "1007",
+    "metric_name": "disk_free_percent_DATA3",
+    "table_name": "RRD",
+    "metric_value": "59.686180",
+    "timestamp": "1546570260"
+  },
+  {
+    "system_seq": "803",
+    "process_seq": "1007",
+    "metric_name": "multicpu_nice7",
+    "table_name": "RRD",
+    "metric_value": "0.0",
+    "timestamp": "1546570260"
+  },
+  {
+    "system_seq": "803",
+    "process_seq": "1007",
+    "metric_name": "disk_free_percent_DATA4",
+    "table_name": "RRD",
+    "metric_value": "94.891098",
+    "timestamp": "1546570260"
+  },
+  {
+    "system_seq": "803",
+    "process_seq": "1007",
+    "metric_name": "load_five",
+    "table_name": "RRD",
+    "metric_value": "1.00",
+    "timestamp": "1546570260"
+  },
+  {
+    "system_seq": "803",
+    "process_seq": "1007",
+    "metric_name": "cpu_ctxt",
+    "table_name": "RRD",
+    "metric_value": "1950",
+    "timestamp": "1546570260"
+  },
+  {
+    "system_seq": "803",
+    "process_seq": "1007",
+    "metric_name": "softirq_rcu",
+    "table_name": "RRD",
+    "metric_value": "1179",
+    "timestamp": "1546570260"
+  },
+  {
+    "system_seq": "803",
+    "process_seq": "1007",
+    "metric_name": "diskstat_sdb_weighted_io_time",
+    "table_name": "RRD",
+    "metric_value": "0.023386",
+    "timestamp": "1546570260"
+  },
+  {
+    "system_seq": "803",
+    "process_seq": "1007",
+    "metric_name": "disk_free_absolute_DATA1",
+    "table_name": "RRD",
+    "metric_value": "427.846741",
+    "timestamp": "1546570260"
+  },
+  {
+    "system_seq": "803",
+    "process_seq": "1007",
+    "metric_name": "disk_free_absolute_DATA2",
+    "table_name": "RRD",
+    "metric_value": "425.627319",
+    "timestamp": "1546570260"
+  },
+  {
+    "system_seq": "803",
+    "process_seq": "1007",
+    "metric_name": "disk_free_absolute_DATA3",
+    "table_name": "RRD",
+    "metric_value": "286.788147",
+    "timestamp": "1546570260"
+  },
+  {
+    "system_seq": "803",
+    "process_seq": "1007",
+    "metric_name": "disk_free_absolute_DATA4",
+    "table_name": "RRD",
+    "metric_value": "208.699402",
+    "timestamp": "1546570260"
+  },
+  {
+    "system_seq": "803",
+    "process_seq": "1007",
+    "metric_name": "cpu_sintr",
+    "table_name": "RRD",
+    "metric_value": "0.0",
+    "timestamp": "1546570260"
+  },
+  {
+    "system_seq": "803",
+    "process_seq": "1007",
+    "metric_name": "pkts_in",
+    "table_name": "RRD",
+    "metric_value": "46.31",
+    "timestamp": "1546570260"
+  },
+  {
+    "system_seq": "803",
+    "process_seq": "1007",
+    "metric_name": "mem_anonpages",
+    "table_name": "RRD",
+    "metric_value": "30979264512",
+    "timestamp": "1546570260"
+  },
+  {
+    "system_seq": "803",
+    "process_seq": "1007",
+    "metric_name": "bytes_in",
+    "table_name": "RRD",
+    "metric_value": "11329.01",
+    "timestamp": "1546570260"
+  },
+  {
+    "system_seq": "803",
+    "process_seq": "1007",
+    "metric_name": "load_fifteen",
+    "table_name": "RRD",
+    "metric_value": "1.00",
+    "timestamp": "1546570260"
+  },
+  {
+    "system_seq": "803",
+    "process_seq": "1007",
+    "metric_name": "mem_hardware_corrupted",
+    "table_name": "RRD",
+    "metric_value": "0",
+    "timestamp": "1546570260"
+  },
+  {
+    "system_seq": "803",
+    "process_seq": "1007",
+    "metric_name": "disk_free_absolute_rootfs",
+    "table_name": "RRD",
+    "metric_value": "169.082352",
+    "timestamp": "1546570260"
+  },
+  {
+    "system_seq": "803",
+    "process_seq": "1007",
+    "metric_name": "cpu_user",
+    "table_name": "RRD",
+    "metric_value": "0.6",
+    "timestamp": "1546570260"
+  },
+  {
+    "system_seq": "803",
+    "process_seq": "1007",
+    "metric_name": "mem_buffers",
+    "table_name": "RRD",
+    "metric_value": "187728",
+    "timestamp": "1546570260"
+  },
+  {
+    "system_seq": "803",
+    "process_seq": "1007",
+    "metric_name": "diskstat_sdb_reads",
+    "table_name": "RRD",
+    "metric_value": "0.000000",
+    "timestamp": "1546570260"
+  },
+  {
+    "system_seq": "803",
+    "process_seq": "1007",
+    "metric_name": "diskstat_sdb_write_time",
+    "table_name": "RRD",
+    "metric_value": "0.023386",
+    "timestamp": "1546570260"
+  },
+  {
+    "system_seq": "803",
+    "process_seq": "1007",
+    "metric_name": "softirq_nettx",
+    "table_name": "RRD",
+    "metric_value": "0",
+    "timestamp": "1546570260"
+  },
+  {
+    "system_seq": "803",
+    "process_seq": "1007",
+    "metric_name": "diskstat_sdb_writes",
+    "table_name": "RRD",
+    "metric_value": "102.000000",
+    "timestamp": "1546570260"
+  },
+  {
+    "system_seq": "803",
+    "process_seq": "1007",
+    "metric_name": "softirq_tasklet",
+    "table_name": "RRD",
+    "metric_value": "0",
+    "timestamp": "1546570260"
+  },
+  {
+    "system_seq": "803",
+    "process_seq": "1007",
+    "metric_name": "mem_total",
+    "table_name": "RRD",
+    "metric_value": "32567856",
+    "timestamp": "1546570290"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1007",
+    "metric_name": "cpu_intr",
+    "table_name": "RRD",
+    "metric_value": "0.0",
+    "timestamp": "1546570230"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1007",
+    "metric_name": "diskstat_sda_write_bytes_per_sec",
+    "table_name": "RRD",
+    "metric_value": "22918.546875",
+    "timestamp": "1546570230"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1007",
+    "metric_name": "mem_swap_cached",
+    "table_name": "RRD",
+    "metric_value": "221184",
+    "timestamp": "1546570230"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1007",
+    "metric_name": "softirq_block",
+    "table_name": "RRD",
+    "metric_value": "6",
+    "timestamp": "1546570230"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1007",
+    "metric_name": "tcp_synwait",
+    "table_name": "RRD",
+    "metric_value": "0",
+    "timestamp": "1546570230"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1007",
+    "metric_name": "tcp_unknown",
+    "table_name": "RRD",
+    "metric_value": "0",
+    "timestamp": "1546570230"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1007",
+    "metric_name": "disk_free_percent_rootfs",
+    "table_name": "RRD",
+    "metric_value": "73.233643",
+    "timestamp": "1546570230"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1007",
+    "metric_name": "diskstat_sda_writes",
+    "table_name": "RRD",
+    "metric_value": "80.000000",
+    "timestamp": "1546570230"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1007",
+    "metric_name": "multicpu_intr0",
+    "table_name": "RRD",
+    "metric_value": "0.0",
+    "timestamp": "1546570230"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1007",
+    "metric_name": "multicpu_intr1",
+    "table_name": "RRD",
+    "metric_value": "0.0",
+    "timestamp": "1546570230"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1007",
+    "metric_name": "diskstat_sdb_reads_merged",
+    "table_name": "RRD",
+    "metric_value": "0.000000",
+    "timestamp": "1546570230"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1007",
+    "metric_name": "diskstat_sdb_read_bytes_per_sec",
+    "table_name": "RRD",
+    "metric_value": "0.000000",
+    "timestamp": "1546570230"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1007",
+    "metric_name": "multicpu_intr2",
+    "table_name": "RRD",
+    "metric_value": "0.0",
+    "timestamp": "1546570230"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1007",
+    "metric_name": "disk_free_percent_dev_shm",
+    "table_name": "RRD",
+    "metric_value": "99.999557",
+    "timestamp": "1546570230"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1007",
+    "metric_name": "multicpu_intr3",
+    "table_name": "RRD",
+    "metric_value": "0.0",
+    "timestamp": "1546570230"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1007",
+    "metric_name": "multicpu_intr4",
+    "table_name": "RRD",
+    "metric_value": "0.0",
+    "timestamp": "1546570230"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1007",
+    "metric_name": "multicpu_intr5",
+    "table_name": "RRD",
+    "metric_value": "0.0",
+    "timestamp": "1546570230"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1007",
+    "metric_name": "multicpu_intr6",
+    "table_name": "RRD",
+    "metric_value": "0.0",
+    "timestamp": "1546570230"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1007",
+    "metric_name": "cpu_aidle",
+    "table_name": "RRD",
+    "metric_value": "98.0",
+    "timestamp": "1546570230"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1007",
+    "metric_name": "multicpu_intr7",
+    "table_name": "RRD",
+    "metric_value": "0.0",
+    "timestamp": "1546570230"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1007",
+    "metric_name": "diskstat_sda_read_time",
+    "table_name": "RRD",
+    "metric_value": "0.000000",
+    "timestamp": "1546570230"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1007",
+    "metric_name": "tcp_timewait",
+    "table_name": "RRD",
+    "metric_value": "5",
+    "timestamp": "1546570230"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1007",
+    "metric_name": "diskstat_sda_reads",
+    "table_name": "RRD",
+    "metric_value": "0.000000",
+    "timestamp": "1546570230"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1007",
+    "metric_name": "multicpu_wio0",
+    "table_name": "RRD",
+    "metric_value": "0.8",
+    "timestamp": "1546570230"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1007",
+    "metric_name": "multicpu_wio1",
+    "table_name": "RRD",
+    "metric_value": "0.0",
+    "timestamp": "1546570230"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1007",
+    "metric_name": "multicpu_wio2",
+    "table_name": "RRD",
+    "metric_value": "0.0",
+    "timestamp": "1546570230"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1007",
+    "metric_name": "multicpu_wio3",
+    "table_name": "RRD",
+    "metric_value": "0.0",
+    "timestamp": "1546570230"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1007",
+    "metric_name": "multicpu_wio4",
+    "table_name": "RRD",
+    "metric_value": "0.9",
+    "timestamp": "1546570230"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1007",
+    "metric_name": "multicpu_wio5",
+    "table_name": "RRD",
+    "metric_value": "0.0",
+    "timestamp": "1546570230"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1007",
+    "metric_name": "cpu_wio",
+    "table_name": "RRD",
+    "metric_value": "0.2",
+    "timestamp": "1546570230"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1007",
+    "metric_name": "multicpu_wio6",
+    "table_name": "RRD",
+    "metric_value": "0.0",
+    "timestamp": "1546570230"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1007",
+    "metric_name": "multicpu_wio7",
+    "table_name": "RRD",
+    "metric_value": "0.0",
+    "timestamp": "1546570230"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1007",
+    "metric_name": "cpu_speed",
+    "table_name": "RRD",
+    "metric_value": "3401",
+    "timestamp": "1546570230"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1007",
+    "metric_name": "tcp_synsent",
+    "table_name": "RRD",
+    "metric_value": "0",
+    "timestamp": "1546570230"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1007",
+    "metric_name": "multicpu_steal0",
+    "table_name": "RRD",
+    "metric_value": "0.0",
+    "timestamp": "1546570230"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1007",
+    "metric_name": "multicpu_steal1",
+    "table_name": "RRD",
+    "metric_value": "0.0",
+    "timestamp": "1546570230"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1007",
+    "metric_name": "multicpu_steal2",
+    "table_name": "RRD",
+    "metric_value": "0.0",
+    "timestamp": "1546570230"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1007",
+    "metric_name": "multicpu_steal3",
+    "table_name": "RRD",
+    "metric_value": "0.0",
+    "timestamp": "1546570230"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1007",
+    "metric_name": "multicpu_steal4",
+    "table_name": "RRD",
+    "metric_value": "0.0",
+    "timestamp": "1546570230"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1007",
+    "metric_name": "multicpu_steal5",
+    "table_name": "RRD",
+    "metric_value": "0.0",
+    "timestamp": "1546570230"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1007",
+    "metric_name": "cpu_steal",
+    "table_name": "RRD",
+    "metric_value": "0.0",
+    "timestamp": "1546570230"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1007",
+    "metric_name": "multicpu_steal6",
+    "table_name": "RRD",
+    "metric_value": "0.0",
+    "timestamp": "1546570230"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1007",
+    "metric_name": "multicpu_user0",
+    "table_name": "RRD",
+    "metric_value": "0.0",
+    "timestamp": "1546570230"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1007",
+    "metric_name": "multicpu_steal7",
+    "table_name": "RRD",
+    "metric_value": "0.0",
+    "timestamp": "1546570230"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1007",
+    "metric_name": "multicpu_user1",
+    "table_name": "RRD",
+    "metric_value": "0.0",
+    "timestamp": "1546570230"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1007",
+    "metric_name": "multicpu_user2",
+    "table_name": "RRD",
+    "metric_value": "0.0",
+    "timestamp": "1546570230"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1007",
+    "metric_name": "multicpu_user3",
+    "table_name": "RRD",
+    "metric_value": "0.0",
+    "timestamp": "1546570230"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1007",
+    "metric_name": "multicpu_user4",
+    "table_name": "RRD",
+    "metric_value": "0.0",
+    "timestamp": "1546570230"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1007",
+    "metric_name": "multicpu_user5",
+    "table_name": "RRD",
+    "metric_value": "0.0",
+    "timestamp": "1546570230"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1007",
+    "metric_name": "multicpu_system0",
+    "table_name": "RRD",
+    "metric_value": "5.4",
+    "timestamp": "1546570230"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1007",
+    "metric_name": "multicpu_user6",
+    "table_name": "RRD",
+    "metric_value": "0.0",
+    "timestamp": "1546570230"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1007",
+    "metric_name": "multicpu_system1",
+    "table_name": "RRD",
+    "metric_value": "0.3",
+    "timestamp": "1546570230"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1007",
+    "metric_name": "multicpu_user7",
+    "table_name": "RRD",
+    "metric_value": "0.0",
+    "timestamp": "1546570230"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1007",
+    "metric_name": "multicpu_system2",
+    "table_name": "RRD",
+    "metric_value": "0.2",
+    "timestamp": "1546570230"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1007",
+    "metric_name": "tcp_lastack",
+    "table_name": "RRD",
+    "metric_value": "0",
+    "timestamp": "1546570230"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1007",
+    "metric_name": "multicpu_system3",
+    "table_name": "RRD",
+    "metric_value": "0.2",
+    "timestamp": "1546570230"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1007",
+    "metric_name": "multicpu_system4",
+    "table_name": "RRD",
+    "metric_value": "0.4",
+    "timestamp": "1546570230"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1007",
+    "metric_name": "multicpu_system5",
+    "table_name": "RRD",
+    "metric_value": "0.4",
+    "timestamp": "1546570230"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1007",
+    "metric_name": "multicpu_system6",
+    "table_name": "RRD",
+    "metric_value": "0.4",
+    "timestamp": "1546570230"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1007",
+    "metric_name": "multicpu_system7",
+    "table_name": "RRD",
+    "metric_value": "0.3",
+    "timestamp": "1546570230"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1007",
+    "metric_name": "diskstat_sdb_writes_merged",
+    "table_name": "RRD",
+    "metric_value": "88.000000",
+    "timestamp": "1546570230"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1007",
+    "metric_name": "diskstat_sda_percent_io_time",
+    "table_name": "RRD",
+    "metric_value": "0.093256",
+    "timestamp": "1546570230"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1007",
+    "metric_name": "diskstat_sdb_percent_io_time",
+    "table_name": "RRD",
+    "metric_value": "1.582018",
+    "timestamp": "1546570230"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1007",
+    "metric_name": "mem_cached",
+    "table_name": "RRD",
+    "metric_value": "25048276",
+    "timestamp": "1546570230"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1007",
+    "metric_name": "procs_blocked",
+    "table_name": "RRD",
+    "metric_value": "0",
+    "timestamp": "1546570230"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1007",
+    "metric_name": "bytes_out",
+    "table_name": "RRD",
+    "metric_value": "7191.53",
+    "timestamp": "1546570230"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1007",
+    "metric_name": "procs_created",
+    "table_name": "RRD",
+    "metric_value": "2",
+    "timestamp": "1546570230"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1007",
+    "metric_name": "mem_free",
+    "table_name": "RRD",
+    "metric_value": "975068",
+    "timestamp": "1546570230"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1007",
+    "metric_name": "cpu_idle",
+    "table_name": "RRD",
+    "metric_value": "98.0",
+    "timestamp": "1546570230"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1007",
+    "metric_name": "cpu_nice",
+    "table_name": "RRD",
+    "metric_value": "0.0",
+    "timestamp": "1546570230"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1007",
+    "metric_name": "diskstat_sdb_read_time",
+    "table_name": "RRD",
+    "metric_value": "0.000000",
+    "timestamp": "1546570230"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1007",
+    "metric_name": "tcp_finwait1",
+    "table_name": "RRD",
+    "metric_value": "0",
+    "timestamp": "1546570230"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1007",
+    "metric_name": "tcp_finwait2",
+    "table_name": "RRD",
+    "metric_value": "0",
+    "timestamp": "1546570230"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1007",
+    "metric_name": "cpu_system",
+    "table_name": "RRD",
+    "metric_value": "0.9",
+    "timestamp": "1546570230"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1007",
+    "metric_name": "tcp_established",
+    "table_name": "RRD",
+    "metric_value": "136",
+    "timestamp": "1546570230"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1007",
+    "metric_name": "tcp_synrecv",
+    "table_name": "RRD",
+    "metric_value": "0",
+    "timestamp": "1546570230"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1007",
+    "metric_name": "tcp_closing",
+    "table_name": "RRD",
+    "metric_value": "0",
+    "timestamp": "1546570230"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1007",
+    "metric_name": "cpu_num",
+    "table_name": "RRD",
+    "metric_value": "8",
+    "timestamp": "1546570230"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1007",
+    "metric_name": "swap_free",
+    "table_name": "RRD",
+    "metric_value": "65534052",
+    "timestamp": "1546570230"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1007",
+    "metric_name": "diskstat_sda_reads_merged",
+    "table_name": "RRD",
+    "metric_value": "0.000000",
+    "timestamp": "1546570230"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1007",
+    "metric_name": "softirq_blockiopoll",
+    "table_name": "RRD",
+    "metric_value": "0",
+    "timestamp": "1546570230"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1007",
+    "metric_name": "proc_run",
+    "table_name": "RRD",
+    "metric_value": "1",
+    "timestamp": "1546570230"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1007",
+    "metric_name": "disk_free",
+    "table_name": "RRD",
+    "metric_value": "1721.120",
+    "timestamp": "1546570230"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1007",
+    "metric_name": "diskstat_sda_writes_merged",
+    "table_name": "RRD",
+    "metric_value": "88.000000",
+    "timestamp": "1546570230"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1007",
+    "metric_name": "diskstat_sdb_write_bytes_per_sec",
+    "table_name": "RRD",
+    "metric_value": "24282.746094",
+    "timestamp": "1546570230"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1007",
+    "metric_name": "tcp_closewait",
+    "table_name": "RRD",
+    "metric_value": "0",
+    "timestamp": "1546570230"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1007",
+    "metric_name": "mem_mapped",
+    "table_name": "RRD",
+    "metric_value": "114864128",
+    "timestamp": "1546570230"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1007",
+    "metric_name": "diskstat_sda_write_time",
+    "table_name": "RRD",
+    "metric_value": "0.001332",
+    "timestamp": "1546570230"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1007",
+    "metric_name": "softirq_hi",
+    "table_name": "RRD",
+    "metric_value": "0",
+    "timestamp": "1546570230"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1007",
+    "metric_name": "swap_total",
+    "table_name": "RRD",
+    "metric_value": "65535996",
+    "timestamp": "1546570230"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1007",
+    "metric_name": "multicpu_idle0",
+    "table_name": "RRD",
+    "metric_value": "92.6",
+    "timestamp": "1546570230"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1007",
+    "metric_name": "multicpu_idle1",
+    "table_name": "RRD",
+    "metric_value": "98.7",
+    "timestamp": "1546570230"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1007",
+    "metric_name": "multicpu_idle2",
+    "table_name": "RRD",
+    "metric_value": "99.0",
+    "timestamp": "1546570230"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1007",
+    "metric_name": "softirq_hrtimer",
+    "table_name": "RRD",
+    "metric_value": "4",
+    "timestamp": "1546570230"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1007",
+    "metric_name": "multicpu_idle3",
+    "table_name": "RRD",
+    "metric_value": "99.3",
+    "timestamp": "1546570230"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1007",
+    "metric_name": "diskstat_sda_io_time",
+    "table_name": "RRD",
+    "metric_value": "0.028000",
+    "timestamp": "1546570230"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1007",
+    "metric_name": "multicpu_idle4",
+    "table_name": "RRD",
+    "metric_value": "97.5",
+    "timestamp": "1546570230"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1007",
+    "metric_name": "diskstat_sdb_io_time",
+    "table_name": "RRD",
+    "metric_value": "0.475000",
+    "timestamp": "1546570230"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1007",
+    "metric_name": "multicpu_idle5",
+    "table_name": "RRD",
+    "metric_value": "98.7",
+    "timestamp": "1546570230"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1007",
+    "metric_name": "multicpu_idle6",
+    "table_name": "RRD",
+    "metric_value": "98.9",
+    "timestamp": "1546570230"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1007",
+    "metric_name": "multicpu_idle7",
+    "table_name": "RRD",
+    "metric_value": "99.3",
+    "timestamp": "1546570230"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1007",
+    "metric_name": "mem_dirty",
+    "table_name": "RRD",
+    "metric_value": "319488",
+    "timestamp": "1546570230"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1007",
+    "metric_name": "part_max_used",
+    "table_name": "RRD",
+    "metric_value": "41.4",
+    "timestamp": "1546570230"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1007",
+    "metric_name": "disk_total",
+    "table_name": "RRD",
+    "metric_value": "2138.556",
+    "timestamp": "1546570230"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1007",
+    "metric_name": "softirq_sched",
+    "table_name": "RRD",
+    "metric_value": "418",
+    "timestamp": "1546570230"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1007",
+    "metric_name": "disk_free_absolute_dev_shm",
+    "table_name": "RRD",
+    "metric_value": "15.529495",
+    "timestamp": "1546570230"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1007",
+    "metric_name": "multicpu_sintr0",
+    "table_name": "RRD",
+    "metric_value": "0.0",
+    "timestamp": "1546570230"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1007",
+    "metric_name": "multicpu_sintr1",
+    "table_name": "RRD",
+    "metric_value": "0.0",
+    "timestamp": "1546570230"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1007",
+    "metric_name": "diskstat_sda_weighted_io_time",
+    "table_name": "RRD",
+    "metric_value": "0.001332",
+    "timestamp": "1546570230"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1007",
+    "metric_name": "multicpu_sintr2",
+    "table_name": "RRD",
+    "metric_value": "0.0",
+    "timestamp": "1546570230"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1007",
+    "metric_name": "tcp_listen",
+    "table_name": "RRD",
+    "metric_value": "38",
+    "timestamp": "1546570230"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1007",
+    "metric_name": "multicpu_sintr3",
+    "table_name": "RRD",
+    "metric_value": "0.0",
+    "timestamp": "1546570230"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1007",
+    "metric_name": "mem_shared",
+    "table_name": "RRD",
+    "metric_value": "0",
+    "timestamp": "1546570230"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1007",
+    "metric_name": "multicpu_sintr4",
+    "table_name": "RRD",
+    "metric_value": "0.0",
+    "timestamp": "1546570230"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1007",
+    "metric_name": "multicpu_sintr5",
+    "table_name": "RRD",
+    "metric_value": "0.1",
+    "timestamp": "1546570230"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1007",
+    "metric_name": "proc_total",
+    "table_name": "RRD",
+    "metric_value": "2221",
+    "timestamp": "1546570230"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1007",
+    "metric_name": "multicpu_sintr6",
+    "table_name": "RRD",
+    "metric_value": "0.0",
+    "timestamp": "1546570230"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1007",
+    "metric_name": "softirq_netrx",
+    "table_name": "RRD",
+    "metric_value": "102",
+    "timestamp": "1546570230"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1007",
+    "metric_name": "multicpu_sintr7",
+    "table_name": "RRD",
+    "metric_value": "0.0",
+    "timestamp": "1546570230"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1007",
+    "metric_name": "pkts_out",
+    "table_name": "RRD",
+    "metric_value": "22.30",
+    "timestamp": "1546570230"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1007",
+    "metric_name": "mem_writeback",
+    "table_name": "RRD",
+    "metric_value": "0",
+    "timestamp": "1546570230"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1007",
+    "metric_name": "diskstat_sda_read_bytes_per_sec",
+    "table_name": "RRD",
+    "metric_value": "0.000000",
+    "timestamp": "1546570230"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1007",
+    "metric_name": "tcp_closed",
+    "table_name": "RRD",
+    "metric_value": "0",
+    "timestamp": "1546570230"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1007",
+    "metric_name": "multicpu_nice0",
+    "table_name": "RRD",
+    "metric_value": "0.0",
+    "timestamp": "1546570230"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1007",
+    "metric_name": "load_one",
+    "table_name": "RRD",
+    "metric_value": "0.98",
+    "timestamp": "1546570230"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1007",
+    "metric_name": "multicpu_nice1",
+    "table_name": "RRD",
+    "metric_value": "0.0",
+    "timestamp": "1546570230"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1007",
+    "metric_name": "multicpu_nice2",
+    "table_name": "RRD",
+    "metric_value": "0.0",
+    "timestamp": "1546570230"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1007",
+    "metric_name": "multicpu_nice3",
+    "table_name": "RRD",
+    "metric_value": "0.0",
+    "timestamp": "1546570230"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1007",
+    "metric_name": "multicpu_nice4",
+    "table_name": "RRD",
+    "metric_value": "0.0",
+    "timestamp": "1546570230"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1007",
+    "metric_name": "multicpu_nice5",
+    "table_name": "RRD",
+    "metric_value": "0.0",
+    "timestamp": "1546570230"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1007",
+    "metric_name": "disk_free_percent_DATA1",
+    "table_name": "RRD",
+    "metric_value": "58.586666",
+    "timestamp": "1546570230"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1007",
+    "metric_name": "multicpu_nice6",
+    "table_name": "RRD",
+    "metric_value": "0.0",
+    "timestamp": "1546570230"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1007",
+    "metric_name": "disk_free_percent_DATA2",
+    "table_name": "RRD",
+    "metric_value": "91.094810",
+    "timestamp": "1546570230"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1007",
+    "metric_name": "multicpu_nice7",
+    "table_name": "RRD",
+    "metric_value": "0.0",
+    "timestamp": "1546570230"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1007",
+    "metric_name": "softirq_timer",
+    "table_name": "RRD",
+    "metric_value": "1177",
+    "timestamp": "1546570230"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1007",
+    "metric_name": "disk_free_percent_DATA3",
+    "table_name": "RRD",
+    "metric_value": "90.879509",
+    "timestamp": "1546570230"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1007",
+    "metric_name": "load_five",
+    "table_name": "RRD",
+    "metric_value": "0.99",
+    "timestamp": "1546570230"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1007",
+    "metric_name": "disk_free_percent_DATA4",
+    "table_name": "RRD",
+    "metric_value": "93.281548",
+    "timestamp": "1546570230"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1007",
+    "metric_name": "cpu_ctxt",
+    "table_name": "RRD",
+    "metric_value": "6022",
+    "timestamp": "1546570230"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1007",
+    "metric_name": "softirq_rcu",
+    "table_name": "RRD",
+    "metric_value": "1192",
+    "timestamp": "1546570230"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1007",
+    "metric_name": "diskstat_sdb_weighted_io_time",
+    "table_name": "RRD",
+    "metric_value": "0.019084",
+    "timestamp": "1546570230"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1007",
+    "metric_name": "disk_free_absolute_DATA1",
+    "table_name": "RRD",
+    "metric_value": "281.505066",
+    "timestamp": "1546570230"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1007",
+    "metric_name": "disk_free_absolute_DATA2",
+    "table_name": "RRD",
+    "metric_value": "437.704529",
+    "timestamp": "1546570230"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1007",
+    "metric_name": "disk_free_absolute_DATA3",
+    "table_name": "RRD",
+    "metric_value": "436.670044",
+    "timestamp": "1546570230"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1007",
+    "metric_name": "cpu_sintr",
+    "table_name": "RRD",
+    "metric_value": "0.0",
+    "timestamp": "1546570230"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1007",
+    "metric_name": "disk_free_absolute_DATA4",
+    "table_name": "RRD",
+    "metric_value": "205.159424",
+    "timestamp": "1546570230"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1007",
+    "metric_name": "pkts_in",
+    "table_name": "RRD",
+    "metric_value": "40.39",
+    "timestamp": "1546570230"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1007",
+    "metric_name": "mem_anonpages",
+    "table_name": "RRD",
+    "metric_value": "3981225984",
+    "timestamp": "1546570230"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1007",
+    "metric_name": "bytes_in",
+    "table_name": "RRD",
+    "metric_value": "6281.14",
+    "timestamp": "1546570230"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1007",
+    "metric_name": "load_fifteen",
+    "table_name": "RRD",
+    "metric_value": "0.99",
+    "timestamp": "1546570230"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1007",
+    "metric_name": "mem_hardware_corrupted",
+    "table_name": "RRD",
+    "metric_value": "0",
+    "timestamp": "1546570230"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1007",
+    "metric_name": "cpu_user",
+    "table_name": "RRD",
+    "metric_value": "0.9",
+    "timestamp": "1546570230"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1007",
+    "metric_name": "disk_free_absolute_rootfs",
+    "table_name": "RRD",
+    "metric_value": "241.732925",
+    "timestamp": "1546570230"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1007",
+    "metric_name": "mem_buffers",
+    "table_name": "RRD",
+    "metric_value": "732736",
+    "timestamp": "1546570230"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1007",
+    "metric_name": "diskstat_sdb_reads",
+    "table_name": "RRD",
+    "metric_value": "0.000000",
+    "timestamp": "1546570230"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1007",
+    "metric_name": "diskstat_sdb_write_time",
+    "table_name": "RRD",
+    "metric_value": "0.019084",
+    "timestamp": "1546570230"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1007",
+    "metric_name": "softirq_nettx",
+    "table_name": "RRD",
+    "metric_value": "0",
+    "timestamp": "1546570230"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1007",
+    "metric_name": "diskstat_sdb_writes",
+    "table_name": "RRD",
+    "metric_value": "93.000000",
+    "timestamp": "1546570230"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1007",
+    "metric_name": "softirq_tasklet",
+    "table_name": "RRD",
+    "metric_value": "0",
+    "timestamp": "1546570230"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1007",
+    "metric_name": "mem_total",
+    "table_name": "RRD",
+    "metric_value": "32567856",
+    "timestamp": "1546570260"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1007",
+    "metric_name": "cpu_intr",
+    "table_name": "RRD",
+    "metric_value": "0.0",
+    "timestamp": "1546570110"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1007",
+    "metric_name": "diskstat_sda_write_bytes_per_sec",
+    "table_name": "RRD",
+    "metric_value": "690563.812500",
+    "timestamp": "1546570110"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1007",
+    "metric_name": "mem_swap_cached",
+    "table_name": "RRD",
+    "metric_value": "0",
+    "timestamp": "1546570110"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1007",
+    "metric_name": "softirq_block",
+    "table_name": "RRD",
+    "metric_value": "35",
+    "timestamp": "1546570110"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1007",
+    "metric_name": "tcp_synwait",
+    "table_name": "RRD",
+    "metric_value": "0",
+    "timestamp": "1546570110"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1007",
+    "metric_name": "tcp_unknown",
+    "table_name": "RRD",
+    "metric_value": "0",
+    "timestamp": "1546570110"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1007",
+    "metric_name": "disk_free_percent_rootfs",
+    "table_name": "RRD",
+    "metric_value": "37.078728",
+    "timestamp": "1546570110"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1007",
+    "metric_name": "diskstat_sda_writes",
+    "table_name": "RRD",
+    "metric_value": "2918.000000",
+    "timestamp": "1546570110"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1007",
+    "metric_name": "multicpu_intr0",
+    "table_name": "RRD",
+    "metric_value": "0.0",
+    "timestamp": "1546570110"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1007",
+    "metric_name": "multicpu_intr1",
+    "table_name": "RRD",
+    "metric_value": "0.0",
+    "timestamp": "1546570110"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1007",
+    "metric_name": "diskstat_sdb_reads_merged",
+    "table_name": "RRD",
+    "metric_value": "0.000000",
+    "timestamp": "1546570110"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1007",
+    "metric_name": "diskstat_sdb_read_bytes_per_sec",
+    "table_name": "RRD",
+    "metric_value": "0.000000",
+    "timestamp": "1546570110"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1007",
+    "metric_name": "multicpu_intr2",
+    "table_name": "RRD",
+    "metric_value": "0.0",
+    "timestamp": "1546570110"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1007",
+    "metric_name": "disk_free_percent_dev_shm",
+    "table_name": "RRD",
+    "metric_value": "99.999557",
+    "timestamp": "1546570110"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1007",
+    "metric_name": "multicpu_intr3",
+    "table_name": "RRD",
+    "metric_value": "0.0",
+    "timestamp": "1546570110"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1007",
+    "metric_name": "multicpu_intr4",
+    "table_name": "RRD",
+    "metric_value": "0.2",
+    "timestamp": "1546570110"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1007",
+    "metric_name": "multicpu_intr5",
+    "table_name": "RRD",
+    "metric_value": "0.0",
+    "timestamp": "1546570110"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1007",
+    "metric_name": "multicpu_intr6",
+    "table_name": "RRD",
+    "metric_value": "0.0",
+    "timestamp": "1546570110"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1007",
+    "metric_name": "multicpu_intr7",
+    "table_name": "RRD",
+    "metric_value": "0.0",
+    "timestamp": "1546570110"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1007",
+    "metric_name": "cpu_aidle",
+    "table_name": "RRD",
+    "metric_value": "0.0",
+    "timestamp": "1546570110"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1007",
+    "metric_name": "diskstat_sda_read_time",
+    "table_name": "RRD",
+    "metric_value": "0.000133",
+    "timestamp": "1546570110"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1007",
+    "metric_name": "tcp_timewait",
+    "table_name": "RRD",
+    "metric_value": "6",
+    "timestamp": "1546570110"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1007",
+    "metric_name": "diskstat_sda_reads",
+    "table_name": "RRD",
+    "metric_value": "4.000000",
+    "timestamp": "1546570110"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1007",
+    "metric_name": "multicpu_wio0",
+    "table_name": "RRD",
+    "metric_value": "0.7",
+    "timestamp": "1546570110"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1007",
+    "metric_name": "multicpu_wio1",
+    "table_name": "RRD",
+    "metric_value": "0.0",
+    "timestamp": "1546570110"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1007",
+    "metric_name": "multicpu_wio2",
+    "table_name": "RRD",
+    "metric_value": "0.1",
+    "timestamp": "1546570110"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1007",
+    "metric_name": "multicpu_wio3",
+    "table_name": "RRD",
+    "metric_value": "0.6",
+    "timestamp": "1546570110"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1007",
+    "metric_name": "multicpu_wio4",
+    "table_name": "RRD",
+    "metric_value": "0.5",
+    "timestamp": "1546570110"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1007",
+    "metric_name": "multicpu_wio5",
+    "table_name": "RRD",
+    "metric_value": "1.3",
+    "timestamp": "1546570110"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1007",
+    "metric_name": "cpu_wio",
+    "table_name": "RRD",
+    "metric_value": "0.4",
+    "timestamp": "1546570110"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1007",
+    "metric_name": "multicpu_wio6",
+    "table_name": "RRD",
+    "metric_value": "0.1",
+    "timestamp": "1546570110"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1007",
+    "metric_name": "multicpu_wio7",
+    "table_name": "RRD",
+    "metric_value": "0.0",
+    "timestamp": "1546570110"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1007",
+    "metric_name": "cpu_speed",
+    "table_name": "RRD",
+    "metric_value": "3401",
+    "timestamp": "1546570110"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1007",
+    "metric_name": "tcp_synsent",
+    "table_name": "RRD",
+    "metric_value": "1",
+    "timestamp": "1546570110"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1007",
+    "metric_name": "multicpu_steal0",
+    "table_name": "RRD",
+    "metric_value": "0.0",
+    "timestamp": "1546570110"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1007",
+    "metric_name": "multicpu_steal1",
+    "table_name": "RRD",
+    "metric_value": "0.0",
+    "timestamp": "1546570110"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1007",
+    "metric_name": "multicpu_steal2",
+    "table_name": "RRD",
+    "metric_value": "0.0",
+    "timestamp": "1546570110"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1007",
+    "metric_name": "multicpu_steal3",
+    "table_name": "RRD",
+    "metric_value": "0.0",
+    "timestamp": "1546570110"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1007",
+    "metric_name": "multicpu_steal4",
+    "table_name": "RRD",
+    "metric_value": "0.0",
+    "timestamp": "1546570110"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1007",
+    "metric_name": "cpu_steal",
+    "table_name": "RRD",
+    "metric_value": "0.0",
+    "timestamp": "1546570110"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1007",
+    "metric_name": "multicpu_steal5",
+    "table_name": "RRD",
+    "metric_value": "0.0",
+    "timestamp": "1546570110"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1007",
+    "metric_name": "multicpu_steal6",
+    "table_name": "RRD",
+    "metric_value": "0.0",
+    "timestamp": "1546570110"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1007",
+    "metric_name": "multicpu_user0",
+    "table_name": "RRD",
+    "metric_value": "2.6",
+    "timestamp": "1546570110"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1007",
+    "metric_name": "multicpu_steal7",
+    "table_name": "RRD",
+    "metric_value": "0.0",
+    "timestamp": "1546570110"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1007",
+    "metric_name": "multicpu_user1",
+    "table_name": "RRD",
+    "metric_value": "1.9",
+    "timestamp": "1546570110"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1007",
+    "metric_name": "multicpu_user2",
+    "table_name": "RRD",
+    "metric_value": "2.0",
+    "timestamp": "1546570110"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1007",
+    "metric_name": "multicpu_user3",
+    "table_name": "RRD",
+    "metric_value": "1.9",
+    "timestamp": "1546570110"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1007",
+    "metric_name": "multicpu_user4",
+    "table_name": "RRD",
+    "metric_value": "5.1",
+    "timestamp": "1546570110"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1007",
+    "metric_name": "multicpu_user5",
+    "table_name": "RRD",
+    "metric_value": "1.6",
+    "timestamp": "1546570110"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1007",
+    "metric_name": "multicpu_system0",
+    "table_name": "RRD",
+    "metric_value": "4.6",
+    "timestamp": "1546570110"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1007",
+    "metric_name": "multicpu_user6",
+    "table_name": "RRD",
+    "metric_value": "1.2",
+    "timestamp": "1546570110"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1007",
+    "metric_name": "multicpu_system1",
+    "table_name": "RRD",
+    "metric_value": "0.6",
+    "timestamp": "1546570110"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1007",
+    "metric_name": "multicpu_user7",
+    "table_name": "RRD",
+    "metric_value": "1.3",
+    "timestamp": "1546570110"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1007",
+    "metric_name": "multicpu_system2",
+    "table_name": "RRD",
+    "metric_value": "0.6",
+    "timestamp": "1546570110"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1007",
+    "metric_name": "tcp_lastack",
+    "table_name": "RRD",
+    "metric_value": "0",
+    "timestamp": "1546570110"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1007",
+    "metric_name": "multicpu_system3",
+    "table_name": "RRD",
+    "metric_value": "0.7",
+    "timestamp": "1546570110"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1007",
+    "metric_name": "multicpu_system4",
+    "table_name": "RRD",
+    "metric_value": "3.6",
+    "timestamp": "1546570110"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1007",
+    "metric_name": "multicpu_system5",
+    "table_name": "RRD",
+    "metric_value": "0.5",
+    "timestamp": "1546570110"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1007",
+    "metric_name": "multicpu_system6",
+    "table_name": "RRD",
+    "metric_value": "1.1",
+    "timestamp": "1546570110"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1007",
+    "metric_name": "multicpu_system7",
+    "table_name": "RRD",
+    "metric_value": "0.5",
+    "timestamp": "1546570110"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1007",
+    "metric_name": "diskstat_sdb_writes_merged",
+    "table_name": "RRD",
+    "metric_value": "283.000000",
+    "timestamp": "1546570110"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1007",
+    "metric_name": "diskstat_sda_percent_io_time",
+    "table_name": "RRD",
+    "metric_value": "0.472944",
+    "timestamp": "1546570110"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1007",
+    "metric_name": "diskstat_sdb_percent_io_time",
+    "table_name": "RRD",
+    "metric_value": "2.314763",
+    "timestamp": "1546570110"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1007",
+    "metric_name": "mem_cached",
+    "table_name": "RRD",
+    "metric_value": "5599460",
+    "timestamp": "1546570110"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1007",
+    "metric_name": "procs_blocked",
+    "table_name": "RRD",
+    "metric_value": "0",
+    "timestamp": "1546570110"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1007",
+    "metric_name": "bytes_out",
+    "table_name": "RRD",
+    "metric_value": "23835.27",
+    "timestamp": "1546570110"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1007",
+    "metric_name": "procs_created",
+    "table_name": "RRD",
+    "metric_value": "4",
+    "timestamp": "1546570110"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1007",
+    "metric_name": "mem_free",
+    "table_name": "RRD",
+    "metric_value": "5191800",
+    "timestamp": "1546570110"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1007",
+    "metric_name": "cpu_idle",
+    "table_name": "RRD",
+    "metric_value": "95.9",
+    "timestamp": "1546570110"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1007",
+    "metric_name": "cpu_nice",
+    "table_name": "RRD",
+    "metric_value": "0.0",
+    "timestamp": "1546570110"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1007",
+    "metric_name": "diskstat_sdb_read_time",
+    "table_name": "RRD",
+    "metric_value": "0.000000",
+    "timestamp": "1546570110"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1007",
+    "metric_name": "tcp_finwait1",
+    "table_name": "RRD",
+    "metric_value": "0",
+    "timestamp": "1546570110"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1007",
+    "metric_name": "tcp_finwait2",
+    "table_name": "RRD",
+    "metric_value": "0",
+    "timestamp": "1546570110"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1007",
+    "metric_name": "cpu_system",
+    "table_name": "RRD",
+    "metric_value": "1.5",
+    "timestamp": "1546570110"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1007",
+    "metric_name": "tcp_established",
+    "table_name": "RRD",
+    "metric_value": "483",
+    "timestamp": "1546570110"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1007",
+    "metric_name": "tcp_synrecv",
+    "table_name": "RRD",
+    "metric_value": "0",
+    "timestamp": "1546570110"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1007",
+    "metric_name": "tcp_closing",
+    "table_name": "RRD",
+    "metric_value": "0",
+    "timestamp": "1546570110"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1007",
+    "metric_name": "cpu_num",
+    "table_name": "RRD",
+    "metric_value": "8",
+    "timestamp": "1546570110"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1007",
+    "metric_name": "swap_free",
+    "table_name": "RRD",
+    "metric_value": "65535996",
+    "timestamp": "1546570110"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1007",
+    "metric_name": "diskstat_sda_reads_merged",
+    "table_name": "RRD",
+    "metric_value": "0.000000",
+    "timestamp": "1546570110"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1007",
+    "metric_name": "softirq_blockiopoll",
+    "table_name": "RRD",
+    "metric_value": "0",
+    "timestamp": "1546570110"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1007",
+    "metric_name": "proc_run",
+    "table_name": "RRD",
+    "metric_value": "1",
+    "timestamp": "1546570110"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1007",
+    "metric_name": "disk_free",
+    "table_name": "RRD",
+    "metric_value": "1627.378",
+    "timestamp": "1546570110"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1007",
+    "metric_name": "diskstat_sda_writes_merged",
+    "table_name": "RRD",
+    "metric_value": "2188.000000",
+    "timestamp": "1546570110"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1007",
+    "metric_name": "diskstat_sdb_write_bytes_per_sec",
+    "table_name": "RRD",
+    "metric_value": "58933.933594",
+    "timestamp": "1546570110"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1007",
+    "metric_name": "tcp_closewait",
+    "table_name": "RRD",
+    "metric_value": "1",
+    "timestamp": "1546570110"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1007",
+    "metric_name": "mem_mapped",
+    "table_name": "RRD",
+    "metric_value": "250929152",
+    "timestamp": "1546570110"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1007",
+    "metric_name": "diskstat_sda_write_time",
+    "table_name": "RRD",
+    "metric_value": "0.134256",
+    "timestamp": "1546570110"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1007",
+    "metric_name": "softirq_hi",
+    "table_name": "RRD",
+    "metric_value": "0",
+    "timestamp": "1546570110"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1007",
+    "metric_name": "swap_total",
+    "table_name": "RRD",
+    "metric_value": "65535996",
+    "timestamp": "1546570110"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1007",
+    "metric_name": "multicpu_idle0",
+    "table_name": "RRD",
+    "metric_value": "92.2",
+    "timestamp": "1546570110"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1007",
+    "metric_name": "multicpu_idle1",
+    "table_name": "RRD",
+    "metric_value": "97.5",
+    "timestamp": "1546570110"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1007",
+    "metric_name": "multicpu_idle2",
+    "table_name": "RRD",
+    "metric_value": "97.3",
+    "timestamp": "1546570110"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1007",
+    "metric_name": "softirq_hrtimer",
+    "table_name": "RRD",
+    "metric_value": "6",
+    "timestamp": "1546570110"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1007",
+    "metric_name": "multicpu_idle3",
+    "table_name": "RRD",
+    "metric_value": "96.8",
+    "timestamp": "1546570110"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1007",
+    "metric_name": "diskstat_sda_io_time",
+    "table_name": "RRD",
+    "metric_value": "0.142000",
+    "timestamp": "1546570110"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1007",
+    "metric_name": "multicpu_idle4",
+    "table_name": "RRD",
+    "metric_value": "90.7",
+    "timestamp": "1546570110"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1007",
+    "metric_name": "diskstat_sdb_io_time",
+    "table_name": "RRD",
+    "metric_value": "0.695000",
+    "timestamp": "1546570110"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1007",
+    "metric_name": "multicpu_idle5",
+    "table_name": "RRD",
+    "metric_value": "96.6",
+    "timestamp": "1546570110"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1007",
+    "metric_name": "multicpu_idle6",
+    "table_name": "RRD",
+    "metric_value": "97.6",
+    "timestamp": "1546570110"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1007",
+    "metric_name": "multicpu_idle7",
+    "table_name": "RRD",
+    "metric_value": "98.2",
+    "timestamp": "1546570110"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1007",
+    "metric_name": "mem_dirty",
+    "table_name": "RRD",
+    "metric_value": "2125824",
+    "timestamp": "1546570110"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1007",
+    "metric_name": "part_max_used",
+    "table_name": "RRD",
+    "metric_value": "62.9",
+    "timestamp": "1546570110"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1007",
+    "metric_name": "disk_total",
+    "table_name": "RRD",
+    "metric_value": "2138.556",
+    "timestamp": "1546570110"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1007",
+    "metric_name": "softirq_sched",
+    "table_name": "RRD",
+    "metric_value": "760",
+    "timestamp": "1546570110"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1007",
+    "metric_name": "disk_free_absolute_dev_shm",
+    "table_name": "RRD",
+    "metric_value": "15.529495",
+    "timestamp": "1546570110"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1007",
+    "metric_name": "multicpu_sintr0",
+    "table_name": "RRD",
+    "metric_value": "0.0",
+    "timestamp": "1546570110"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1007",
+    "metric_name": "multicpu_sintr1",
+    "table_name": "RRD",
+    "metric_value": "0.1",
+    "timestamp": "1546570110"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1007",
+    "metric_name": "diskstat_sda_weighted_io_time",
+    "table_name": "RRD",
+    "metric_value": "0.134323",
+    "timestamp": "1546570110"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1007",
+    "metric_name": "multicpu_sintr2",
+    "table_name": "RRD",
+    "metric_value": "0.0",
+    "timestamp": "1546570110"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1007",
+    "metric_name": "multicpu_sintr3",
+    "table_name": "RRD",
+    "metric_value": "0.1",
+    "timestamp": "1546570110"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1007",
+    "metric_name": "mem_shared",
+    "table_name": "RRD",
+    "metric_value": "0",
+    "timestamp": "1546570110"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1007",
+    "metric_name": "tcp_listen",
+    "table_name": "RRD",
+    "metric_value": "50",
+    "timestamp": "1546570110"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1007",
+    "metric_name": "multicpu_sintr4",
+    "table_name": "RRD",
+    "metric_value": "0.0",
+    "timestamp": "1546570110"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1007",
+    "metric_name": "multicpu_sintr5",
+    "table_name": "RRD",
+    "metric_value": "0.0",
+    "timestamp": "1546570110"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1007",
+    "metric_name": "proc_total",
+    "table_name": "RRD",
+    "metric_value": "3977",
+    "timestamp": "1546570110"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1007",
+    "metric_name": "multicpu_sintr6",
+    "table_name": "RRD",
+    "metric_value": "0.0",
+    "timestamp": "1546570110"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1007",
+    "metric_name": "softirq_netrx",
+    "table_name": "RRD",
+    "metric_value": "438",
+    "timestamp": "1546570110"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1007",
+    "metric_name": "multicpu_sintr7",
+    "table_name": "RRD",
+    "metric_value": "0.0",
+    "timestamp": "1546570110"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1007",
+    "metric_name": "pkts_out",
+    "table_name": "RRD",
+    "metric_value": "84.18",
+    "timestamp": "1546570110"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1007",
+    "metric_name": "mem_writeback",
+    "table_name": "RRD",
+    "metric_value": "0",
+    "timestamp": "1546570110"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1007",
+    "metric_name": "diskstat_sda_read_bytes_per_sec",
+    "table_name": "RRD",
+    "metric_value": "545.684570",
+    "timestamp": "1546570110"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1007",
+    "metric_name": "tcp_closed",
+    "table_name": "RRD",
+    "metric_value": "0",
+    "timestamp": "1546570110"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1007",
+    "metric_name": "multicpu_nice0",
+    "table_name": "RRD",
+    "metric_value": "0.0",
+    "timestamp": "1546570110"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1007",
+    "metric_name": "load_one",
+    "table_name": "RRD",
+    "metric_value": "1.03",
+    "timestamp": "1546570110"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1007",
+    "metric_name": "multicpu_nice1",
+    "table_name": "RRD",
+    "metric_value": "0.0",
+    "timestamp": "1546570110"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1007",
+    "metric_name": "multicpu_nice2",
+    "table_name": "RRD",
+    "metric_value": "0.0",
+    "timestamp": "1546570110"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1007",
+    "metric_name": "multicpu_nice3",
+    "table_name": "RRD",
+    "metric_value": "0.0",
+    "timestamp": "1546570110"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1007",
+    "metric_name": "multicpu_nice4",
+    "table_name": "RRD",
+    "metric_value": "0.0",
+    "timestamp": "1546570110"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1007",
+    "metric_name": "multicpu_nice5",
+    "table_name": "RRD",
+    "metric_value": "0.0",
+    "timestamp": "1546570110"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1007",
+    "metric_name": "disk_free_percent_DATA1",
+    "table_name": "RRD",
+    "metric_value": "92.993896",
+    "timestamp": "1546570110"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1007",
+    "metric_name": "multicpu_nice6",
+    "table_name": "RRD",
+    "metric_value": "0.0",
+    "timestamp": "1546570110"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1007",
+    "metric_name": "disk_free_percent_DATA2",
+    "table_name": "RRD",
+    "metric_value": "88.124001",
+    "timestamp": "1546570110"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1007",
+    "metric_name": "softirq_timer",
+    "table_name": "RRD",
+    "metric_value": "1650",
+    "timestamp": "1546570110"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1007",
+    "metric_name": "multicpu_nice7",
+    "table_name": "RRD",
+    "metric_value": "0.0",
+    "timestamp": "1546570110"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1007",
+    "metric_name": "disk_free_percent_DATA3",
+    "table_name": "RRD",
+    "metric_value": "89.116745",
+    "timestamp": "1546570110"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1007",
+    "metric_name": "load_five",
+    "table_name": "RRD",
+    "metric_value": "1.07",
+    "timestamp": "1546570110"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1007",
+    "metric_name": "disk_free_percent_DATA4",
+    "table_name": "RRD",
+    "metric_value": "43.021049",
+    "timestamp": "1546570110"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1007",
+    "metric_name": "cpu_ctxt",
+    "table_name": "RRD",
+    "metric_value": "10004",
+    "timestamp": "1546570110"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1007",
+    "metric_name": "softirq_rcu",
+    "table_name": "RRD",
+    "metric_value": "1691",
+    "timestamp": "1546570110"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1007",
+    "metric_name": "diskstat_sdb_weighted_io_time",
+    "table_name": "RRD",
+    "metric_value": "0.026711",
+    "timestamp": "1546570110"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1007",
+    "metric_name": "disk_free_absolute_DATA1",
+    "table_name": "RRD",
+    "metric_value": "446.829498",
+    "timestamp": "1546570110"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1007",
+    "metric_name": "disk_free_absolute_DATA2",
+    "table_name": "RRD",
+    "metric_value": "423.429993",
+    "timestamp": "1546570110"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1007",
+    "metric_name": "disk_free_absolute_DATA3",
+    "table_name": "RRD",
+    "metric_value": "428.200043",
+    "timestamp": "1546570110"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1007",
+    "metric_name": "cpu_sintr",
+    "table_name": "RRD",
+    "metric_value": "0.1",
+    "timestamp": "1546570110"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1007",
+    "metric_name": "disk_free_absolute_DATA4",
+    "table_name": "RRD",
+    "metric_value": "94.618645",
+    "timestamp": "1546570110"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1007",
+    "metric_name": "pkts_in",
+    "table_name": "RRD",
+    "metric_value": "88.88",
+    "timestamp": "1546570110"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1007",
+    "metric_name": "mem_anonpages",
+    "table_name": "RRD",
+    "metric_value": "21034827776",
+    "timestamp": "1546570110"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1007",
+    "metric_name": "bytes_in",
+    "table_name": "RRD",
+    "metric_value": "18969.70",
+    "timestamp": "1546570110"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1007",
+    "metric_name": "load_fifteen",
+    "table_name": "RRD",
+    "metric_value": "1.08",
+    "timestamp": "1546570110"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1007",
+    "metric_name": "mem_hardware_corrupted",
+    "table_name": "RRD",
+    "metric_value": "0",
+    "timestamp": "1546570110"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1007",
+    "metric_name": "cpu_user",
+    "table_name": "RRD",
+    "metric_value": "2.2",
+    "timestamp": "1546570110"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1007",
+    "metric_name": "disk_free_absolute_rootfs",
+    "table_name": "RRD",
+    "metric_value": "122.391151",
+    "timestamp": "1546570110"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1007",
+    "metric_name": "mem_buffers",
+    "table_name": "RRD",
+    "metric_value": "340380",
+    "timestamp": "1546570110"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1007",
+    "metric_name": "diskstat_sdb_reads",
+    "table_name": "RRD",
+    "metric_value": "0.000000",
+    "timestamp": "1546570110"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1007",
+    "metric_name": "diskstat_sdb_write_time",
+    "table_name": "RRD",
+    "metric_value": "0.026745",
+    "timestamp": "1546570110"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1007",
+    "metric_name": "softirq_nettx",
+    "table_name": "RRD",
+    "metric_value": "0",
+    "timestamp": "1546570110"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1007",
+    "metric_name": "diskstat_sdb_writes",
+    "table_name": "RRD",
+    "metric_value": "149.000000",
+    "timestamp": "1546570110"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1007",
+    "metric_name": "softirq_tasklet",
+    "table_name": "RRD",
+    "metric_value": "0",
+    "timestamp": "1546570110"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1007",
+    "metric_name": "mem_total",
+    "table_name": "RRD",
+    "metric_value": "32567856",
+    "timestamp": "1546570140"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1004",
+    "metric_name": "AMLaunchDelayAvgTime",
+    "table_name": "HM_CLUSTER_METRICS",
+    "metric_value": "0.0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1004",
+    "metric_name": "NumDecommissionedNMs",
+    "table_name": "HM_CLUSTER_METRICS",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1004",
+    "metric_name": "NumActiveNMs",
+    "table_name": "HM_CLUSTER_METRICS",
+    "metric_value": "2",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1004",
+    "metric_name": "NumRebootedNMs",
+    "table_name": "HM_CLUSTER_METRICS",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1004",
+    "metric_name": "AMRegisterDelayNumOps",
+    "table_name": "HM_CLUSTER_METRICS",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1004",
+    "metric_name": "NumUnhealthyNMs",
+    "table_name": "HM_CLUSTER_METRICS",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1004",
+    "metric_name": "AMLaunchDelayNumOps",
+    "table_name": "HM_CLUSTER_METRICS",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1004",
+    "metric_name": "AMRegisterDelayAvgTime",
+    "table_name": "HM_CLUSTER_METRICS",
+    "metric_value": "0.0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1004",
+    "metric_name": "NumLostNMs",
+    "table_name": "HM_CLUSTER_METRICS",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1004",
+    "metric_name": "State",
+    "table_name": "SM_CLUSTER_STATUS",
+    "metric_value": "active",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1004",
+    "metric_name": "NNRole",
+    "table_name": "SM_CLUSTER_STATUS",
+    "metric_value": "ResourceManager",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1004",
+    "metric_name": "LiveNodeManagers_State",
+    "table_name": "SM_NODEMANAGER_LIVE",
+    "metric_value": "RUNNING",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1004",
+    "metric_name": "LiveNodeManagers_AvailableMemoryMB",
+    "table_name": "SM_NODEMANAGER_LIVE",
+    "metric_value": "7.390363648E9",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1004",
+    "metric_name": "LiveNodeManagers_NumContainers",
+    "table_name": "SM_NODEMANAGER_LIVE",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1004",
+    "metric_name": "LiveNodeManagers_LastHealthUpdate",
+    "table_name": "SM_NODEMANAGER_LIVE",
+    "metric_value": "1546570242282",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1004",
+    "metric_name": "LiveNodeManagers_NodeHTTPAddress",
+    "table_name": "SM_NODEMANAGER_LIVE",
+    "metric_value": "epm-002:8042",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1004",
+    "metric_name": "LiveNodeManagers_HealthReport",
+    "table_name": "SM_NODEMANAGER_LIVE",
+    "metric_value": "",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1004",
+    "metric_name": "LiveNodeManagers_NodeManagerVersion",
+    "table_name": "SM_NODEMANAGER_LIVE",
+    "metric_value": "2.7.1",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1004",
+    "metric_name": "LiveNodeManagers_NodeId",
+    "table_name": "SM_NODEMANAGER_LIVE",
+    "metric_value": "epm-002:45454",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1004",
+    "metric_name": "LiveNodeManagers_Rack",
+    "table_name": "SM_NODEMANAGER_LIVE",
+    "metric_value": "/default-rack",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1004",
+    "metric_name": "LiveNodeManagers_UsedMemoryMB",
+    "table_name": "SM_NODEMANAGER_LIVE",
+    "metric_value": "0.0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "803",
+    "process_seq": "1004",
+    "metric_name": "LiveNodeManagers_State",
+    "table_name": "SM_NODEMANAGER_LIVE",
+    "metric_value": "RUNNING",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "803",
+    "process_seq": "1004",
+    "metric_name": "LiveNodeManagers_AvailableMemoryMB",
+    "table_name": "SM_NODEMANAGER_LIVE",
+    "metric_value": "7.390363648E9",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "803",
+    "process_seq": "1004",
+    "metric_name": "LiveNodeManagers_NumContainers",
+    "table_name": "SM_NODEMANAGER_LIVE",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "803",
+    "process_seq": "1004",
+    "metric_name": "LiveNodeManagers_LastHealthUpdate",
+    "table_name": "SM_NODEMANAGER_LIVE",
+    "metric_value": "1546570233756",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "803",
+    "process_seq": "1004",
+    "metric_name": "LiveNodeManagers_NodeHTTPAddress",
+    "table_name": "SM_NODEMANAGER_LIVE",
+    "metric_value": "epm-003:8042",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "803",
+    "process_seq": "1004",
+    "metric_name": "LiveNodeManagers_HealthReport",
+    "table_name": "SM_NODEMANAGER_LIVE",
+    "metric_value": "",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "803",
+    "process_seq": "1004",
+    "metric_name": "LiveNodeManagers_NodeManagerVersion",
+    "table_name": "SM_NODEMANAGER_LIVE",
+    "metric_value": "2.7.1",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "803",
+    "process_seq": "1004",
+    "metric_name": "LiveNodeManagers_NodeId",
+    "table_name": "SM_NODEMANAGER_LIVE",
+    "metric_value": "epm-003:45454",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "803",
+    "process_seq": "1004",
+    "metric_name": "LiveNodeManagers_Rack",
+    "table_name": "SM_NODEMANAGER_LIVE",
+    "metric_value": "/default-rack",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "803",
+    "process_seq": "1004",
+    "metric_name": "LiveNodeManagers_UsedMemoryMB",
+    "table_name": "SM_NODEMANAGER_LIVE",
+    "metric_value": "0.0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1004",
+    "metric_name": "SnapshotNumOps",
+    "table_name": "HM_METRICSSYSTEM_STATS",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1004",
+    "metric_name": "PublishNumOps",
+    "table_name": "HM_METRICSSYSTEM_STATS",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1004",
+    "metric_name": "SnapshotAvgTime",
+    "table_name": "HM_METRICSSYSTEM_STATS",
+    "metric_value": "0.0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1004",
+    "metric_name": "DroppedPubAll",
+    "table_name": "HM_METRICSSYSTEM_STATS",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1004",
+    "metric_name": "NumAllSources",
+    "table_name": "HM_METRICSSYSTEM_STATS",
+    "metric_value": "18",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1004",
+    "metric_name": "PublishAvgTime",
+    "table_name": "HM_METRICSSYSTEM_STATS",
+    "metric_value": "0.0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1004",
+    "metric_name": "NumActiveSources",
+    "table_name": "HM_METRICSSYSTEM_STATS",
+    "metric_value": "18",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1004",
+    "metric_name": "NumAllSinks",
+    "table_name": "HM_METRICSSYSTEM_STATS",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1004",
+    "metric_name": "NumActiveSinks",
+    "table_name": "HM_METRICSSYSTEM_STATS",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1004",
+    "metric_name": "SteadyFairShareVCores",
+    "table_name": "HM_QUEUE_METRICS",
+    "metric_value": "8",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1004",
+    "metric_name": "AppsCompleted",
+    "table_name": "HM_QUEUE_METRICS",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1004",
+    "metric_name": "AllocatedContainers",
+    "table_name": "HM_QUEUE_METRICS",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1004",
+    "metric_name": "AvailableVCores",
+    "table_name": "HM_QUEUE_METRICS",
+    "metric_value": "8",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1004",
+    "metric_name": "AppsSubmitted",
+    "table_name": "HM_QUEUE_METRICS",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1004",
+    "metric_name": "PendingMB",
+    "table_name": "HM_QUEUE_METRICS",
+    "metric_value": "0.0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1004",
+    "metric_name": "AvailableMB",
+    "table_name": "HM_QUEUE_METRICS",
+    "metric_value": "1.4780727296E10",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1004",
+    "metric_name": "FairShareMB",
+    "table_name": "HM_QUEUE_METRICS",
+    "metric_value": "1.4780727296E10",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1004",
+    "metric_name": "ActiveApplications",
+    "table_name": "HM_QUEUE_METRICS",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1004",
+    "metric_name": "AggregateContainersReleased",
+    "table_name": "HM_QUEUE_METRICS",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1004",
+    "metric_name": "AllocatedMB",
+    "table_name": "HM_QUEUE_METRICS",
+    "metric_value": "0.0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1004",
+    "metric_name": "AppsKilled",
+    "table_name": "HM_QUEUE_METRICS",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1004",
+    "metric_name": "SteadyFairShareMB",
+    "table_name": "HM_QUEUE_METRICS",
+    "metric_value": "1.4780727296E10",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1004",
+    "metric_name": "ReservedContainers",
+    "table_name": "HM_QUEUE_METRICS",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1004",
+    "metric_name": "AggregateContainersAllocated",
+    "table_name": "HM_QUEUE_METRICS",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1004",
+    "metric_name": "PendingVCores",
+    "table_name": "HM_QUEUE_METRICS",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1004",
+    "metric_name": "AllocatedVCores",
+    "table_name": "HM_QUEUE_METRICS",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1004",
+    "metric_name": "ReservedMB",
+    "table_name": "HM_QUEUE_METRICS",
+    "metric_value": "0.0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1004",
+    "metric_name": "ReservedVCores",
+    "table_name": "HM_QUEUE_METRICS",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1004",
+    "metric_name": "running_1440",
+    "table_name": "HM_QUEUE_METRICS",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1004",
+    "metric_name": "MaxShareMB",
+    "table_name": "HM_QUEUE_METRICS",
+    "metric_value": "2.251799812636672E15",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1004",
+    "metric_name": "AppsFailed",
+    "table_name": "HM_QUEUE_METRICS",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1004",
+    "metric_name": "running_60",
+    "table_name": "HM_QUEUE_METRICS",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1004",
+    "metric_name": "ActiveUsers",
+    "table_name": "HM_QUEUE_METRICS",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1004",
+    "metric_name": "running_0",
+    "table_name": "HM_QUEUE_METRICS",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1004",
+    "metric_name": "MinShareMB",
+    "table_name": "HM_QUEUE_METRICS",
+    "metric_value": "0.0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1004",
+    "metric_name": "MaxShareVCores",
+    "table_name": "HM_QUEUE_METRICS",
+    "metric_value": "2147483647",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1004",
+    "metric_name": "PendingContainers",
+    "table_name": "HM_QUEUE_METRICS",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1004",
+    "metric_name": "FairShareVCores",
+    "table_name": "HM_QUEUE_METRICS",
+    "metric_value": "8",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1004",
+    "metric_name": "AppsPending",
+    "table_name": "HM_QUEUE_METRICS",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1004",
+    "metric_name": "MinShareVCores",
+    "table_name": "HM_QUEUE_METRICS",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1004",
+    "metric_name": "AppsRunning",
+    "table_name": "HM_QUEUE_METRICS",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1004",
+    "metric_name": "running_300",
+    "table_name": "HM_QUEUE_METRICS",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1004",
+    "metric_name": "MemHeapCommittedM",
+    "table_name": "HM_JVM_METRICS",
+    "metric_value": "3.83778816E8",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1004",
+    "metric_name": "ThreadsRunnable",
+    "table_name": "HM_JVM_METRICS",
+    "metric_value": "18",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1004",
+    "metric_name": "LogInfo",
+    "table_name": "HM_JVM_METRICS",
+    "metric_value": "191",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1004",
+    "metric_name": "MemMaxM",
+    "table_name": "HM_JVM_METRICS",
+    "metric_value": "9.32184064E8",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1004",
+    "metric_name": "ThreadsTerminated",
+    "table_name": "HM_JVM_METRICS",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1004",
+    "metric_name": "ThreadsNew",
+    "table_name": "HM_JVM_METRICS",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1004",
+    "metric_name": "ThreadsWaiting",
+    "table_name": "HM_JVM_METRICS",
+    "metric_value": "20",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1004",
+    "metric_name": "MemHeapUsedM",
+    "table_name": "HM_JVM_METRICS",
+    "metric_value": "3.10650077184E7",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1004",
+    "metric_name": "ThreadsTimedWaiting",
+    "table_name": "HM_JVM_METRICS",
+    "metric_value": "170",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1004",
+    "metric_name": "MemHeapMaxM",
+    "table_name": "HM_JVM_METRICS",
+    "metric_value": "9.32184064E8",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1004",
+    "metric_name": "LogError",
+    "table_name": "HM_JVM_METRICS",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1004",
+    "metric_name": "LogFatal",
+    "table_name": "HM_JVM_METRICS",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1004",
+    "metric_name": "MemNonHeapCommittedM",
+    "table_name": "HM_JVM_METRICS",
+    "metric_value": "6.750208E7",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1004",
+    "metric_name": "GcTimeMillis",
+    "table_name": "HM_JVM_METRICS",
+    "metric_value": "717",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1004",
+    "metric_name": "MemNonHeapMaxM",
+    "table_name": "HM_JVM_METRICS",
+    "metric_value": "-0.9999999827968",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1004",
+    "metric_name": "MemNonHeapUsedM",
+    "table_name": "HM_JVM_METRICS",
+    "metric_value": "6.5105297408E7",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1004",
+    "metric_name": "GcCount",
+    "table_name": "HM_JVM_METRICS",
+    "metric_value": "147",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1004",
+    "metric_name": "LogWarn",
+    "table_name": "HM_JVM_METRICS",
+    "metric_value": "32",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1004",
+    "metric_name": "ThreadsBlocked",
+    "table_name": "HM_JVM_METRICS",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1004",
+    "metric_name": "NonHeapMemoryUsage_max",
+    "table_name": "HM_HEAPMEMORY_USAGE",
+    "metric_value": "-1",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1004",
+    "metric_name": "HeapMemoryUsage_committed",
+    "table_name": "HM_HEAPMEMORY_USAGE",
+    "metric_value": "383778816",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1004",
+    "metric_name": "HeapMemoryUsage_max",
+    "table_name": "HM_HEAPMEMORY_USAGE",
+    "metric_value": "932184064",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1004",
+    "metric_name": "NonHeapMemoryUsage_committed",
+    "table_name": "HM_HEAPMEMORY_USAGE",
+    "metric_value": "67502080",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1004",
+    "metric_name": "HeapMemoryUsage_init",
+    "table_name": "HM_HEAPMEMORY_USAGE",
+    "metric_value": "522190848",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1004",
+    "metric_name": "NonHeapMemoryUsage_init",
+    "table_name": "HM_HEAPMEMORY_USAGE",
+    "metric_value": "2555904",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1004",
+    "metric_name": "NonHeapMemoryUsage_used",
+    "table_name": "HM_HEAPMEMORY_USAGE",
+    "metric_value": "65105296",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1004",
+    "metric_name": "HeapMemoryUsage_used",
+    "table_name": "HM_HEAPMEMORY_USAGE",
+    "metric_value": "31535504",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "803",
+    "process_seq": "1006",
+    "metric_name": "ShuffleOutputBytes",
+    "table_name": "HM_SHUFFLE_METRICS",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "803",
+    "process_seq": "1006",
+    "metric_name": "ShuffleOutputsFailed",
+    "table_name": "HM_SHUFFLE_METRICS",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "803",
+    "process_seq": "1006",
+    "metric_name": "ShuffleOutputsOK",
+    "table_name": "HM_SHUFFLE_METRICS",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "803",
+    "process_seq": "1006",
+    "metric_name": "ShuffleConnections",
+    "table_name": "HM_SHUFFLE_METRICS",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "803",
+    "process_seq": "1006",
+    "metric_name": "SnapshotNumOps",
+    "table_name": "HM_METRICSSYSTEM_STATS",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "803",
+    "process_seq": "1006",
+    "metric_name": "PublishNumOps",
+    "table_name": "HM_METRICSSYSTEM_STATS",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "803",
+    "process_seq": "1006",
+    "metric_name": "SnapshotAvgTime",
+    "table_name": "HM_METRICSSYSTEM_STATS",
+    "metric_value": "0.0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "803",
+    "process_seq": "1006",
+    "metric_name": "DroppedPubAll",
+    "table_name": "HM_METRICSSYSTEM_STATS",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "803",
+    "process_seq": "1006",
+    "metric_name": "NumAllSources",
+    "table_name": "HM_METRICSSYSTEM_STATS",
+    "metric_value": "8",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "803",
+    "process_seq": "1006",
+    "metric_name": "PublishAvgTime",
+    "table_name": "HM_METRICSSYSTEM_STATS",
+    "metric_value": "0.0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "803",
+    "process_seq": "1006",
+    "metric_name": "NumActiveSources",
+    "table_name": "HM_METRICSSYSTEM_STATS",
+    "metric_value": "8",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "803",
+    "process_seq": "1006",
+    "metric_name": "NumAllSinks",
+    "table_name": "HM_METRICSSYSTEM_STATS",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "803",
+    "process_seq": "1006",
+    "metric_name": "NumActiveSinks",
+    "table_name": "HM_METRICSSYSTEM_STATS",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "803",
+    "process_seq": "1006",
+    "metric_name": "MemHeapCommittedM",
+    "table_name": "HM_JVM_METRICS",
+    "metric_value": "2.62668288E8",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "803",
+    "process_seq": "1006",
+    "metric_name": "ThreadsRunnable",
+    "table_name": "HM_JVM_METRICS",
+    "metric_value": "27",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "803",
+    "process_seq": "1006",
+    "metric_name": "LogInfo",
+    "table_name": "HM_JVM_METRICS",
+    "metric_value": "533",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "803",
+    "process_seq": "1006",
+    "metric_name": "MemMaxM",
+    "table_name": "HM_JVM_METRICS",
+    "metric_value": "9.32184064E8",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "803",
+    "process_seq": "1006",
+    "metric_name": "ThreadsTerminated",
+    "table_name": "HM_JVM_METRICS",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "803",
+    "process_seq": "1006",
+    "metric_name": "ThreadsNew",
+    "table_name": "HM_JVM_METRICS",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "803",
+    "process_seq": "1006",
+    "metric_name": "ThreadsWaiting",
+    "table_name": "HM_JVM_METRICS",
+    "metric_value": "6",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "803",
+    "process_seq": "1006",
+    "metric_name": "MemHeapUsedM",
+    "table_name": "HM_JVM_METRICS",
+    "metric_value": "5.1711049728E7",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "803",
+    "process_seq": "1006",
+    "metric_name": "ThreadsTimedWaiting",
+    "table_name": "HM_JVM_METRICS",
+    "metric_value": "36",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "803",
+    "process_seq": "1006",
+    "metric_name": "MemHeapMaxM",
+    "table_name": "HM_JVM_METRICS",
+    "metric_value": "9.32184064E8",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "803",
+    "process_seq": "1006",
+    "metric_name": "LogError",
+    "table_name": "HM_JVM_METRICS",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "803",
+    "process_seq": "1006",
+    "metric_name": "LogFatal",
+    "table_name": "HM_JVM_METRICS",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "803",
+    "process_seq": "1006",
+    "metric_name": "MemNonHeapCommittedM",
+    "table_name": "HM_JVM_METRICS",
+    "metric_value": "5.7540608E7",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "803",
+    "process_seq": "1006",
+    "metric_name": "GcTimeMillis",
+    "table_name": "HM_JVM_METRICS",
+    "metric_value": "32896",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "803",
+    "process_seq": "1006",
+    "metric_name": "MemNonHeapMaxM",
+    "table_name": "HM_JVM_METRICS",
+    "metric_value": "-0.9999999827968",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "803",
+    "process_seq": "1006",
+    "metric_name": "MemNonHeapUsedM",
+    "table_name": "HM_JVM_METRICS",
+    "metric_value": "5.614411972608E7",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "803",
+    "process_seq": "1006",
+    "metric_name": "GcCount",
+    "table_name": "HM_JVM_METRICS",
+    "metric_value": "7921",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "803",
+    "process_seq": "1006",
+    "metric_name": "LogWarn",
+    "table_name": "HM_JVM_METRICS",
+    "metric_value": "105",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "803",
+    "process_seq": "1006",
+    "metric_name": "ThreadsBlocked",
+    "table_name": "HM_JVM_METRICS",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "803",
+    "process_seq": "1006",
+    "metric_name": "ContainersKilled",
+    "table_name": "HM_NODEMANAGER_METRICS",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "803",
+    "process_seq": "1006",
+    "metric_name": "AllocatedVCores",
+    "table_name": "HM_NODEMANAGER_METRICS",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "803",
+    "process_seq": "1006",
+    "metric_name": "AllocatedContainers",
+    "table_name": "HM_NODEMANAGER_METRICS",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "803",
+    "process_seq": "1006",
+    "metric_name": "AvailableVCores",
+    "table_name": "HM_NODEMANAGER_METRICS",
+    "metric_value": "4",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "803",
+    "process_seq": "1006",
+    "metric_name": "ContainersRunning",
+    "table_name": "HM_NODEMANAGER_METRICS",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "803",
+    "process_seq": "1006",
+    "metric_name": "ContainerLaunchDurationNumOps",
+    "table_name": "HM_NODEMANAGER_METRICS",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "803",
+    "process_seq": "1006",
+    "metric_name": "ContainersCompleted",
+    "table_name": "HM_NODEMANAGER_METRICS",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "803",
+    "process_seq": "1006",
+    "metric_name": "AllocatedGB",
+    "table_name": "HM_NODEMANAGER_METRICS",
+    "metric_value": "0.0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "803",
+    "process_seq": "1006",
+    "metric_name": "ContainersLaunched",
+    "table_name": "HM_NODEMANAGER_METRICS",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "803",
+    "process_seq": "1006",
+    "metric_name": "ContainersIniting",
+    "table_name": "HM_NODEMANAGER_METRICS",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "803",
+    "process_seq": "1006",
+    "metric_name": "AvailableGB",
+    "table_name": "HM_NODEMANAGER_METRICS",
+    "metric_value": "6.442450944E9",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "803",
+    "process_seq": "1006",
+    "metric_name": "ContainerLaunchDurationAvgTime",
+    "table_name": "HM_NODEMANAGER_METRICS",
+    "metric_value": "0.0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "803",
+    "process_seq": "1006",
+    "metric_name": "ContainersFailed",
+    "table_name": "HM_NODEMANAGER_METRICS",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "803",
+    "process_seq": "1006",
+    "metric_name": "NonHeapMemoryUsage_max",
+    "table_name": "HM_HEAPMEMORY_USAGE",
+    "metric_value": "-1",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "803",
+    "process_seq": "1006",
+    "metric_name": "HeapMemoryUsage_committed",
+    "table_name": "HM_HEAPMEMORY_USAGE",
+    "metric_value": "262668288",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "803",
+    "process_seq": "1006",
+    "metric_name": "HeapMemoryUsage_max",
+    "table_name": "HM_HEAPMEMORY_USAGE",
+    "metric_value": "932184064",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "803",
+    "process_seq": "1006",
+    "metric_name": "NonHeapMemoryUsage_committed",
+    "table_name": "HM_HEAPMEMORY_USAGE",
+    "metric_value": "57540608",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "803",
+    "process_seq": "1006",
+    "metric_name": "HeapMemoryUsage_init",
+    "table_name": "HM_HEAPMEMORY_USAGE",
+    "metric_value": "522190848",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "803",
+    "process_seq": "1006",
+    "metric_name": "NonHeapMemoryUsage_init",
+    "table_name": "HM_HEAPMEMORY_USAGE",
+    "metric_value": "2555904",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "803",
+    "process_seq": "1006",
+    "metric_name": "NonHeapMemoryUsage_used",
+    "table_name": "HM_HEAPMEMORY_USAGE",
+    "metric_value": "56144120",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "803",
+    "process_seq": "1006",
+    "metric_name": "HeapMemoryUsage_used",
+    "table_name": "HM_HEAPMEMORY_USAGE",
+    "metric_value": "51711048",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1001",
+    "metric_name": "TransactionsNumOps",
+    "table_name": "HM_NAMENODE_ACTIVITY",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1001",
+    "metric_name": "CreateSnapshotOps",
+    "table_name": "HM_NAMENODE_ACTIVITY",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1001",
+    "metric_name": "TransactionsBatchedInSync",
+    "table_name": "HM_NAMENODE_ACTIVITY",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1001",
+    "metric_name": "ListSnapshottableDirOps",
+    "table_name": "HM_NAMENODE_ACTIVITY",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1001",
+    "metric_name": "BlockReceivedAndDeletedOps",
+    "table_name": "HM_NAMENODE_ACTIVITY",
+    "metric_value": "2",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1001",
+    "metric_name": "SyncsAvgTime",
+    "table_name": "HM_NAMENODE_ACTIVITY",
+    "metric_value": "0.0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1001",
+    "metric_name": "SyncsNumOps",
+    "table_name": "HM_NAMENODE_ACTIVITY",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1001",
+    "metric_name": "CacheReportNumOps",
+    "table_name": "HM_NAMENODE_ACTIVITY",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1001",
+    "metric_name": "DeleteSnapshotOps",
+    "table_name": "HM_NAMENODE_ACTIVITY",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1001",
+    "metric_name": "GetEditNumOps",
+    "table_name": "HM_NAMENODE_ACTIVITY",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1001",
+    "metric_name": "TransactionsAvgTime",
+    "table_name": "HM_NAMENODE_ACTIVITY",
+    "metric_value": "0.0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1001",
+    "metric_name": "AllowSnapshotOps",
+    "table_name": "HM_NAMENODE_ACTIVITY",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1001",
+    "metric_name": "FsImageLoadTime",
+    "table_name": "HM_NAMENODE_ACTIVITY",
+    "metric_value": "4435",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1001",
+    "metric_name": "BlockReportAvgTime",
+    "table_name": "HM_NAMENODE_ACTIVITY",
+    "metric_value": "0.0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1001",
+    "metric_name": "RenameSnapshotOps",
+    "table_name": "HM_NAMENODE_ACTIVITY",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1001",
+    "metric_name": "CreateFileOps",
+    "table_name": "HM_NAMENODE_ACTIVITY",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1001",
+    "metric_name": "FilesRenamed",
+    "table_name": "HM_NAMENODE_ACTIVITY",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1001",
+    "metric_name": "CacheReportAvgTime",
+    "table_name": "HM_NAMENODE_ACTIVITY",
+    "metric_value": "0.0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1001",
+    "metric_name": "FilesAppended",
+    "table_name": "HM_NAMENODE_ACTIVITY",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1001",
+    "metric_name": "FilesCreated",
+    "table_name": "HM_NAMENODE_ACTIVITY",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1001",
+    "metric_name": "PutImageNumOps",
+    "table_name": "HM_NAMENODE_ACTIVITY",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1001",
+    "metric_name": "PutImageAvgTime",
+    "table_name": "HM_NAMENODE_ACTIVITY",
+    "metric_value": "0.0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1001",
+    "metric_name": "FilesInGetListingOps",
+    "table_name": "HM_NAMENODE_ACTIVITY",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1001",
+    "metric_name": "FileInfoOps",
+    "table_name": "HM_NAMENODE_ACTIVITY",
+    "metric_value": "883028",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1001",
+    "metric_name": "GetLinkTargetOps",
+    "table_name": "HM_NAMENODE_ACTIVITY",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1001",
+    "metric_name": "GetImageAvgTime",
+    "table_name": "HM_NAMENODE_ACTIVITY",
+    "metric_value": "0.0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1001",
+    "metric_name": "GetAdditionalDatanodeOps",
+    "table_name": "HM_NAMENODE_ACTIVITY",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1001",
+    "metric_name": "FilesDeleted",
+    "table_name": "HM_NAMENODE_ACTIVITY",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1001",
+    "metric_name": "BlockReportNumOps",
+    "table_name": "HM_NAMENODE_ACTIVITY",
+    "metric_value": "30",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1001",
+    "metric_name": "GetBlockLocations",
+    "table_name": "HM_NAMENODE_ACTIVITY",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1001",
+    "metric_name": "StorageBlockReportOps",
+    "table_name": "HM_NAMENODE_ACTIVITY",
+    "metric_value": "30",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1001",
+    "metric_name": "SafeModeTime",
+    "table_name": "HM_NAMENODE_ACTIVITY",
+    "metric_value": "333777",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1001",
+    "metric_name": "FilesTruncated",
+    "table_name": "HM_NAMENODE_ACTIVITY",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1001",
+    "metric_name": "SnapshotDiffReportOps",
+    "table_name": "HM_NAMENODE_ACTIVITY",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1001",
+    "metric_name": "GetListingOps",
+    "table_name": "HM_NAMENODE_ACTIVITY",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1001",
+    "metric_name": "GetImageNumOps",
+    "table_name": "HM_NAMENODE_ACTIVITY",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1001",
+    "metric_name": "TotalFileOps",
+    "table_name": "HM_NAMENODE_ACTIVITY",
+    "metric_value": "883028",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1001",
+    "metric_name": "CreateSymlinkOps",
+    "table_name": "HM_NAMENODE_ACTIVITY",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1001",
+    "metric_name": "GetEditAvgTime",
+    "table_name": "HM_NAMENODE_ACTIVITY",
+    "metric_value": "0.0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1001",
+    "metric_name": "AddBlockOps",
+    "table_name": "HM_NAMENODE_ACTIVITY",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1001",
+    "metric_name": "DisallowSnapshotOps",
+    "table_name": "HM_NAMENODE_ACTIVITY",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1001",
+    "metric_name": "DeleteFileOps",
+    "table_name": "HM_NAMENODE_ACTIVITY",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1001",
+    "metric_name": "LastHATransitionTime",
+    "table_name": "SM_CLUSTER_STATUS",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1001",
+    "metric_name": "State",
+    "table_name": "SM_CLUSTER_STATUS",
+    "metric_value": "standby",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1001",
+    "metric_name": "NNRole",
+    "table_name": "SM_CLUSTER_STATUS",
+    "metric_value": "NameNode",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1001",
+    "metric_name": "BlocksTotal",
+    "table_name": "HM_FSNAMESYSTEM_STATE",
+    "metric_value": "532",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1001",
+    "metric_name": "EstimatedCapacityLostTotal",
+    "table_name": "HM_FSNAMESYSTEM_STATE",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1001",
+    "metric_name": "NumDecommissioningDataNodes",
+    "table_name": "HM_FSNAMESYSTEM_STATE",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1001",
+    "metric_name": "PendingReplicationBlocks",
+    "table_name": "HM_FSNAMESYSTEM_STATE",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1001",
+    "metric_name": "PendingDeletionBlocks",
+    "table_name": "HM_FSNAMESYSTEM_STATE",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1001",
+    "metric_name": "SnapshotStats",
+    "table_name": "HM_FSNAMESYSTEM_STATE",
+    "metric_value": "{\"SnapshottableDirectories\":0,\"Snapshots\":0}",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1001",
+    "metric_name": "UnderReplicatedBlocks",
+    "table_name": "HM_FSNAMESYSTEM_STATE",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1001",
+    "metric_name": "CapacityTotal",
+    "table_name": "HM_FSNAMESYSTEM_STATE",
+    "metric_value": "1515565277184",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1001",
+    "metric_name": "FilesTotal",
+    "table_name": "HM_FSNAMESYSTEM_STATE",
+    "metric_value": "2121",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1001",
+    "metric_name": "NumDeadDataNodes",
+    "table_name": "HM_FSNAMESYSTEM_STATE",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1001",
+    "metric_name": "ScheduledReplicationBlocks",
+    "table_name": "HM_FSNAMESYSTEM_STATE",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1001",
+    "metric_name": "CapacityUsed",
+    "table_name": "HM_FSNAMESYSTEM_STATE",
+    "metric_value": "1625849856",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1001",
+    "metric_name": "MaxObjects",
+    "table_name": "HM_FSNAMESYSTEM_STATE",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1001",
+    "metric_name": "NumStaleDataNodes",
+    "table_name": "HM_FSNAMESYSTEM_STATE",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1001",
+    "metric_name": "TotalLoad",
+    "table_name": "HM_FSNAMESYSTEM_STATE",
+    "metric_value": "2",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1001",
+    "metric_name": "CapacityRemaining",
+    "table_name": "HM_FSNAMESYSTEM_STATE",
+    "metric_value": "1192134975488",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1001",
+    "metric_name": "NumLiveDataNodes",
+    "table_name": "HM_FSNAMESYSTEM_STATE",
+    "metric_value": "1",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1001",
+    "metric_name": "BlockDeletionStartTime",
+    "table_name": "HM_FSNAMESYSTEM_STATE",
+    "metric_value": "1546397069794",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1001",
+    "metric_name": "NumDecomDeadDataNodes",
+    "table_name": "HM_FSNAMESYSTEM_STATE",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1001",
+    "metric_name": "NumDecomLiveDataNodes",
+    "table_name": "HM_FSNAMESYSTEM_STATE",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1001",
+    "metric_name": "NumStaleStorages",
+    "table_name": "HM_FSNAMESYSTEM_STATE",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1001",
+    "metric_name": "VolumeFailuresTotal",
+    "table_name": "HM_FSNAMESYSTEM_STATE",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "803",
+    "process_seq": "1001",
+    "metric_name": "LiveNodes_adminState",
+    "table_name": "SM_NAMENODE_LIVENODE",
+    "metric_value": "In Service",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "803",
+    "process_seq": "1001",
+    "metric_name": "LiveNodes_xferaddr",
+    "table_name": "SM_NAMENODE_LIVENODE",
+    "metric_value": "192.168.203.134:50010",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "803",
+    "process_seq": "1001",
+    "metric_name": "LiveNodes_infoSecureAddr",
+    "table_name": "SM_NAMENODE_LIVENODE",
+    "metric_value": "192.168.203.134:0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "803",
+    "process_seq": "1001",
+    "metric_name": "LiveNodes_used",
+    "table_name": "SM_NAMENODE_LIVENODE",
+    "metric_value": "1625849856",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "803",
+    "process_seq": "1001",
+    "metric_name": "LiveNodes_blockPoolUsedPercent",
+    "table_name": "SM_NAMENODE_LIVENODE",
+    "metric_value": "0.1072768",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "803",
+    "process_seq": "1001",
+    "metric_name": "LiveNodes_nonDfsUsedSpace",
+    "table_name": "SM_NAMENODE_LIVENODE",
+    "metric_value": "321804451840",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "803",
+    "process_seq": "1001",
+    "metric_name": "LiveNodes_version",
+    "table_name": "SM_NAMENODE_LIVENODE",
+    "metric_value": "2.7.1",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "803",
+    "process_seq": "1001",
+    "metric_name": "LiveNodes_lastContact",
+    "table_name": "SM_NAMENODE_LIVENODE",
+    "metric_value": "1",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "803",
+    "process_seq": "1001",
+    "metric_name": "LiveNodes_capacity",
+    "table_name": "SM_NAMENODE_LIVENODE",
+    "metric_value": "1515565277184",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "803",
+    "process_seq": "1001",
+    "metric_name": "LiveNodes_usedSpace",
+    "table_name": "SM_NAMENODE_LIVENODE",
+    "metric_value": "1625849856",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "803",
+    "process_seq": "1001",
+    "metric_name": "LiveNodes_infoAddr",
+    "table_name": "SM_NAMENODE_LIVENODE",
+    "metric_value": "192.168.203.134:50475",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "803",
+    "process_seq": "1001",
+    "metric_name": "LiveNodes_numBlocks",
+    "table_name": "SM_NAMENODE_LIVENODE",
+    "metric_value": "532",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "803",
+    "process_seq": "1001",
+    "metric_name": "LiveNodes_blockScheduled",
+    "table_name": "SM_NAMENODE_LIVENODE",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "803",
+    "process_seq": "1001",
+    "metric_name": "LiveNodes_volfails",
+    "table_name": "SM_NAMENODE_LIVENODE",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "803",
+    "process_seq": "1001",
+    "metric_name": "LiveNodes_remaining",
+    "table_name": "SM_NAMENODE_LIVENODE",
+    "metric_value": "1192134975488",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1001",
+    "metric_name": "BlocksTotal",
+    "table_name": "HM_FSNAMESYSTEM_PROGRESS",
+    "metric_value": "532",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1001",
+    "metric_name": "PendingDataNodeMessageCount",
+    "table_name": "HM_FSNAMESYSTEM_PROGRESS",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1001",
+    "metric_name": "UnderReplicatedBlocks",
+    "table_name": "HM_FSNAMESYSTEM_PROGRESS",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1001",
+    "metric_name": "LastWrittenTransactionId",
+    "table_name": "HM_FSNAMESYSTEM_PROGRESS",
+    "metric_value": "572259",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1001",
+    "metric_name": "SnapshottableDirectories",
+    "table_name": "HM_FSNAMESYSTEM_PROGRESS",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1001",
+    "metric_name": "CapacityUsed",
+    "table_name": "HM_FSNAMESYSTEM_PROGRESS",
+    "metric_value": "1625849856",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1001",
+    "metric_name": "StaleDataNodes",
+    "table_name": "HM_FSNAMESYSTEM_PROGRESS",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1001",
+    "metric_name": "CapacityRemaining",
+    "table_name": "HM_FSNAMESYSTEM_PROGRESS",
+    "metric_value": "1192134975488",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1001",
+    "metric_name": "PostponedMisreplicatedBlocks",
+    "table_name": "HM_FSNAMESYSTEM_PROGRESS",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1001",
+    "metric_name": "CapacityUsedNonDFS",
+    "table_name": "HM_FSNAMESYSTEM_PROGRESS",
+    "metric_value": "321804451840",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1001",
+    "metric_name": "TotalFiles",
+    "table_name": "HM_FSNAMESYSTEM_PROGRESS",
+    "metric_value": "2121",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1001",
+    "metric_name": "CorruptBlocks",
+    "table_name": "HM_FSNAMESYSTEM_PROGRESS",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1001",
+    "metric_name": "LastCheckpointTime",
+    "table_name": "HM_FSNAMESYSTEM_PROGRESS",
+    "metric_value": "1546566280365",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1001",
+    "metric_name": "MissingBlocks",
+    "table_name": "HM_FSNAMESYSTEM_PROGRESS",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1001",
+    "metric_name": "TransactionsSinceLastLogRoll",
+    "table_name": "HM_FSNAMESYSTEM_PROGRESS",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1001",
+    "metric_name": "Snapshots",
+    "table_name": "HM_FSNAMESYSTEM_PROGRESS",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1001",
+    "metric_name": "PendingReplicationBlocks",
+    "table_name": "HM_FSNAMESYSTEM_PROGRESS",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1001",
+    "metric_name": "PendingDeletionBlocks",
+    "table_name": "HM_FSNAMESYSTEM_PROGRESS",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1001",
+    "metric_name": "CapacityTotal",
+    "table_name": "HM_FSNAMESYSTEM_PROGRESS",
+    "metric_value": "1515565277184",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1001",
+    "metric_name": "FilesTotal",
+    "table_name": "HM_FSNAMESYSTEM_PROGRESS",
+    "metric_value": "2121",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1001",
+    "metric_name": "MissingReplOneBlocks",
+    "table_name": "HM_FSNAMESYSTEM_PROGRESS",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1001",
+    "metric_name": "ScheduledReplicationBlocks",
+    "table_name": "HM_FSNAMESYSTEM_PROGRESS",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1001",
+    "metric_name": "MillisSinceLastLoadedEdits",
+    "table_name": "HM_FSNAMESYSTEM_PROGRESS",
+    "metric_value": "1060",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1001",
+    "metric_name": "ExcessBlocks",
+    "table_name": "HM_FSNAMESYSTEM_PROGRESS",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1001",
+    "metric_name": "TotalLoad",
+    "table_name": "HM_FSNAMESYSTEM_PROGRESS",
+    "metric_value": "2",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1001",
+    "metric_name": "TransactionsSinceLastCheckpoint",
+    "table_name": "HM_FSNAMESYSTEM_PROGRESS",
+    "metric_value": "-2872",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1001",
+    "metric_name": "BlockCapacity",
+    "table_name": "HM_FSNAMESYSTEM_PROGRESS",
+    "metric_value": "2097152",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1001",
+    "metric_name": "ExpiredHeartbeats",
+    "table_name": "HM_FSNAMESYSTEM_PROGRESS",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1001",
+    "metric_name": "SnapshotNumOps",
+    "table_name": "HM_METRICSSYSTEM_STATS",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1001",
+    "metric_name": "PublishNumOps",
+    "table_name": "HM_METRICSSYSTEM_STATS",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1001",
+    "metric_name": "SnapshotAvgTime",
+    "table_name": "HM_METRICSSYSTEM_STATS",
+    "metric_value": "0.0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1001",
+    "metric_name": "DroppedPubAll",
+    "table_name": "HM_METRICSSYSTEM_STATS",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1001",
+    "metric_name": "NumAllSources",
+    "table_name": "HM_METRICSSYSTEM_STATS",
+    "metric_value": "11",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1001",
+    "metric_name": "PublishAvgTime",
+    "table_name": "HM_METRICSSYSTEM_STATS",
+    "metric_value": "0.0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1001",
+    "metric_name": "NumActiveSources",
+    "table_name": "HM_METRICSSYSTEM_STATS",
+    "metric_value": "11",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1001",
+    "metric_name": "NumAllSinks",
+    "table_name": "HM_METRICSSYSTEM_STATS",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1001",
+    "metric_name": "NumActiveSinks",
+    "table_name": "HM_METRICSSYSTEM_STATS",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1001",
+    "metric_name": "NodeUsage_nodeUsage_max",
+    "table_name": "HM_NODE_USAGE",
+    "metric_value": "0.11%",
+    "timestamp": "1546569600000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1001",
+    "metric_name": "NodeUsage_nodeUsage_median",
+    "table_name": "HM_NODE_USAGE",
+    "metric_value": "0.11%",
+    "timestamp": "1546569600000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1001",
+    "metric_name": "NodeUsage_nodeUsage_min",
+    "table_name": "HM_NODE_USAGE",
+    "metric_value": "0.11%",
+    "timestamp": "1546569600000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1001",
+    "metric_name": "NodeUsage_nodeUsage_stdDev",
+    "table_name": "HM_NODE_USAGE",
+    "metric_value": "0.00%",
+    "timestamp": "1546569600000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1001",
+    "metric_name": "MemHeapCommittedM",
+    "table_name": "HM_JVM_METRICS",
+    "metric_value": "3.51797248E8",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1001",
+    "metric_name": "ThreadsRunnable",
+    "table_name": "HM_JVM_METRICS",
+    "metric_value": "6",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1001",
+    "metric_name": "GcNumWarnThresholdExceeded",
+    "table_name": "HM_JVM_METRICS",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1001",
+    "metric_name": "LogInfo",
+    "table_name": "HM_JVM_METRICS",
+    "metric_value": "899661",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1001",
+    "metric_name": "MemMaxM",
+    "table_name": "HM_JVM_METRICS",
+    "metric_value": "9.32184064E8",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1001",
+    "metric_name": "ThreadsTerminated",
+    "table_name": "HM_JVM_METRICS",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1001",
+    "metric_name": "ThreadsNew",
+    "table_name": "HM_JVM_METRICS",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1001",
+    "metric_name": "ThreadsWaiting",
+    "table_name": "HM_JVM_METRICS",
+    "metric_value": "4",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1001",
+    "metric_name": "MemHeapUsedM",
+    "table_name": "HM_JVM_METRICS",
+    "metric_value": "2.5886294278144E8",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1001",
+    "metric_name": "ThreadsTimedWaiting",
+    "table_name": "HM_JVM_METRICS",
+    "metric_value": "1220",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1001",
+    "metric_name": "MemHeapMaxM",
+    "table_name": "HM_JVM_METRICS",
+    "metric_value": "9.32184064E8",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1001",
+    "metric_name": "LogError",
+    "table_name": "HM_JVM_METRICS",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1001",
+    "metric_name": "LogFatal",
+    "table_name": "HM_JVM_METRICS",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1001",
+    "metric_name": "MemNonHeapCommittedM",
+    "table_name": "HM_JVM_METRICS",
+    "metric_value": "7.2286208E7",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1001",
+    "metric_name": "GcNumInfoThresholdExceeded",
+    "table_name": "HM_JVM_METRICS",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1001",
+    "metric_name": "GcTimeMillis",
+    "table_name": "HM_JVM_METRICS",
+    "metric_value": "7879",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1001",
+    "metric_name": "GcTotalExtraSleepTime",
+    "table_name": "HM_JVM_METRICS",
+    "metric_value": "793",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1001",
+    "metric_name": "MemNonHeapMaxM",
+    "table_name": "HM_JVM_METRICS",
+    "metric_value": "-0.9999999827968",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1001",
+    "metric_name": "MemNonHeapUsedM",
+    "table_name": "HM_JVM_METRICS",
+    "metric_value": "7.0218535665664E7",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1001",
+    "metric_name": "GcCount",
+    "table_name": "HM_JVM_METRICS",
+    "metric_value": "1350",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1001",
+    "metric_name": "LogWarn",
+    "table_name": "HM_JVM_METRICS",
+    "metric_value": "5724",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1001",
+    "metric_name": "ThreadsBlocked",
+    "table_name": "HM_JVM_METRICS",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1001",
+    "metric_name": "PercentBlockPoolUsed",
+    "table_name": "HM_NAMENODE_INFO",
+    "metric_value": "0.1072768",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1001",
+    "metric_name": "CacheCapacity",
+    "table_name": "HM_NAMENODE_INFO",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1001",
+    "metric_name": "CacheUsed",
+    "table_name": "HM_NAMENODE_INFO",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1001",
+    "metric_name": "Free",
+    "table_name": "HM_NAMENODE_INFO",
+    "metric_value": "1192134975488",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1001",
+    "metric_name": "Threads",
+    "table_name": "HM_NAMENODE_INFO",
+    "metric_value": "1230",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1001",
+    "metric_name": "NumberOfMissingBlocks",
+    "table_name": "HM_NAMENODE_INFO",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1001",
+    "metric_name": "NumberOfMissingBlocksWithReplicationFactorOne",
+    "table_name": "HM_NAMENODE_INFO",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1001",
+    "metric_name": "TotalFiles",
+    "table_name": "HM_NAMENODE_INFO",
+    "metric_value": "2121",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1001",
+    "metric_name": "PercentRemaining",
+    "table_name": "HM_NAMENODE_INFO",
+    "metric_value": "78.65943",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1001",
+    "metric_name": "Used",
+    "table_name": "HM_NAMENODE_INFO",
+    "metric_value": "1625849856",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1001",
+    "metric_name": "Total",
+    "table_name": "HM_NAMENODE_INFO",
+    "metric_value": "1515565277184",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1001",
+    "metric_name": "TotalBlocks",
+    "table_name": "HM_NAMENODE_INFO",
+    "metric_value": "532",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1001",
+    "metric_name": "NonDfsUsedSpace",
+    "table_name": "HM_NAMENODE_INFO",
+    "metric_value": "321804451840",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1001",
+    "metric_name": "NonHeapMemoryUsage_max",
+    "table_name": "HM_HEAPMEMORY_USAGE",
+    "metric_value": "-1",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1001",
+    "metric_name": "HeapMemoryUsage_committed",
+    "table_name": "HM_HEAPMEMORY_USAGE",
+    "metric_value": "351797248",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1001",
+    "metric_name": "HeapMemoryUsage_max",
+    "table_name": "HM_HEAPMEMORY_USAGE",
+    "metric_value": "932184064",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1001",
+    "metric_name": "NonHeapMemoryUsage_committed",
+    "table_name": "HM_HEAPMEMORY_USAGE",
+    "metric_value": "72286208",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1001",
+    "metric_name": "HeapMemoryUsage_init",
+    "table_name": "HM_HEAPMEMORY_USAGE",
+    "metric_value": "522190848",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1001",
+    "metric_name": "NonHeapMemoryUsage_init",
+    "table_name": "HM_HEAPMEMORY_USAGE",
+    "metric_value": "2555904",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1001",
+    "metric_name": "NonHeapMemoryUsage_used",
+    "table_name": "HM_HEAPMEMORY_USAGE",
+    "metric_value": "70218536",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1001",
+    "metric_name": "HeapMemoryUsage_used",
+    "table_name": "HM_HEAPMEMORY_USAGE",
+    "metric_value": "260538888",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1001",
+    "metric_name": "TransactionsNumOps",
+    "table_name": "HM_NAMENODE_ACTIVITY",
+    "metric_value": "24207",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1001",
+    "metric_name": "CreateSnapshotOps",
+    "table_name": "HM_NAMENODE_ACTIVITY",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1001",
+    "metric_name": "TransactionsBatchedInSync",
+    "table_name": "HM_NAMENODE_ACTIVITY",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1001",
+    "metric_name": "ListSnapshottableDirOps",
+    "table_name": "HM_NAMENODE_ACTIVITY",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1001",
+    "metric_name": "BlockReceivedAndDeletedOps",
+    "table_name": "HM_NAMENODE_ACTIVITY",
+    "metric_value": "1181",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1001",
+    "metric_name": "SyncsAvgTime",
+    "table_name": "HM_NAMENODE_ACTIVITY",
+    "metric_value": "51.5",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1001",
+    "metric_name": "SyncsNumOps",
+    "table_name": "HM_NAMENODE_ACTIVITY",
+    "metric_value": "24202",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1001",
+    "metric_name": "CacheReportNumOps",
+    "table_name": "HM_NAMENODE_ACTIVITY",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1001",
+    "metric_name": "DeleteSnapshotOps",
+    "table_name": "HM_NAMENODE_ACTIVITY",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1001",
+    "metric_name": "GetEditNumOps",
+    "table_name": "HM_NAMENODE_ACTIVITY",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1001",
+    "metric_name": "TransactionsAvgTime",
+    "table_name": "HM_NAMENODE_ACTIVITY",
+    "metric_value": "3.5",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1001",
+    "metric_name": "AllowSnapshotOps",
+    "table_name": "HM_NAMENODE_ACTIVITY",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1001",
+    "metric_name": "FsImageLoadTime",
+    "table_name": "HM_NAMENODE_ACTIVITY",
+    "metric_value": "1318",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1001",
+    "metric_name": "BlockReportAvgTime",
+    "table_name": "HM_NAMENODE_ACTIVITY",
+    "metric_value": "0.0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1001",
+    "metric_name": "RenameSnapshotOps",
+    "table_name": "HM_NAMENODE_ACTIVITY",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1001",
+    "metric_name": "CreateFileOps",
+    "table_name": "HM_NAMENODE_ACTIVITY",
+    "metric_value": "1",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1001",
+    "metric_name": "FilesRenamed",
+    "table_name": "HM_NAMENODE_ACTIVITY",
+    "metric_value": "1",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1001",
+    "metric_name": "CacheReportAvgTime",
+    "table_name": "HM_NAMENODE_ACTIVITY",
+    "metric_value": "0.0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1001",
+    "metric_name": "FilesAppended",
+    "table_name": "HM_NAMENODE_ACTIVITY",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1001",
+    "metric_name": "FilesCreated",
+    "table_name": "HM_NAMENODE_ACTIVITY",
+    "metric_value": "1",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1001",
+    "metric_name": "PutImageNumOps",
+    "table_name": "HM_NAMENODE_ACTIVITY",
+    "metric_value": "67",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1001",
+    "metric_name": "PutImageAvgTime",
+    "table_name": "HM_NAMENODE_ACTIVITY",
+    "metric_value": "111.0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1001",
+    "metric_name": "FilesInGetListingOps",
+    "table_name": "HM_NAMENODE_ACTIVITY",
+    "metric_value": "7269",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1001",
+    "metric_name": "FileInfoOps",
+    "table_name": "HM_NAMENODE_ACTIVITY",
+    "metric_value": "18282",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1001",
+    "metric_name": "GetLinkTargetOps",
+    "table_name": "HM_NAMENODE_ACTIVITY",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1001",
+    "metric_name": "GetImageAvgTime",
+    "table_name": "HM_NAMENODE_ACTIVITY",
+    "metric_value": "0.0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1001",
+    "metric_name": "GetAdditionalDatanodeOps",
+    "table_name": "HM_NAMENODE_ACTIVITY",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1001",
+    "metric_name": "FilesDeleted",
+    "table_name": "HM_NAMENODE_ACTIVITY",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1001",
+    "metric_name": "BlockReportNumOps",
+    "table_name": "HM_NAMENODE_ACTIVITY",
+    "metric_value": "639",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1001",
+    "metric_name": "GetBlockLocations",
+    "table_name": "HM_NAMENODE_ACTIVITY",
+    "metric_value": "6",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1001",
+    "metric_name": "StorageBlockReportOps",
+    "table_name": "HM_NAMENODE_ACTIVITY",
+    "metric_value": "639",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1001",
+    "metric_name": "SafeModeTime",
+    "table_name": "HM_NAMENODE_ACTIVITY",
+    "metric_value": "1406215",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1001",
+    "metric_name": "FilesTruncated",
+    "table_name": "HM_NAMENODE_ACTIVITY",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1001",
+    "metric_name": "SnapshotDiffReportOps",
+    "table_name": "HM_NAMENODE_ACTIVITY",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1001",
+    "metric_name": "GetListingOps",
+    "table_name": "HM_NAMENODE_ACTIVITY",
+    "metric_value": "9034",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1001",
+    "metric_name": "GetImageNumOps",
+    "table_name": "HM_NAMENODE_ACTIVITY",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1001",
+    "metric_name": "TotalFileOps",
+    "table_name": "HM_NAMENODE_ACTIVITY",
+    "metric_value": "27325",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1001",
+    "metric_name": "CreateSymlinkOps",
+    "table_name": "HM_NAMENODE_ACTIVITY",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1001",
+    "metric_name": "GetEditAvgTime",
+    "table_name": "HM_NAMENODE_ACTIVITY",
+    "metric_value": "0.0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1001",
+    "metric_name": "AddBlockOps",
+    "table_name": "HM_NAMENODE_ACTIVITY",
+    "metric_value": "1",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1001",
+    "metric_name": "DisallowSnapshotOps",
+    "table_name": "HM_NAMENODE_ACTIVITY",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1001",
+    "metric_name": "DeleteFileOps",
+    "table_name": "HM_NAMENODE_ACTIVITY",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1001",
+    "metric_name": "LastHATransitionTime",
+    "table_name": "SM_CLUSTER_STATUS",
+    "metric_value": "1545107342393",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1001",
+    "metric_name": "State",
+    "table_name": "SM_CLUSTER_STATUS",
+    "metric_value": "active",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1001",
+    "metric_name": "NNRole",
+    "table_name": "SM_CLUSTER_STATUS",
+    "metric_value": "NameNode",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1001",
+    "metric_name": "BlocksTotal",
+    "table_name": "HM_FSNAMESYSTEM_STATE",
+    "metric_value": "532",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1001",
+    "metric_name": "EstimatedCapacityLostTotal",
+    "table_name": "HM_FSNAMESYSTEM_STATE",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1001",
+    "metric_name": "NumDecommissioningDataNodes",
+    "table_name": "HM_FSNAMESYSTEM_STATE",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1001",
+    "metric_name": "PendingReplicationBlocks",
+    "table_name": "HM_FSNAMESYSTEM_STATE",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1001",
+    "metric_name": "PendingDeletionBlocks",
+    "table_name": "HM_FSNAMESYSTEM_STATE",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1001",
+    "metric_name": "SnapshotStats",
+    "table_name": "HM_FSNAMESYSTEM_STATE",
+    "metric_value": "{\"SnapshottableDirectories\":0,\"Snapshots\":0}",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1001",
+    "metric_name": "UnderReplicatedBlocks",
+    "table_name": "HM_FSNAMESYSTEM_STATE",
+    "metric_value": "532",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1001",
+    "metric_name": "CapacityTotal",
+    "table_name": "HM_FSNAMESYSTEM_STATE",
+    "metric_value": "1515565277184",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1001",
+    "metric_name": "FilesTotal",
+    "table_name": "HM_FSNAMESYSTEM_STATE",
+    "metric_value": "2121",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1001",
+    "metric_name": "NumDeadDataNodes",
+    "table_name": "HM_FSNAMESYSTEM_STATE",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1001",
+    "metric_name": "ScheduledReplicationBlocks",
+    "table_name": "HM_FSNAMESYSTEM_STATE",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1001",
+    "metric_name": "CapacityUsed",
+    "table_name": "HM_FSNAMESYSTEM_STATE",
+    "metric_value": "1625849856",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1001",
+    "metric_name": "MaxObjects",
+    "table_name": "HM_FSNAMESYSTEM_STATE",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1001",
+    "metric_name": "NumStaleDataNodes",
+    "table_name": "HM_FSNAMESYSTEM_STATE",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1001",
+    "metric_name": "TotalLoad",
+    "table_name": "HM_FSNAMESYSTEM_STATE",
+    "metric_value": "2",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1001",
+    "metric_name": "CapacityRemaining",
+    "table_name": "HM_FSNAMESYSTEM_STATE",
+    "metric_value": "1192134975488",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1001",
+    "metric_name": "NumLiveDataNodes",
+    "table_name": "HM_FSNAMESYSTEM_STATE",
+    "metric_value": "1",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1001",
+    "metric_name": "BlockDeletionStartTime",
+    "table_name": "HM_FSNAMESYSTEM_STATE",
+    "metric_value": "1541988761906",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1001",
+    "metric_name": "NumDecomDeadDataNodes",
+    "table_name": "HM_FSNAMESYSTEM_STATE",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1001",
+    "metric_name": "NumDecomLiveDataNodes",
+    "table_name": "HM_FSNAMESYSTEM_STATE",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1001",
+    "metric_name": "NumStaleStorages",
+    "table_name": "HM_FSNAMESYSTEM_STATE",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1001",
+    "metric_name": "VolumeFailuresTotal",
+    "table_name": "HM_FSNAMESYSTEM_STATE",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1001",
+    "metric_name": "BlocksTotal",
+    "table_name": "HM_FSNAMESYSTEM_PROGRESS",
+    "metric_value": "532",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1001",
+    "metric_name": "PendingDataNodeMessageCount",
+    "table_name": "HM_FSNAMESYSTEM_PROGRESS",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1001",
+    "metric_name": "UnderReplicatedBlocks",
+    "table_name": "HM_FSNAMESYSTEM_PROGRESS",
+    "metric_value": "532",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1001",
+    "metric_name": "LastWrittenTransactionId",
+    "table_name": "HM_FSNAMESYSTEM_PROGRESS",
+    "metric_value": "575198",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1001",
+    "metric_name": "SnapshottableDirectories",
+    "table_name": "HM_FSNAMESYSTEM_PROGRESS",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1001",
+    "metric_name": "CapacityUsed",
+    "table_name": "HM_FSNAMESYSTEM_PROGRESS",
+    "metric_value": "1625849856",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1001",
+    "metric_name": "StaleDataNodes",
+    "table_name": "HM_FSNAMESYSTEM_PROGRESS",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1001",
+    "metric_name": "CapacityRemaining",
+    "table_name": "HM_FSNAMESYSTEM_PROGRESS",
+    "metric_value": "1192134975488",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1001",
+    "metric_name": "PostponedMisreplicatedBlocks",
+    "table_name": "HM_FSNAMESYSTEM_PROGRESS",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1001",
+    "metric_name": "CapacityUsedNonDFS",
+    "table_name": "HM_FSNAMESYSTEM_PROGRESS",
+    "metric_value": "321804451840",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1001",
+    "metric_name": "TotalFiles",
+    "table_name": "HM_FSNAMESYSTEM_PROGRESS",
+    "metric_value": "2121",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1001",
+    "metric_name": "CorruptBlocks",
+    "table_name": "HM_FSNAMESYSTEM_PROGRESS",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1001",
+    "metric_name": "LastCheckpointTime",
+    "table_name": "HM_FSNAMESYSTEM_PROGRESS",
+    "metric_value": "1546566405558",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1001",
+    "metric_name": "MissingBlocks",
+    "table_name": "HM_FSNAMESYSTEM_PROGRESS",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1001",
+    "metric_name": "TransactionsSinceLastLogRoll",
+    "table_name": "HM_FSNAMESYSTEM_PROGRESS",
+    "metric_value": "1",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1001",
+    "metric_name": "Snapshots",
+    "table_name": "HM_FSNAMESYSTEM_PROGRESS",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1001",
+    "metric_name": "PendingReplicationBlocks",
+    "table_name": "HM_FSNAMESYSTEM_PROGRESS",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1001",
+    "metric_name": "PendingDeletionBlocks",
+    "table_name": "HM_FSNAMESYSTEM_PROGRESS",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1001",
+    "metric_name": "CapacityTotal",
+    "table_name": "HM_FSNAMESYSTEM_PROGRESS",
+    "metric_value": "1515565277184",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1001",
+    "metric_name": "FilesTotal",
+    "table_name": "HM_FSNAMESYSTEM_PROGRESS",
+    "metric_value": "2121",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1001",
+    "metric_name": "MissingReplOneBlocks",
+    "table_name": "HM_FSNAMESYSTEM_PROGRESS",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1001",
+    "metric_name": "ScheduledReplicationBlocks",
+    "table_name": "HM_FSNAMESYSTEM_PROGRESS",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1001",
+    "metric_name": "MillisSinceLastLoadedEdits",
+    "table_name": "HM_FSNAMESYSTEM_PROGRESS",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1001",
+    "metric_name": "ExcessBlocks",
+    "table_name": "HM_FSNAMESYSTEM_PROGRESS",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1001",
+    "metric_name": "TotalLoad",
+    "table_name": "HM_FSNAMESYSTEM_PROGRESS",
+    "metric_value": "2",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1001",
+    "metric_name": "TransactionsSinceLastCheckpoint",
+    "table_name": "HM_FSNAMESYSTEM_PROGRESS",
+    "metric_value": "67",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1001",
+    "metric_name": "BlockCapacity",
+    "table_name": "HM_FSNAMESYSTEM_PROGRESS",
+    "metric_value": "2097152",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1001",
+    "metric_name": "ExpiredHeartbeats",
+    "table_name": "HM_FSNAMESYSTEM_PROGRESS",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1001",
+    "metric_name": "SnapshotNumOps",
+    "table_name": "HM_METRICSSYSTEM_STATS",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1001",
+    "metric_name": "PublishNumOps",
+    "table_name": "HM_METRICSSYSTEM_STATS",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1001",
+    "metric_name": "SnapshotAvgTime",
+    "table_name": "HM_METRICSSYSTEM_STATS",
+    "metric_value": "0.0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1001",
+    "metric_name": "DroppedPubAll",
+    "table_name": "HM_METRICSSYSTEM_STATS",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1001",
+    "metric_name": "NumAllSources",
+    "table_name": "HM_METRICSSYSTEM_STATS",
+    "metric_value": "11",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1001",
+    "metric_name": "PublishAvgTime",
+    "table_name": "HM_METRICSSYSTEM_STATS",
+    "metric_value": "0.0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1001",
+    "metric_name": "NumActiveSources",
+    "table_name": "HM_METRICSSYSTEM_STATS",
+    "metric_value": "11",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1001",
+    "metric_name": "NumAllSinks",
+    "table_name": "HM_METRICSSYSTEM_STATS",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1001",
+    "metric_name": "NumActiveSinks",
+    "table_name": "HM_METRICSSYSTEM_STATS",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1001",
+    "metric_name": "NodeUsage_nodeUsage_max",
+    "table_name": "HM_NODE_USAGE",
+    "metric_value": "0.11%",
+    "timestamp": "1546569600000"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1001",
+    "metric_name": "NodeUsage_nodeUsage_median",
+    "table_name": "HM_NODE_USAGE",
+    "metric_value": "0.11%",
+    "timestamp": "1546569600000"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1001",
+    "metric_name": "NodeUsage_nodeUsage_min",
+    "table_name": "HM_NODE_USAGE",
+    "metric_value": "0.11%",
+    "timestamp": "1546569600000"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1001",
+    "metric_name": "NodeUsage_nodeUsage_stdDev",
+    "table_name": "HM_NODE_USAGE",
+    "metric_value": "0.00%",
+    "timestamp": "1546569600000"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1001",
+    "metric_name": "MemHeapCommittedM",
+    "table_name": "HM_JVM_METRICS",
+    "metric_value": "5.90872576E8",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1001",
+    "metric_name": "ThreadsRunnable",
+    "table_name": "HM_JVM_METRICS",
+    "metric_value": "7",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1001",
+    "metric_name": "GcNumWarnThresholdExceeded",
+    "table_name": "HM_JVM_METRICS",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1001",
+    "metric_name": "LogInfo",
+    "table_name": "HM_JVM_METRICS",
+    "metric_value": "1860951",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1001",
+    "metric_name": "MemMaxM",
+    "table_name": "HM_JVM_METRICS",
+    "metric_value": "9.32184064E8",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1001",
+    "metric_name": "ThreadsTerminated",
+    "table_name": "HM_JVM_METRICS",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1001",
+    "metric_name": "ThreadsNew",
+    "table_name": "HM_JVM_METRICS",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1001",
+    "metric_name": "ThreadsWaiting",
+    "table_name": "HM_JVM_METRICS",
+    "metric_value": "10",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1001",
+    "metric_name": "MemHeapUsedM",
+    "table_name": "HM_JVM_METRICS",
+    "metric_value": "4.49451393024E8",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1001",
+    "metric_name": "ThreadsTimedWaiting",
+    "table_name": "HM_JVM_METRICS",
+    "metric_value": "1218",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1001",
+    "metric_name": "MemHeapMaxM",
+    "table_name": "HM_JVM_METRICS",
+    "metric_value": "9.32184064E8",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1001",
+    "metric_name": "LogError",
+    "table_name": "HM_JVM_METRICS",
+    "metric_value": "1",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1001",
+    "metric_name": "LogFatal",
+    "table_name": "HM_JVM_METRICS",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1001",
+    "metric_name": "MemNonHeapCommittedM",
+    "table_name": "HM_JVM_METRICS",
+    "metric_value": "9.557606662144E7",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1001",
+    "metric_name": "GcNumInfoThresholdExceeded",
+    "table_name": "HM_JVM_METRICS",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1001",
+    "metric_name": "GcTimeMillis",
+    "table_name": "HM_JVM_METRICS",
+    "metric_value": "51319",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1001",
+    "metric_name": "GcTotalExtraSleepTime",
+    "table_name": "HM_JVM_METRICS",
+    "metric_value": "16421",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1001",
+    "metric_name": "MemNonHeapMaxM",
+    "table_name": "HM_JVM_METRICS",
+    "metric_value": "-0.9999999827968",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1001",
+    "metric_name": "MemNonHeapUsedM",
+    "table_name": "HM_JVM_METRICS",
+    "metric_value": "9.24331802624E7",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1001",
+    "metric_name": "GcCount",
+    "table_name": "HM_JVM_METRICS",
+    "metric_value": "9677",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1001",
+    "metric_name": "LogWarn",
+    "table_name": "HM_JVM_METRICS",
+    "metric_value": "136426",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1001",
+    "metric_name": "ThreadsBlocked",
+    "table_name": "HM_JVM_METRICS",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1001",
+    "metric_name": "PercentBlockPoolUsed",
+    "table_name": "HM_NAMENODE_INFO",
+    "metric_value": "0.1072768",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1001",
+    "metric_name": "CacheCapacity",
+    "table_name": "HM_NAMENODE_INFO",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1001",
+    "metric_name": "CacheUsed",
+    "table_name": "HM_NAMENODE_INFO",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1001",
+    "metric_name": "Free",
+    "table_name": "HM_NAMENODE_INFO",
+    "metric_value": "1192134975488",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1001",
+    "metric_name": "Threads",
+    "table_name": "HM_NAMENODE_INFO",
+    "metric_value": "1235",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1001",
+    "metric_name": "NumberOfMissingBlocks",
+    "table_name": "HM_NAMENODE_INFO",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1001",
+    "metric_name": "NumberOfMissingBlocksWithReplicationFactorOne",
+    "table_name": "HM_NAMENODE_INFO",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1001",
+    "metric_name": "TotalFiles",
+    "table_name": "HM_NAMENODE_INFO",
+    "metric_value": "2121",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1001",
+    "metric_name": "PercentRemaining",
+    "table_name": "HM_NAMENODE_INFO",
+    "metric_value": "78.65943",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1001",
+    "metric_name": "Used",
+    "table_name": "HM_NAMENODE_INFO",
+    "metric_value": "1625849856",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1001",
+    "metric_name": "Total",
+    "table_name": "HM_NAMENODE_INFO",
+    "metric_value": "1515565277184",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1001",
+    "metric_name": "TotalBlocks",
+    "table_name": "HM_NAMENODE_INFO",
+    "metric_value": "532",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1001",
+    "metric_name": "NonDfsUsedSpace",
+    "table_name": "HM_NAMENODE_INFO",
+    "metric_value": "321804451840",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1001",
+    "metric_name": "NonHeapMemoryUsage_max",
+    "table_name": "HM_HEAPMEMORY_USAGE",
+    "metric_value": "-1",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1001",
+    "metric_name": "HeapMemoryUsage_committed",
+    "table_name": "HM_HEAPMEMORY_USAGE",
+    "metric_value": "590872576",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1001",
+    "metric_name": "HeapMemoryUsage_max",
+    "table_name": "HM_HEAPMEMORY_USAGE",
+    "metric_value": "932184064",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1001",
+    "metric_name": "NonHeapMemoryUsage_committed",
+    "table_name": "HM_HEAPMEMORY_USAGE",
+    "metric_value": "95576064",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1001",
+    "metric_name": "HeapMemoryUsage_init",
+    "table_name": "HM_HEAPMEMORY_USAGE",
+    "metric_value": "522190848",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1001",
+    "metric_name": "NonHeapMemoryUsage_init",
+    "table_name": "HM_HEAPMEMORY_USAGE",
+    "metric_value": "2555904",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1001",
+    "metric_name": "NonHeapMemoryUsage_used",
+    "table_name": "HM_HEAPMEMORY_USAGE",
+    "metric_value": "92433184",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1001",
+    "metric_name": "HeapMemoryUsage_used",
+    "table_name": "HM_HEAPMEMORY_USAGE",
+    "metric_value": "451081112",
+    "timestamp": "1546570170000"
+  }
+]

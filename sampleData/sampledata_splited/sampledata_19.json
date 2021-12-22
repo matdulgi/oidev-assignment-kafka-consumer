@@ -1,0 +1,122 @@
+[
+  {
+    "system_seq": "803",
+    "process_seq": "1001",
+    "metric_name": "LiveNodes_adminState",
+    "table_name": "SM_NAMENODE_LIVENODE",
+    "metric_value": "In Service",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "803",
+    "process_seq": "1001",
+    "metric_name": "LiveNodes_xferaddr",
+    "table_name": "SM_NAMENODE_LIVENODE",
+    "metric_value": "192.168.203.134:50010",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "803",
+    "process_seq": "1001",
+    "metric_name": "LiveNodes_infoSecureAddr",
+    "table_name": "SM_NAMENODE_LIVENODE",
+    "metric_value": "192.168.203.134:0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "803",
+    "process_seq": "1001",
+    "metric_name": "LiveNodes_used",
+    "table_name": "SM_NAMENODE_LIVENODE",
+    "metric_value": "1625849856",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "803",
+    "process_seq": "1001",
+    "metric_name": "LiveNodes_blockPoolUsedPercent",
+    "table_name": "SM_NAMENODE_LIVENODE",
+    "metric_value": "0.1072768",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "803",
+    "process_seq": "1001",
+    "metric_name": "LiveNodes_nonDfsUsedSpace",
+    "table_name": "SM_NAMENODE_LIVENODE",
+    "metric_value": "321804451840",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "803",
+    "process_seq": "1001",
+    "metric_name": "LiveNodes_version",
+    "table_name": "SM_NAMENODE_LIVENODE",
+    "metric_value": "2.7.1",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "803",
+    "process_seq": "1001",
+    "metric_name": "LiveNodes_lastContact",
+    "table_name": "SM_NAMENODE_LIVENODE",
+    "metric_value": "1",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "803",
+    "process_seq": "1001",
+    "metric_name": "LiveNodes_capacity",
+    "table_name": "SM_NAMENODE_LIVENODE",
+    "metric_value": "1515565277184",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "803",
+    "process_seq": "1001",
+    "metric_name": "LiveNodes_usedSpace",
+    "table_name": "SM_NAMENODE_LIVENODE",
+    "metric_value": "1625849856",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "803",
+    "process_seq": "1001",
+    "metric_name": "LiveNodes_infoAddr",
+    "table_name": "SM_NAMENODE_LIVENODE",
+    "metric_value": "192.168.203.134:50475",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "803",
+    "process_seq": "1001",
+    "metric_name": "LiveNodes_numBlocks",
+    "table_name": "SM_NAMENODE_LIVENODE",
+    "metric_value": "532",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "803",
+    "process_seq": "1001",
+    "metric_name": "LiveNodes_blockScheduled",
+    "table_name": "SM_NAMENODE_LIVENODE",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "803",
+    "process_seq": "1001",
+    "metric_name": "LiveNodes_volfails",
+    "table_name": "SM_NAMENODE_LIVENODE",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "803",
+    "process_seq": "1001",
+    "metric_name": "LiveNodes_remaining",
+    "table_name": "SM_NAMENODE_LIVENODE",
+    "metric_value": "1192134975488",
+    "timestamp": "1546570170000"
+  }
+]

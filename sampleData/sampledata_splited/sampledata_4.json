@@ -1,0 +1,18 @@
+[
+  {
+    "system_seq": "801",
+    "process_seq": "1004",
+    "metric_name": "State",
+    "table_name": "SM_CLUSTER_STATUS",
+    "metric_value": "active",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1004",
+    "metric_name": "NNRole",
+    "table_name": "SM_CLUSTER_STATUS",
+    "metric_value": "ResourceManager",
+    "timestamp": "1546570170000"
+  }
+]

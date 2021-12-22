@@ -1,0 +1,266 @@
+[
+  {
+    "system_seq": "801",
+    "process_seq": "1004",
+    "metric_name": "SteadyFairShareVCores",
+    "table_name": "HM_QUEUE_METRICS",
+    "metric_value": "8",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1004",
+    "metric_name": "AppsCompleted",
+    "table_name": "HM_QUEUE_METRICS",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1004",
+    "metric_name": "AllocatedContainers",
+    "table_name": "HM_QUEUE_METRICS",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1004",
+    "metric_name": "AvailableVCores",
+    "table_name": "HM_QUEUE_METRICS",
+    "metric_value": "8",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1004",
+    "metric_name": "AppsSubmitted",
+    "table_name": "HM_QUEUE_METRICS",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1004",
+    "metric_name": "PendingMB",
+    "table_name": "HM_QUEUE_METRICS",
+    "metric_value": "0.0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1004",
+    "metric_name": "AvailableMB",
+    "table_name": "HM_QUEUE_METRICS",
+    "metric_value": "1.4780727296E10",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1004",
+    "metric_name": "FairShareMB",
+    "table_name": "HM_QUEUE_METRICS",
+    "metric_value": "1.4780727296E10",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1004",
+    "metric_name": "ActiveApplications",
+    "table_name": "HM_QUEUE_METRICS",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1004",
+    "metric_name": "AggregateContainersReleased",
+    "table_name": "HM_QUEUE_METRICS",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1004",
+    "metric_name": "AllocatedMB",
+    "table_name": "HM_QUEUE_METRICS",
+    "metric_value": "0.0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1004",
+    "metric_name": "AppsKilled",
+    "table_name": "HM_QUEUE_METRICS",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1004",
+    "metric_name": "SteadyFairShareMB",
+    "table_name": "HM_QUEUE_METRICS",
+    "metric_value": "1.4780727296E10",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1004",
+    "metric_name": "ReservedContainers",
+    "table_name": "HM_QUEUE_METRICS",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1004",
+    "metric_name": "AggregateContainersAllocated",
+    "table_name": "HM_QUEUE_METRICS",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1004",
+    "metric_name": "PendingVCores",
+    "table_name": "HM_QUEUE_METRICS",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1004",
+    "metric_name": "AllocatedVCores",
+    "table_name": "HM_QUEUE_METRICS",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1004",
+    "metric_name": "ReservedMB",
+    "table_name": "HM_QUEUE_METRICS",
+    "metric_value": "0.0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1004",
+    "metric_name": "ReservedVCores",
+    "table_name": "HM_QUEUE_METRICS",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1004",
+    "metric_name": "running_1440",
+    "table_name": "HM_QUEUE_METRICS",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1004",
+    "metric_name": "MaxShareMB",
+    "table_name": "HM_QUEUE_METRICS",
+    "metric_value": "2.251799812636672E15",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1004",
+    "metric_name": "AppsFailed",
+    "table_name": "HM_QUEUE_METRICS",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1004",
+    "metric_name": "running_60",
+    "table_name": "HM_QUEUE_METRICS",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1004",
+    "metric_name": "ActiveUsers",
+    "table_name": "HM_QUEUE_METRICS",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1004",
+    "metric_name": "running_0",
+    "table_name": "HM_QUEUE_METRICS",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1004",
+    "metric_name": "MinShareMB",
+    "table_name": "HM_QUEUE_METRICS",
+    "metric_value": "0.0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1004",
+    "metric_name": "MaxShareVCores",
+    "table_name": "HM_QUEUE_METRICS",
+    "metric_value": "2147483647",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1004",
+    "metric_name": "PendingContainers",
+    "table_name": "HM_QUEUE_METRICS",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1004",
+    "metric_name": "FairShareVCores",
+    "table_name": "HM_QUEUE_METRICS",
+    "metric_value": "8",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1004",
+    "metric_name": "AppsPending",
+    "table_name": "HM_QUEUE_METRICS",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1004",
+    "metric_name": "MinShareVCores",
+    "table_name": "HM_QUEUE_METRICS",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1004",
+    "metric_name": "AppsRunning",
+    "table_name": "HM_QUEUE_METRICS",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1004",
+    "metric_name": "running_300",
+    "table_name": "HM_QUEUE_METRICS",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  }
+]

@@ -1,0 +1,66 @@
+[
+  {
+    "system_seq": "801",
+    "process_seq": "1004",
+    "metric_name": "NonHeapMemoryUsage_max",
+    "table_name": "HM_HEAPMEMORY_USAGE",
+    "metric_value": "-1",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1004",
+    "metric_name": "HeapMemoryUsage_committed",
+    "table_name": "HM_HEAPMEMORY_USAGE",
+    "metric_value": "383778816",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1004",
+    "metric_name": "HeapMemoryUsage_max",
+    "table_name": "HM_HEAPMEMORY_USAGE",
+    "metric_value": "932184064",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1004",
+    "metric_name": "NonHeapMemoryUsage_committed",
+    "table_name": "HM_HEAPMEMORY_USAGE",
+    "metric_value": "67502080",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1004",
+    "metric_name": "HeapMemoryUsage_init",
+    "table_name": "HM_HEAPMEMORY_USAGE",
+    "metric_value": "522190848",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1004",
+    "metric_name": "NonHeapMemoryUsage_init",
+    "table_name": "HM_HEAPMEMORY_USAGE",
+    "metric_value": "2555904",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1004",
+    "metric_name": "NonHeapMemoryUsage_used",
+    "table_name": "HM_HEAPMEMORY_USAGE",
+    "metric_value": "65105296",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1004",
+    "metric_name": "HeapMemoryUsage_used",
+    "table_name": "HM_HEAPMEMORY_USAGE",
+    "metric_value": "31535504",
+    "timestamp": "1546570170000"
+  }
+]

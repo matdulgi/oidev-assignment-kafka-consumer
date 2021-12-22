@@ -1,0 +1,178 @@
+[
+  {
+    "system_seq": "802",
+    "process_seq": "1001",
+    "metric_name": "BlocksTotal",
+    "table_name": "HM_FSNAMESYSTEM_STATE",
+    "metric_value": "532",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1001",
+    "metric_name": "EstimatedCapacityLostTotal",
+    "table_name": "HM_FSNAMESYSTEM_STATE",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1001",
+    "metric_name": "NumDecommissioningDataNodes",
+    "table_name": "HM_FSNAMESYSTEM_STATE",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1001",
+    "metric_name": "PendingReplicationBlocks",
+    "table_name": "HM_FSNAMESYSTEM_STATE",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1001",
+    "metric_name": "PendingDeletionBlocks",
+    "table_name": "HM_FSNAMESYSTEM_STATE",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1001",
+    "metric_name": "SnapshotStats",
+    "table_name": "HM_FSNAMESYSTEM_STATE",
+    "metric_value": "{\"SnapshottableDirectories\":0,\"Snapshots\":0}",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1001",
+    "metric_name": "UnderReplicatedBlocks",
+    "table_name": "HM_FSNAMESYSTEM_STATE",
+    "metric_value": "532",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1001",
+    "metric_name": "CapacityTotal",
+    "table_name": "HM_FSNAMESYSTEM_STATE",
+    "metric_value": "1515565277184",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1001",
+    "metric_name": "FilesTotal",
+    "table_name": "HM_FSNAMESYSTEM_STATE",
+    "metric_value": "2121",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1001",
+    "metric_name": "NumDeadDataNodes",
+    "table_name": "HM_FSNAMESYSTEM_STATE",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1001",
+    "metric_name": "ScheduledReplicationBlocks",
+    "table_name": "HM_FSNAMESYSTEM_STATE",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1001",
+    "metric_name": "CapacityUsed",
+    "table_name": "HM_FSNAMESYSTEM_STATE",
+    "metric_value": "1625849856",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1001",
+    "metric_name": "MaxObjects",
+    "table_name": "HM_FSNAMESYSTEM_STATE",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1001",
+    "metric_name": "NumStaleDataNodes",
+    "table_name": "HM_FSNAMESYSTEM_STATE",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1001",
+    "metric_name": "TotalLoad",
+    "table_name": "HM_FSNAMESYSTEM_STATE",
+    "metric_value": "2",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1001",
+    "metric_name": "CapacityRemaining",
+    "table_name": "HM_FSNAMESYSTEM_STATE",
+    "metric_value": "1192134975488",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1001",
+    "metric_name": "NumLiveDataNodes",
+    "table_name": "HM_FSNAMESYSTEM_STATE",
+    "metric_value": "1",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1001",
+    "metric_name": "BlockDeletionStartTime",
+    "table_name": "HM_FSNAMESYSTEM_STATE",
+    "metric_value": "1541988761906",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1001",
+    "metric_name": "NumDecomDeadDataNodes",
+    "table_name": "HM_FSNAMESYSTEM_STATE",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1001",
+    "metric_name": "NumDecomLiveDataNodes",
+    "table_name": "HM_FSNAMESYSTEM_STATE",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1001",
+    "metric_name": "NumStaleStorages",
+    "table_name": "HM_FSNAMESYSTEM_STATE",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1001",
+    "metric_name": "VolumeFailuresTotal",
+    "table_name": "HM_FSNAMESYSTEM_STATE",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  }
+]

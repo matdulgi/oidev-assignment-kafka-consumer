@@ -1,0 +1,74 @@
+[
+  {
+    "system_seq": "801",
+    "process_seq": "1004",
+    "metric_name": "AMLaunchDelayAvgTime",
+    "table_name": "HM_CLUSTER_METRICS",
+    "metric_value": "0.0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1004",
+    "metric_name": "NumDecommissionedNMs",
+    "table_name": "HM_CLUSTER_METRICS",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1004",
+    "metric_name": "NumActiveNMs",
+    "table_name": "HM_CLUSTER_METRICS",
+    "metric_value": "2",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1004",
+    "metric_name": "NumRebootedNMs",
+    "table_name": "HM_CLUSTER_METRICS",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1004",
+    "metric_name": "AMRegisterDelayNumOps",
+    "table_name": "HM_CLUSTER_METRICS",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1004",
+    "metric_name": "NumUnhealthyNMs",
+    "table_name": "HM_CLUSTER_METRICS",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1004",
+    "metric_name": "AMLaunchDelayNumOps",
+    "table_name": "HM_CLUSTER_METRICS",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1004",
+    "metric_name": "AMRegisterDelayAvgTime",
+    "table_name": "HM_CLUSTER_METRICS",
+    "metric_value": "0.0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1004",
+    "metric_name": "NumLostNMs",
+    "table_name": "HM_CLUSTER_METRICS",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  }
+]

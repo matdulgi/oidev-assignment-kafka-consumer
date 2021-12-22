@@ -1,0 +1,34 @@
+[
+  {
+    "system_seq": "803",
+    "process_seq": "1006",
+    "metric_name": "ShuffleOutputBytes",
+    "table_name": "HM_SHUFFLE_METRICS",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "803",
+    "process_seq": "1006",
+    "metric_name": "ShuffleOutputsFailed",
+    "table_name": "HM_SHUFFLE_METRICS",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "803",
+    "process_seq": "1006",
+    "metric_name": "ShuffleOutputsOK",
+    "table_name": "HM_SHUFFLE_METRICS",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "803",
+    "process_seq": "1006",
+    "metric_name": "ShuffleConnections",
+    "table_name": "HM_SHUFFLE_METRICS",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  }
+]

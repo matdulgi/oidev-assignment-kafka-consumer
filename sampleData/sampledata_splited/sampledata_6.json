@@ -1,0 +1,82 @@
+[
+  {
+    "system_seq": "803",
+    "process_seq": "1004",
+    "metric_name": "LiveNodeManagers_State",
+    "table_name": "SM_NODEMANAGER_LIVE",
+    "metric_value": "RUNNING",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "803",
+    "process_seq": "1004",
+    "metric_name": "LiveNodeManagers_AvailableMemoryMB",
+    "table_name": "SM_NODEMANAGER_LIVE",
+    "metric_value": "7.390363648E9",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "803",
+    "process_seq": "1004",
+    "metric_name": "LiveNodeManagers_NumContainers",
+    "table_name": "SM_NODEMANAGER_LIVE",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "803",
+    "process_seq": "1004",
+    "metric_name": "LiveNodeManagers_LastHealthUpdate",
+    "table_name": "SM_NODEMANAGER_LIVE",
+    "metric_value": "1546570233756",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "803",
+    "process_seq": "1004",
+    "metric_name": "LiveNodeManagers_NodeHTTPAddress",
+    "table_name": "SM_NODEMANAGER_LIVE",
+    "metric_value": "epm-003:8042",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "803",
+    "process_seq": "1004",
+    "metric_name": "LiveNodeManagers_HealthReport",
+    "table_name": "SM_NODEMANAGER_LIVE",
+    "metric_value": "",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "803",
+    "process_seq": "1004",
+    "metric_name": "LiveNodeManagers_NodeManagerVersion",
+    "table_name": "SM_NODEMANAGER_LIVE",
+    "metric_value": "2.7.1",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "803",
+    "process_seq": "1004",
+    "metric_name": "LiveNodeManagers_NodeId",
+    "table_name": "SM_NODEMANAGER_LIVE",
+    "metric_value": "epm-003:45454",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "803",
+    "process_seq": "1004",
+    "metric_name": "LiveNodeManagers_Rack",
+    "table_name": "SM_NODEMANAGER_LIVE",
+    "metric_value": "/default-rack",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "803",
+    "process_seq": "1004",
+    "metric_name": "LiveNodeManagers_UsedMemoryMB",
+    "table_name": "SM_NODEMANAGER_LIVE",
+    "metric_value": "0.0",
+    "timestamp": "1546570170000"
+  }
+]

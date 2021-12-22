@@ -1,0 +1,74 @@
+[
+  {
+    "system_seq": "801",
+    "process_seq": "1004",
+    "metric_name": "SnapshotNumOps",
+    "table_name": "HM_METRICSSYSTEM_STATS",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1004",
+    "metric_name": "PublishNumOps",
+    "table_name": "HM_METRICSSYSTEM_STATS",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1004",
+    "metric_name": "SnapshotAvgTime",
+    "table_name": "HM_METRICSSYSTEM_STATS",
+    "metric_value": "0.0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1004",
+    "metric_name": "DroppedPubAll",
+    "table_name": "HM_METRICSSYSTEM_STATS",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1004",
+    "metric_name": "NumAllSources",
+    "table_name": "HM_METRICSSYSTEM_STATS",
+    "metric_value": "18",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1004",
+    "metric_name": "PublishAvgTime",
+    "table_name": "HM_METRICSSYSTEM_STATS",
+    "metric_value": "0.0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1004",
+    "metric_name": "NumActiveSources",
+    "table_name": "HM_METRICSSYSTEM_STATS",
+    "metric_value": "18",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1004",
+    "metric_name": "NumAllSinks",
+    "table_name": "HM_METRICSSYSTEM_STATS",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1004",
+    "metric_name": "NumActiveSinks",
+    "table_name": "HM_METRICSSYSTEM_STATS",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  }
+]

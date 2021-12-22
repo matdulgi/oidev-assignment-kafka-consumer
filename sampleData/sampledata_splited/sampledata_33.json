@@ -1,0 +1,106 @@
+[
+  {
+    "system_seq": "802",
+    "process_seq": "1001",
+    "metric_name": "PercentBlockPoolUsed",
+    "table_name": "HM_NAMENODE_INFO",
+    "metric_value": "0.1072768",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1001",
+    "metric_name": "CacheCapacity",
+    "table_name": "HM_NAMENODE_INFO",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1001",
+    "metric_name": "CacheUsed",
+    "table_name": "HM_NAMENODE_INFO",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1001",
+    "metric_name": "Free",
+    "table_name": "HM_NAMENODE_INFO",
+    "metric_value": "1192134975488",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1001",
+    "metric_name": "Threads",
+    "table_name": "HM_NAMENODE_INFO",
+    "metric_value": "1235",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1001",
+    "metric_name": "NumberOfMissingBlocks",
+    "table_name": "HM_NAMENODE_INFO",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1001",
+    "metric_name": "NumberOfMissingBlocksWithReplicationFactorOne",
+    "table_name": "HM_NAMENODE_INFO",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1001",
+    "metric_name": "TotalFiles",
+    "table_name": "HM_NAMENODE_INFO",
+    "metric_value": "2121",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1001",
+    "metric_name": "PercentRemaining",
+    "table_name": "HM_NAMENODE_INFO",
+    "metric_value": "78.65943",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1001",
+    "metric_name": "Used",
+    "table_name": "HM_NAMENODE_INFO",
+    "metric_value": "1625849856",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1001",
+    "metric_name": "Total",
+    "table_name": "HM_NAMENODE_INFO",
+    "metric_value": "1515565277184",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1001",
+    "metric_name": "TotalBlocks",
+    "table_name": "HM_NAMENODE_INFO",
+    "metric_value": "532",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "802",
+    "process_seq": "1001",
+    "metric_name": "NonDfsUsedSpace",
+    "table_name": "HM_NAMENODE_INFO",
+    "metric_value": "321804451840",
+    "timestamp": "1546570170000"
+  }
+]

@@ -1,0 +1,154 @@
+[
+  {
+    "system_seq": "801",
+    "process_seq": "1004",
+    "metric_name": "MemHeapCommittedM",
+    "table_name": "HM_JVM_METRICS",
+    "metric_value": "3.83778816E8",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1004",
+    "metric_name": "ThreadsRunnable",
+    "table_name": "HM_JVM_METRICS",
+    "metric_value": "18",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1004",
+    "metric_name": "LogInfo",
+    "table_name": "HM_JVM_METRICS",
+    "metric_value": "191",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1004",
+    "metric_name": "MemMaxM",
+    "table_name": "HM_JVM_METRICS",
+    "metric_value": "9.32184064E8",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1004",
+    "metric_name": "ThreadsTerminated",
+    "table_name": "HM_JVM_METRICS",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1004",
+    "metric_name": "ThreadsNew",
+    "table_name": "HM_JVM_METRICS",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1004",
+    "metric_name": "ThreadsWaiting",
+    "table_name": "HM_JVM_METRICS",
+    "metric_value": "20",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1004",
+    "metric_name": "MemHeapUsedM",
+    "table_name": "HM_JVM_METRICS",
+    "metric_value": "3.10650077184E7",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1004",
+    "metric_name": "ThreadsTimedWaiting",
+    "table_name": "HM_JVM_METRICS",
+    "metric_value": "170",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1004",
+    "metric_name": "MemHeapMaxM",
+    "table_name": "HM_JVM_METRICS",
+    "metric_value": "9.32184064E8",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1004",
+    "metric_name": "LogError",
+    "table_name": "HM_JVM_METRICS",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1004",
+    "metric_name": "LogFatal",
+    "table_name": "HM_JVM_METRICS",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1004",
+    "metric_name": "MemNonHeapCommittedM",
+    "table_name": "HM_JVM_METRICS",
+    "metric_value": "6.750208E7",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1004",
+    "metric_name": "GcTimeMillis",
+    "table_name": "HM_JVM_METRICS",
+    "metric_value": "717",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1004",
+    "metric_name": "MemNonHeapMaxM",
+    "table_name": "HM_JVM_METRICS",
+    "metric_value": "-0.9999999827968",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1004",
+    "metric_name": "MemNonHeapUsedM",
+    "table_name": "HM_JVM_METRICS",
+    "metric_value": "6.5105297408E7",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1004",
+    "metric_name": "GcCount",
+    "table_name": "HM_JVM_METRICS",
+    "metric_value": "147",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1004",
+    "metric_name": "LogWarn",
+    "table_name": "HM_JVM_METRICS",
+    "metric_value": "32",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1004",
+    "metric_name": "ThreadsBlocked",
+    "table_name": "HM_JVM_METRICS",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  }
+]

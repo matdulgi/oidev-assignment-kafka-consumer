@@ -1,8 +1,7 @@
-package service;
+package metatron.kafka;
 
 import org.springframework.stereotype.Service;
 
-import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.InputStream;
@@ -11,19 +10,19 @@ import java.util.Map;
 import java.util.Properties;
 
 @Service
-public class ConsumeService {
-    private Map<String, String> setConfig;
+public class KafkaConfig {
+    private Map<String, String> kafkaConfigMap;
 
-    ConsumeService() {
+    public KafkaConfig() {
 //        if (kafkaConfig == null) {
 //            kafkaConfig = serConfig();
 //        }
     }
 
-    public Map setconfig() {
+    public Map configConsumer() {
         Map configMap = new HashMap();
         Properties properties = new Properties();
-        InputStream inputStream = ClassLoader.getSystemResourceAsStream("consume-config.properties");
+        InputStream inputStream = ClassLoader.getSystemResourceAsStream("kafkaConfigFiles/consumer.properties");
         try
         {
             properties.load(inputStream);

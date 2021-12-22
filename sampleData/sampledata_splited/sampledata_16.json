@@ -1,0 +1,338 @@
+[
+  {
+    "system_seq": "801",
+    "process_seq": "1001",
+    "metric_name": "TransactionsNumOps",
+    "table_name": "HM_NAMENODE_ACTIVITY",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1001",
+    "metric_name": "CreateSnapshotOps",
+    "table_name": "HM_NAMENODE_ACTIVITY",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1001",
+    "metric_name": "TransactionsBatchedInSync",
+    "table_name": "HM_NAMENODE_ACTIVITY",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1001",
+    "metric_name": "ListSnapshottableDirOps",
+    "table_name": "HM_NAMENODE_ACTIVITY",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1001",
+    "metric_name": "BlockReceivedAndDeletedOps",
+    "table_name": "HM_NAMENODE_ACTIVITY",
+    "metric_value": "2",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1001",
+    "metric_name": "SyncsAvgTime",
+    "table_name": "HM_NAMENODE_ACTIVITY",
+    "metric_value": "0.0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1001",
+    "metric_name": "SyncsNumOps",
+    "table_name": "HM_NAMENODE_ACTIVITY",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1001",
+    "metric_name": "CacheReportNumOps",
+    "table_name": "HM_NAMENODE_ACTIVITY",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1001",
+    "metric_name": "DeleteSnapshotOps",
+    "table_name": "HM_NAMENODE_ACTIVITY",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1001",
+    "metric_name": "GetEditNumOps",
+    "table_name": "HM_NAMENODE_ACTIVITY",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1001",
+    "metric_name": "TransactionsAvgTime",
+    "table_name": "HM_NAMENODE_ACTIVITY",
+    "metric_value": "0.0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1001",
+    "metric_name": "AllowSnapshotOps",
+    "table_name": "HM_NAMENODE_ACTIVITY",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1001",
+    "metric_name": "FsImageLoadTime",
+    "table_name": "HM_NAMENODE_ACTIVITY",
+    "metric_value": "4435",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1001",
+    "metric_name": "BlockReportAvgTime",
+    "table_name": "HM_NAMENODE_ACTIVITY",
+    "metric_value": "0.0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1001",
+    "metric_name": "RenameSnapshotOps",
+    "table_name": "HM_NAMENODE_ACTIVITY",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1001",
+    "metric_name": "CreateFileOps",
+    "table_name": "HM_NAMENODE_ACTIVITY",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1001",
+    "metric_name": "FilesRenamed",
+    "table_name": "HM_NAMENODE_ACTIVITY",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1001",
+    "metric_name": "CacheReportAvgTime",
+    "table_name": "HM_NAMENODE_ACTIVITY",
+    "metric_value": "0.0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1001",
+    "metric_name": "FilesAppended",
+    "table_name": "HM_NAMENODE_ACTIVITY",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1001",
+    "metric_name": "FilesCreated",
+    "table_name": "HM_NAMENODE_ACTIVITY",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1001",
+    "metric_name": "PutImageNumOps",
+    "table_name": "HM_NAMENODE_ACTIVITY",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1001",
+    "metric_name": "PutImageAvgTime",
+    "table_name": "HM_NAMENODE_ACTIVITY",
+    "metric_value": "0.0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1001",
+    "metric_name": "FilesInGetListingOps",
+    "table_name": "HM_NAMENODE_ACTIVITY",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1001",
+    "metric_name": "FileInfoOps",
+    "table_name": "HM_NAMENODE_ACTIVITY",
+    "metric_value": "883028",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1001",
+    "metric_name": "GetLinkTargetOps",
+    "table_name": "HM_NAMENODE_ACTIVITY",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1001",
+    "metric_name": "GetImageAvgTime",
+    "table_name": "HM_NAMENODE_ACTIVITY",
+    "metric_value": "0.0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1001",
+    "metric_name": "GetAdditionalDatanodeOps",
+    "table_name": "HM_NAMENODE_ACTIVITY",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1001",
+    "metric_name": "FilesDeleted",
+    "table_name": "HM_NAMENODE_ACTIVITY",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1001",
+    "metric_name": "BlockReportNumOps",
+    "table_name": "HM_NAMENODE_ACTIVITY",
+    "metric_value": "30",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1001",
+    "metric_name": "GetBlockLocations",
+    "table_name": "HM_NAMENODE_ACTIVITY",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1001",
+    "metric_name": "StorageBlockReportOps",
+    "table_name": "HM_NAMENODE_ACTIVITY",
+    "metric_value": "30",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1001",
+    "metric_name": "SafeModeTime",
+    "table_name": "HM_NAMENODE_ACTIVITY",
+    "metric_value": "333777",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1001",
+    "metric_name": "FilesTruncated",
+    "table_name": "HM_NAMENODE_ACTIVITY",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1001",
+    "metric_name": "SnapshotDiffReportOps",
+    "table_name": "HM_NAMENODE_ACTIVITY",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1001",
+    "metric_name": "GetListingOps",
+    "table_name": "HM_NAMENODE_ACTIVITY",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1001",
+    "metric_name": "GetImageNumOps",
+    "table_name": "HM_NAMENODE_ACTIVITY",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1001",
+    "metric_name": "TotalFileOps",
+    "table_name": "HM_NAMENODE_ACTIVITY",
+    "metric_value": "883028",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1001",
+    "metric_name": "CreateSymlinkOps",
+    "table_name": "HM_NAMENODE_ACTIVITY",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1001",
+    "metric_name": "GetEditAvgTime",
+    "table_name": "HM_NAMENODE_ACTIVITY",
+    "metric_value": "0.0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1001",
+    "metric_name": "AddBlockOps",
+    "table_name": "HM_NAMENODE_ACTIVITY",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1001",
+    "metric_name": "DisallowSnapshotOps",
+    "table_name": "HM_NAMENODE_ACTIVITY",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1001",
+    "metric_name": "DeleteFileOps",
+    "table_name": "HM_NAMENODE_ACTIVITY",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  }
+]

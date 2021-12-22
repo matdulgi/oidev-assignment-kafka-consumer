@@ -1,0 +1,26 @@
+[
+  {
+    "system_seq": "801",
+    "process_seq": "1001",
+    "metric_name": "LastHATransitionTime",
+    "table_name": "SM_CLUSTER_STATUS",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1001",
+    "metric_name": "State",
+    "table_name": "SM_CLUSTER_STATUS",
+    "metric_value": "standby",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1001",
+    "metric_name": "NNRole",
+    "table_name": "SM_CLUSTER_STATUS",
+    "metric_value": "NameNode",
+    "timestamp": "1546570170000"
+  }
+]

@@ -1,0 +1,226 @@
+[
+  {
+    "system_seq": "801",
+    "process_seq": "1001",
+    "metric_name": "BlocksTotal",
+    "table_name": "HM_FSNAMESYSTEM_PROGRESS",
+    "metric_value": "532",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1001",
+    "metric_name": "PendingDataNodeMessageCount",
+    "table_name": "HM_FSNAMESYSTEM_PROGRESS",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1001",
+    "metric_name": "UnderReplicatedBlocks",
+    "table_name": "HM_FSNAMESYSTEM_PROGRESS",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1001",
+    "metric_name": "LastWrittenTransactionId",
+    "table_name": "HM_FSNAMESYSTEM_PROGRESS",
+    "metric_value": "572259",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1001",
+    "metric_name": "SnapshottableDirectories",
+    "table_name": "HM_FSNAMESYSTEM_PROGRESS",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1001",
+    "metric_name": "CapacityUsed",
+    "table_name": "HM_FSNAMESYSTEM_PROGRESS",
+    "metric_value": "1625849856",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1001",
+    "metric_name": "StaleDataNodes",
+    "table_name": "HM_FSNAMESYSTEM_PROGRESS",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1001",
+    "metric_name": "CapacityRemaining",
+    "table_name": "HM_FSNAMESYSTEM_PROGRESS",
+    "metric_value": "1192134975488",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1001",
+    "metric_name": "PostponedMisreplicatedBlocks",
+    "table_name": "HM_FSNAMESYSTEM_PROGRESS",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1001",
+    "metric_name": "CapacityUsedNonDFS",
+    "table_name": "HM_FSNAMESYSTEM_PROGRESS",
+    "metric_value": "321804451840",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1001",
+    "metric_name": "TotalFiles",
+    "table_name": "HM_FSNAMESYSTEM_PROGRESS",
+    "metric_value": "2121",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1001",
+    "metric_name": "CorruptBlocks",
+    "table_name": "HM_FSNAMESYSTEM_PROGRESS",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1001",
+    "metric_name": "LastCheckpointTime",
+    "table_name": "HM_FSNAMESYSTEM_PROGRESS",
+    "metric_value": "1546566280365",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1001",
+    "metric_name": "MissingBlocks",
+    "table_name": "HM_FSNAMESYSTEM_PROGRESS",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1001",
+    "metric_name": "TransactionsSinceLastLogRoll",
+    "table_name": "HM_FSNAMESYSTEM_PROGRESS",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1001",
+    "metric_name": "Snapshots",
+    "table_name": "HM_FSNAMESYSTEM_PROGRESS",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1001",
+    "metric_name": "PendingReplicationBlocks",
+    "table_name": "HM_FSNAMESYSTEM_PROGRESS",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1001",
+    "metric_name": "PendingDeletionBlocks",
+    "table_name": "HM_FSNAMESYSTEM_PROGRESS",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1001",
+    "metric_name": "CapacityTotal",
+    "table_name": "HM_FSNAMESYSTEM_PROGRESS",
+    "metric_value": "1515565277184",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1001",
+    "metric_name": "FilesTotal",
+    "table_name": "HM_FSNAMESYSTEM_PROGRESS",
+    "metric_value": "2121",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1001",
+    "metric_name": "MissingReplOneBlocks",
+    "table_name": "HM_FSNAMESYSTEM_PROGRESS",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1001",
+    "metric_name": "ScheduledReplicationBlocks",
+    "table_name": "HM_FSNAMESYSTEM_PROGRESS",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1001",
+    "metric_name": "MillisSinceLastLoadedEdits",
+    "table_name": "HM_FSNAMESYSTEM_PROGRESS",
+    "metric_value": "1060",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1001",
+    "metric_name": "ExcessBlocks",
+    "table_name": "HM_FSNAMESYSTEM_PROGRESS",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1001",
+    "metric_name": "TotalLoad",
+    "table_name": "HM_FSNAMESYSTEM_PROGRESS",
+    "metric_value": "2",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1001",
+    "metric_name": "TransactionsSinceLastCheckpoint",
+    "table_name": "HM_FSNAMESYSTEM_PROGRESS",
+    "metric_value": "-2872",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1001",
+    "metric_name": "BlockCapacity",
+    "table_name": "HM_FSNAMESYSTEM_PROGRESS",
+    "metric_value": "2097152",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1001",
+    "metric_name": "ExpiredHeartbeats",
+    "table_name": "HM_FSNAMESYSTEM_PROGRESS",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  }
+]

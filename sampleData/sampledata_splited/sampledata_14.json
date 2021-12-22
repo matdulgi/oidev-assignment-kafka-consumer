@@ -1,0 +1,106 @@
+[
+  {
+    "system_seq": "803",
+    "process_seq": "1006",
+    "metric_name": "ContainersKilled",
+    "table_name": "HM_NODEMANAGER_METRICS",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "803",
+    "process_seq": "1006",
+    "metric_name": "AllocatedVCores",
+    "table_name": "HM_NODEMANAGER_METRICS",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "803",
+    "process_seq": "1006",
+    "metric_name": "AllocatedContainers",
+    "table_name": "HM_NODEMANAGER_METRICS",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "803",
+    "process_seq": "1006",
+    "metric_name": "AvailableVCores",
+    "table_name": "HM_NODEMANAGER_METRICS",
+    "metric_value": "4",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "803",
+    "process_seq": "1006",
+    "metric_name": "ContainersRunning",
+    "table_name": "HM_NODEMANAGER_METRICS",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "803",
+    "process_seq": "1006",
+    "metric_name": "ContainerLaunchDurationNumOps",
+    "table_name": "HM_NODEMANAGER_METRICS",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "803",
+    "process_seq": "1006",
+    "metric_name": "ContainersCompleted",
+    "table_name": "HM_NODEMANAGER_METRICS",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "803",
+    "process_seq": "1006",
+    "metric_name": "AllocatedGB",
+    "table_name": "HM_NODEMANAGER_METRICS",
+    "metric_value": "0.0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "803",
+    "process_seq": "1006",
+    "metric_name": "ContainersLaunched",
+    "table_name": "HM_NODEMANAGER_METRICS",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "803",
+    "process_seq": "1006",
+    "metric_name": "ContainersIniting",
+    "table_name": "HM_NODEMANAGER_METRICS",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "803",
+    "process_seq": "1006",
+    "metric_name": "AvailableGB",
+    "table_name": "HM_NODEMANAGER_METRICS",
+    "metric_value": "6.442450944E9",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "803",
+    "process_seq": "1006",
+    "metric_name": "ContainerLaunchDurationAvgTime",
+    "table_name": "HM_NODEMANAGER_METRICS",
+    "metric_value": "0.0",
+    "timestamp": "1546570170000"
+  },
+  {
+    "system_seq": "803",
+    "process_seq": "1006",
+    "metric_name": "ContainersFailed",
+    "table_name": "HM_NODEMANAGER_METRICS",
+    "metric_value": "0",
+    "timestamp": "1546570170000"
+  }
+]

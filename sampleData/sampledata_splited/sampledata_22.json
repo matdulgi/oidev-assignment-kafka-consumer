@@ -1,0 +1,34 @@
+[
+  {
+    "system_seq": "801",
+    "process_seq": "1001",
+    "metric_name": "NodeUsage_nodeUsage_max",
+    "table_name": "HM_NODE_USAGE",
+    "metric_value": "0.11%",
+    "timestamp": "1546569600000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1001",
+    "metric_name": "NodeUsage_nodeUsage_median",
+    "table_name": "HM_NODE_USAGE",
+    "metric_value": "0.11%",
+    "timestamp": "1546569600000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1001",
+    "metric_name": "NodeUsage_nodeUsage_min",
+    "table_name": "HM_NODE_USAGE",
+    "metric_value": "0.11%",
+    "timestamp": "1546569600000"
+  },
+  {
+    "system_seq": "801",
+    "process_seq": "1001",
+    "metric_name": "NodeUsage_nodeUsage_stdDev",
+    "table_name": "HM_NODE_USAGE",
+    "metric_value": "0.00%",
+    "timestamp": "1546569600000"
+  }
+]

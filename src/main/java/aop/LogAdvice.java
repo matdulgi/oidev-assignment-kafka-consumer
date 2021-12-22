@@ -20,12 +20,12 @@ public class LogAdvice {
         logger.info("logAdvice 생성");
     }
 
-    @Pointcut("execution(* service.*.*(..))"
+    @Pointcut("execution(* metatron.*.*(..))"
 //    +"||execution(* )"
     )
     public void commonExec(){}
 
-    @Pointcut("execution(* service.*.*(..))")
+    @Pointcut("execution(* metatron.*.*(..))")
     public void service(){}
 
     @Before("commonExec()")
