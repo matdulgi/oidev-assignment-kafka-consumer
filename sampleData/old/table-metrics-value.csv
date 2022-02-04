@@ -623,7 +623,7 @@ RRD,"tcp_unknown",0,3
 "SM_CLUSTER_STATUS",NNRole,ResourceManager,1
 "SM_CLUSTER_STATUS",State,active,2
 "SM_CLUSTER_STATUS",State,standby,1
-"SM_NAMENODE_LIVENODE","LiveNodes_adminState","In Service",1
+"SM_NAMENODE_LIVENODE","LiveNodes_adminState","In service",1
 "SM_NAMENODE_LIVENODE","LiveNodes_blockPoolUsedPercent","0.1072768",1
 "SM_NAMENODE_LIVENODE","LiveNodes_blockScheduled",0,1
 "SM_NAMENODE_LIVENODE","LiveNodes_capacity",1515565277184,1

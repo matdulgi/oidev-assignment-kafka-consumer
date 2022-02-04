@@ -21,8 +21,8 @@
             </Pattern>
         </encoder>
     </appender>
-    <logger name="metatron" additivity="false">
-        <level value="DEBUG"/>
+    <logger name="org.oidev.project1" additivity="false">
+        <level value="INFO"/>
         <appender-ref ref="stdout"/>
         <appender-ref ref="file"/>
     </logger>

@@ -1,7 +1,6 @@
 package aop;
 
-import org.aspectj.lang.JoinPoint;
-import org.aspectj.lang.ProceedingJoinPoint;
+import org.aspectj.lang.JoinPoint; import org.aspectj.lang.ProceedingJoinPoint;
 import org.aspectj.lang.annotation.*;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -20,30 +19,25 @@ public class LogAdvice {
         logger.info("logAdvice 생성");
     }
 
-    @Pointcut("execution(* metatron.*.*(..))"
-//    +"||execution(* )"
-    )
-    public void commonExec(){}
+    //
+    @Pointcut("execution(* org.oidev.project1..*(..))")
+    public void forAll(){}
+    //"|| * org.oidev.project1.*(..)")
 
-    @Pointcut("execution(* metatron.*.*(..))")
-    public void service(){}
 
-    @Before("commonExec()")
+    @Before("forAll()")
     public void beforeLogAdvice(JoinPoint jp){
         logger.info(jp.getSignature().getName() + "메쏘드사용한돠아");
         logger.info(jp.getArgs() + " 알규멘또다아~");
     }
-    @AfterReturning(value = "commonExec()", returning = "returnValue")
+    @AfterReturning(value = "forAll()", returning = "returnValue")
     public void afterLogAdvice(JoinPoint jp, Object returnValue){
         logger.info(jp.getSignature().getName() + " 메소드 끝낫똬아");
         logger.info("리턴값 : " + returnValue);
-
-
     }
 
 
-
-    @Around("service()")
+    @Around("")
     public void AroundLogAdvice(ProceedingJoinPoint jp){
         logger.info(jp.getArgs().toString());
         logger.info(jp.getKind().toString());

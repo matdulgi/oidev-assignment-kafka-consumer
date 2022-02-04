@@ -88,7 +88,7 @@
             <artifactId>logback-classic</artifactId>
             <version>1.2.7</version>
         </dependency>
-<!--        logback은 slf4j에 의존성이 있기 때문에 저절로 추가된다-->
+<!--        logback automatically added because it has dependency on slf4j -->
 <!--        <dependency>-->
 <!--            <groupId>org.slf4j</groupId>-->
 <!--            <artifactId>slf4j-api</artifactId>-->
