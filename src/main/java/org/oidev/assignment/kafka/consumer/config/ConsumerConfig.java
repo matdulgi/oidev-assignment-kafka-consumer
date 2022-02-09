@@ -1,19 +1,18 @@
-package config;
+package org.oidev.assignment.kafka.consumer.config;
 
-import common.CommonFunctions;
-import org.apache.kafka.clients.consumer.ConsumerConfig;
 import org.apache.kafka.clients.consumer.KafkaConsumer;
+import org.oidev.assignment.kafka.consumer.service.ConsumerService;
 import org.springframework.context.annotation.Bean;
-        import org.springframework.context.annotation.Configuration;
-import service.ConsumerService;
+import org.springframework.context.annotation.Configuration;
+
 
 
 @Configuration
-public class ConsumerInit {
+public class ConsumerConfig {
     private String consumerPropPath = "config/consumer.properties";
     private KafkaConsumer kafkaConsumer;
 
-    public ConsumerInit() {
+    public ConsumerConfig() {
         System.out.println("call kafkaConfig default constructor");
         setConsumerProp();
     }
@@ -22,7 +21,7 @@ public class ConsumerInit {
     //tryMethod determined by global variable
     //alternative methods are
     private void setConsumerProp() {
-        kafkaConsumer = new KafkaConsumer(CommonFunctions.loadProperties(consumerPropPath));
+        // kafkaConsumer = new KafkaConsumer(CommonFunctions.loadProperties(consumerPropPath));
     }
 
     @Bean

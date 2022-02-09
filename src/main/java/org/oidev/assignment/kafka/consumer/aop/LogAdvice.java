@@ -1,4 +1,4 @@
-package aop;
+package org.oidev.assignment.kafka.aop;
 
 import org.aspectj.lang.JoinPoint; import org.aspectj.lang.ProceedingJoinPoint;
 import org.aspectj.lang.annotation.*;

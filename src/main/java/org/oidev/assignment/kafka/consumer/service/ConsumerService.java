@@ -1,4 +1,4 @@
-package service;
+package org.oidev.assignment.kafka.consumer.service;
 
 import org.apache.kafka.clients.consumer.ConsumerConfig;
 import org.apache.kafka.clients.consumer.ConsumerRecords;
