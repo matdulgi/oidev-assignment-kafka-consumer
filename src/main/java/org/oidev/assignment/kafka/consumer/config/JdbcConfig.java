@@ -7,9 +7,12 @@ import java.util.Properties;
 
 import javax.sql.DataSource;
 
+import com.dulgi.helper.common.CommonEntity;
 import org.apache.commons.dbcp.BasicDataSource;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.core.io.ClassPathResource;
@@ -41,6 +44,11 @@ public class JdbcConfig {
        }
     }
 
+    @Bean
+    public Properties jdbcProps(){
+       return jdbcProps;
+    }
+
    
     // to do : DataSource Polymorphism by genefic & reflection
     // condition 1. DataSource can be changed
@@ -59,8 +67,9 @@ public class JdbcConfig {
     // }
     
     @Bean
-    public BasicDataSource basicDataSource(Properties properties){
+    public BasicDataSource basicDataSource(@Qualifier("jdbcProps") Properties properties){
         BasicDataSource basicDataSource = new BasicDataSource();
+        CommonEntity commonEntity = new CommonEntity("basicDataSource");
         // basicDataSource.setUrl(url);
         // basicDataSource.setUsername(username);
         // basicDataSource.setPassword(password);

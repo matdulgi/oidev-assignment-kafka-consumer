@@ -6,7 +6,9 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="helper-common-java" />
         <module name="helper-common" />
+        <module name="kafkaConsumer" />
         <module name="kafka-consumer" />
       </profile>
     </annotationProcessing>
@@ -18,6 +20,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="demo" options="-parameters" />
       <module name="helper-common" options="-parameters" />
+      <module name="helper-common-java" options="-parameters" />
     </option>
   </component>
 </project>

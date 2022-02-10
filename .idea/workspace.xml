@@ -5,67 +5,51 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2b53a501-fdfd-41e0-a215-bc15bc4cf6d3" name="Changes" comment="changed structure">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.vscode/extensions.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/erd/erd.mwb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/erd/erd.mwb.bak" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/erd/erd_2.mwb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/erd/erd_2.mwb.bak" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/erd/oidevPj1Flowchart.drawio" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kafka-consumer.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/oidev/assignment/kafka/consumer/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/oidev/assignment/kafka/consumer/aop/LogAdvice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/oidev/assignment/kafka/consumer/config/ConsumerConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/oidev/assignment/kafka/consumer/config/JdbcConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/oidev/assignment/kafka/consumer/dto/CommonMetric.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/oidev/assignment/kafka/consumer/service/ConsumerService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/oidev/assignment/kafka/consumer/util/CommonFunc.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/logback.xml.bak" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ApplicationConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TestTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../helper-common/src/main/java/com/dulgi/helper/common/CommonEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../helper-common/src/main/java/com/dulgi/helper/common/CommonEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../helper-common/src/main/java/com/dulgi/helper/common/DTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../helper-common/src/main/java/com/dulgi/helper/entity/DTO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vscode/launch.json" beforeDir="false" afterPath="$PROJECT_DIR$/.vscode/launch.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/erd.mwb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/erd.mwb.bak" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/erd_2.mwb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/erd_2.mwb.bak" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oidevPj1Flowchart.drawio" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oidevProject1.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/aop/LogAdvice.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/common/CommonFunctions.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/config/ConsumerInit.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/config/JdbcConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/oidev/project1/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/service/ConsumerService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/config/jdbc.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/config/jdbc.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/aop-config.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/aop/LogAdvice.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/applicationContext.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/common/CommonFunctions.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/config/ConsumerInit.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/config/JdbcConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/config/consumer.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/config/jdbc.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/logback.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/oidev/project1/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/service/ConsumerService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dependencies.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/oidev/assignment/kafka/consumer/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/oidev/assignment/kafka/consumer/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/oidev/assignment/kafka/consumer/config/JdbcConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/oidev/assignment/kafka/consumer/config/JdbcConfig.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../helper-common" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="JpbToolWindowState">
+    <option name="myId2FirstActivated">
+      <map>
+        <entry key="com.haulmont.jpb.jpaStructure" value="true" />
+      </map>
+    </option>
+    <option name="myId2Visible">
+      <map>
+        <entry key="com.haulmont.jpb.jpaStructure" value="true" />
+      </map>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -89,17 +73,19 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../helper-common/pom.xml" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.DemoApplication">
+  <component name="RunManager" selected="Spring Boot.CommonReflectionApplication">
     <configuration name="CommonReflectionApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="helper-common" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.dulgi.helper.common.CommonReflectionApplication" />
@@ -124,7 +110,8 @@
       <option name="presentableId" value="Default" />
       <updated>1644393070532</updated>
       <workItem from="1644393071814" duration="503000" />
-      <workItem from="1644393580326" duration="1851000" />
+      <workItem from="1644393580326" duration="3634000" />
+      <workItem from="1644452348539" duration="1285000" />
     </task>
     <servers />
   </component>
@@ -143,6 +130,9 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/helper-common" />
+    </ignored-roots>
     <MESSAGE value="changed structure" />
     <option name="LAST_COMMIT_MESSAGE" value="changed structure" />
   </component>
