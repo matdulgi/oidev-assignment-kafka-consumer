@@ -8,6 +8,7 @@ import java.util.Properties;
 import javax.sql.DataSource;
 
 import com.dulgi.helper.common.CommonEntity;
+import com.dulgi.helper.entity.DataSourceEntity;
 import org.apache.commons.dbcp.BasicDataSource;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -21,10 +22,10 @@ import org.springframework.core.io.ClassPathResource;
 public class JdbcConfig {
     Logger logger = LoggerFactory.getLogger(JdbcConfig.class);
 
-    private Properties jdbcProps=null;
+    private Properties jdbcProps;
     private File propFile;
     private DataSource dataSource;
-    private String propFilePath = "config/jdbc.propeties";
+    private String propFilePath = "config/jdbc.properties";
     private Class<BasicDataSource> dataSourceClass = BasicDataSource.class;
 
     public JdbcConfig(){
@@ -36,7 +37,8 @@ public class JdbcConfig {
     }
 
     public void initJdbcProps() throws IOException{
-        System.out.println("no jdbc properties file argument.\n use default path : " + propFilePath);
+        System.out.println("jdbc properties file path : " + propFilePath);
+        jdbcProps = new Properties();
         propFile = new ClassPathResource(propFilePath).getFile();
         try (FileInputStream fis = new FileInputStream(propFile)){
             fis.read();
@@ -68,14 +70,17 @@ public class JdbcConfig {
     
     @Bean
     public BasicDataSource basicDataSource(@Qualifier("jdbcProps") Properties properties){
-        BasicDataSource basicDataSource = new BasicDataSource();
-        CommonEntity commonEntity = new CommonEntity("basicDataSource");
+//        CommonEntity datsSourceEntity = new DataSourceEntity(BasicDataSource.class);
+        CommonEntity<BasicDataSource> commonEntity = new CommonEntity<>(BasicDataSource.class);
+        commonEntity.setEntityWithProp(properties);
+
         // basicDataSource.setUrl(url);
         // basicDataSource.setUsername(username);
         // basicDataSource.setPassword(password);
         // basicDataSource.setDriverClassName(driverClassName);
-        // Method[] methods = basicDataSource.getClass().getMethod(name, parameterTypes) 
-        return null;
+        BasicDataSource dataSource = commonEntity.getEntity();
+        commonEntity.entityInfo();
+        return dataSource;
 
     }
 
