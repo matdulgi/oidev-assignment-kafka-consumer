@@ -11,12 +11,16 @@ import java.util.Arrays;
 
 public class Main {
     public static void main(String[] args) throws URISyntaxException, FileNotFoundException {
-        ApplicationContext applicationContext = new AnnotationConfigApplicationContext("org.oidev.project1.config");
+        //tmp - basic properties
+        String configClassPath = "org.oidev.assignment.kafka.consumer.config";
+
+        ApplicationContext applicationContext = new AnnotationConfigApplicationContext(configClassPath);
+
         System.out.println(" --- print all bean's definition names ---");
         Arrays.stream(applicationContext.getBeanDefinitionNames()).forEach(b -> System.out.println(b));
 
         ConsumerService consumerService = applicationContext.getBean(ConsumerService.class);
-        consumerService.run();
+//        consumerService.run();
 
     }
 }
