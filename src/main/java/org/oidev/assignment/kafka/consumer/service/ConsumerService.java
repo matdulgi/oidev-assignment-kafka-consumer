@@ -1,38 +1,46 @@
 package org.oidev.assignment.kafka.consumer.service;
 
-import org.apache.kafka.clients.consumer.ConsumerConfig;
+import org.apache.kafka.clients.consumer.ConsumerRecord;
 import org.apache.kafka.clients.consumer.ConsumerRecords;
 import org.apache.kafka.clients.consumer.KafkaConsumer;
-import org.apache.kafka.common.config.ConfigValue;
+import org.oidev.assignment.kafka.consumer.processor.CommonProcessor;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 
-import java.util.Set;
+import java.util.*;
 
 public class ConsumerService {
 
     @Autowired
     KafkaConsumer kafkaConsumer;
+    @Autowired
+    CommonProcessor commonProcessor;
+    Logger logger = LoggerFactory.getLogger(this.getClass());
+
     boolean keepRun = true;
-    Set<String> Topics;
+
+    Queue<ConsumerRecord> queue = new LinkedList<>();
 
     public ConsumerService(){
     }
 
     public void run(){
+        int i = 0;//
         while(keepRun) {
-            System.out.println("nanikaga hajimaru");
-            ConfigValue configValue = new ConfigValue("");
+            System.out.println("start to consume : " + i++ );
 
-            ConsumerRecords consumerRecords = kafkaConsumer.poll(Long.MAX_VALUE);
+//            ConsumerRecords consumerRecords = kafkaConsumer.poll(Long.MAX_VALUE);
+            ConsumerRecords<String, String> consumerRecords = kafkaConsumer.poll(10000);
 
-            consumerRecords.records("METATRON_DATA").forEach(r -> System.out.println(r));
-//            consumerRecords.records("M");
+            for (ConsumerRecord<String, String> consumerRecord : consumerRecords){
+                logger.info("count : " + consumerRecords.count());
+                commonProcessor.process(consumerRecord);
 
+            }
         }
     }
 
     public void stop(){
-        keepRun=false;
     }
-
 }
