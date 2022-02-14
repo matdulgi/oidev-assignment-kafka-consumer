@@ -1,6 +1,6 @@
 package org.oidev.assignment.kafka.consumer.config;
 
-import com.dulgi.helper.common.Core;
+import com.dulgi.helper.annotation.NeedToChange;
 import org.apache.kafka.clients.consumer.KafkaConsumer;
 import org.oidev.assignment.kafka.consumer.processor.CommonProcessor;
 import org.oidev.assignment.kafka.consumer.service.ConsumerService;
@@ -14,9 +14,10 @@ import static com.dulgi.helper.common.Core.loadProps;
 
 @Configuration
 public class ConsumerConfiguration {
+    @NeedToChange("make parse properties logic, integrate all properties file")
     private String consumerPropPath = "config/consumer.properties";
 //    private KafkaConsumer kafkaConsumer;
-    Set<String> topics = new HashSet<>();
+    Set<String> topics;
 
 
     public ConsumerConfiguration() {
@@ -25,6 +26,7 @@ public class ConsumerConfiguration {
     }
 
 
+    @NeedToChange("move the list of topic to other location")
     private void setTopics(){
         if(topics == null)
             topics = new HashSet<>();
