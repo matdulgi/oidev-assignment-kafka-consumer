@@ -7,20 +7,20 @@ import java.util.Properties;
 
 import javax.sql.DataSource;
 
-import com.dulgi.helper.common.CommonEntity;
+import com.dulgi.helper.entity.ConfigurationEntity;
 import org.apache.commons.dbcp.BasicDataSource;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.core.io.ClassPathResource;
+import org.springframework.jdbc.core.JdbcTemplate;
 
 @Configuration
 public class JdbcConfiguration {
     Logger logger = LoggerFactory.getLogger(JdbcConfiguration.class);
 
-    private Properties jdbcProps=null;
+    private Properties jdbcProps;
     private File propFile;
     private DataSource dataSource;
     private String propFilePath = "config/jdbc.properties";
@@ -35,7 +35,7 @@ public class JdbcConfiguration {
     }
 
     public void initJdbcProps() throws IOException{
-        System.out.println("jdbc properties file path : " + propFilePath);
+        logger.info("jdbc properties file path : " + propFilePath);
         jdbcProps = new Properties();
         propFile = new ClassPathResource(propFilePath).getFile();
         try (FileInputStream fis = new FileInputStream(propFile)){
@@ -48,8 +48,6 @@ public class JdbcConfiguration {
     public Properties jdbcProps(){
        return jdbcProps;
     }
-
-   
     // to do : DataSource Polymorphism by genefic & reflection
     // condition 1. DataSource can be changed
     // condition 2. set Method reflection
@@ -62,15 +60,14 @@ public class JdbcConfiguration {
     //     TypeVariable type = currentMethod.getGenericReturnType();
     //     T dataSource = 
 
-
-    //     return new 
+    //     return new
     // }
     
     @Bean
-    public BasicDataSource basicDataSource(@Qualifier("jdbcProps") Properties properties){
+    public BasicDataSource basicDataSource(){
 //        CommonEntity datsSourceEntity = new DataSourceEntity(BasicDataSource.class);
-        CommonEntity<BasicDataSource> commonEntity = new CommonEntity<>(BasicDataSource.class);
-        commonEntity.setEntityWithProp(properties);
+        ConfigurationEntity<BasicDataSource> commonEntity = new ConfigurationEntity<>(BasicDataSource.class);
+        commonEntity.setEntityWithProp(jdbcProps);
 
         // basicDataSource.setUrl(url);
         // basicDataSource.setUsername(username);
@@ -79,7 +76,14 @@ public class JdbcConfiguration {
         BasicDataSource dataSource = commonEntity.getEntity();
         commonEntity.entityInfo();
         return dataSource;
+    }
 
+
+    @Bean
+    public JdbcTemplate jdbcTemplate(){
+        JdbcTemplate jdbcTemplate = new JdbcTemplate();
+        jdbcTemplate.setDataSource(basicDataSource());
+        return jdbcTemplate;
     }
 
 }
