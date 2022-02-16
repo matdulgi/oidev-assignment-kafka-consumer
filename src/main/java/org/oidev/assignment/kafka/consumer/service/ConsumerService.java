@@ -7,14 +7,15 @@ import org.oidev.assignment.kafka.consumer.processor.CommonProcessor;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
+import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Service;
 
 import java.util.*;
 
+@Service
 public class ConsumerService {
-
-    @Autowired
     KafkaConsumer kafkaConsumer;
-    @Autowired
     CommonProcessor commonProcessor;
     Logger logger = LoggerFactory.getLogger(this.getClass());
 
@@ -22,7 +23,12 @@ public class ConsumerService {
 
     Queue<ConsumerRecord> queue = new LinkedList<>();
 
-    public ConsumerService(){
+    public ConsumerService(){ }
+
+    @Autowired
+    public ConsumerService(KafkaConsumer kafkaConsumer, CommonProcessor commonProcessor){
+        this.kafkaConsumer = kafkaConsumer;
+        this.commonProcessor = commonProcessor;
     }
 
     public void run(){

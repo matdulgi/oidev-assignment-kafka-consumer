@@ -4,6 +4,7 @@ import com.dulgi.helper.annotation.NeedToChange;
 import org.apache.kafka.clients.consumer.KafkaConsumer;
 import org.oidev.assignment.kafka.consumer.processor.CommonProcessor;
 import org.oidev.assignment.kafka.consumer.service.ConsumerService;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
@@ -18,7 +19,6 @@ public class ConsumerConfiguration {
     private String consumerPropPath = "config/consumer.properties";
 //    private KafkaConsumer kafkaConsumer;
     Set<String> topics;
-
 
     public ConsumerConfiguration() {
         setTopics();
@@ -39,11 +39,6 @@ public class ConsumerConfiguration {
 
         kafkaConsumer.subscribe(topics);
         return kafkaConsumer;
-    }
-
-    @Bean
-    public ConsumerService consumerService(){
-        return new ConsumerService();
     }
 
     @Bean
