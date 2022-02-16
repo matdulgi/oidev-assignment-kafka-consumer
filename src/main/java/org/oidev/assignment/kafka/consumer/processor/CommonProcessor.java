@@ -1,7 +1,7 @@
 package org.oidev.assignment.kafka.consumer.processor;
 
 import com.dulgi.helper.annotation.NeedToChange;
-import com.dulgi.helper.common.CommonEntity;
+import com.dulgi.helper.entity.ConfigurationEntity;
 import org.apache.kafka.clients.consumer.ConsumerRecord;
 import org.json.JSONArray;
 import org.oidev.assignment.kafka.consumer.dto.Metric;
@@ -26,7 +26,7 @@ public class CommonProcessor implements Processor, ApplicationContextAware {
 //            System.out.println(obj.getClass().getSuperclass());
             Map<String, String> msg = (Map<String,String>)e;
 
-            CommonEntity metric = new CommonEntity(Metric.class);
+            ConfigurationEntity metric = new ConfigurationEntity(Metric.class);
         }
     }
 
