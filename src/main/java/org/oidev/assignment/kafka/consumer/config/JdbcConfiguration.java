@@ -12,12 +12,14 @@ import org.apache.commons.dbcp.BasicDataSource;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.core.io.ClassPathResource;
 import org.springframework.jdbc.core.JdbcTemplate;
 
 @Configuration
-public class JdbcConfiguration {
+@ComponentScan (basePackages = "org.oidev.assignment.kafka.consumer.dao")
+public class JdbcConfiguration{
     Logger logger = LoggerFactory.getLogger(JdbcConfiguration.class);
 
     private Properties jdbcProps;
@@ -66,15 +68,10 @@ public class JdbcConfiguration {
     @Bean
     public BasicDataSource basicDataSource(){
 //        CommonEntity datsSourceEntity = new DataSourceEntity(BasicDataSource.class);
-        ConfigurationEntity<BasicDataSource> commonEntity = new ConfigurationEntity<>(BasicDataSource.class);
-        commonEntity.setEntityWithProp(jdbcProps);
-
-        // basicDataSource.setUrl(url);
-        // basicDataSource.setUsername(username);
-        // basicDataSource.setPassword(password);
-        // basicDataSource.setDriverClassName(driverClassName);
-        BasicDataSource dataSource = commonEntity.getEntity();
-        commonEntity.entityInfo();
+        ConfigurationEntity<BasicDataSource> entity = new ConfigurationEntity<>(BasicDataSource.class, jdbcProps);
+        entity.initEntity(jdbcProps);
+        BasicDataSource dataSource = (BasicDataSource) entity.getEntity();
+        entity.entityInfo();
         return dataSource;
     }
 

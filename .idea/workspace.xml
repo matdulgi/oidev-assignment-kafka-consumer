@@ -4,25 +4,51 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2b53a501-fdfd-41e0-a215-bc15bc4cf6d3" name="Changes" comment="CommonEntity proto">
-      <change afterPath="$PROJECT_DIR$/../../helper-common/src/main/java/com/dulgi/helper/legacy/Legacy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../helper-common/src/main/java/com/dulgi/helper/legacy/MyLogger_tmp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../helper-common/src/main/java/com/dulgi/helper/legacy/Sql.java" afterDir="false" />
+    <list default="true" id="2b53a501-fdfd-41e0-a215-bc15bc4cf6d3" name="Changes" comment="JdbcConfiguration - changed EntityLib type, not decided if it use spring-jdbc or JPA">
+      <change afterPath="$PROJECT_DIR$/../../helper-common/src/main/java/com/dulgi/helper/annotation/Moved.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../helper-common/src/main/java/com/dulgi/helper/annotation/NeedToAdd.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../helper-common/src/main/java/com/dulgi/helper/common/PropertiesParser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../helper-common/src/main/java/com/dulgi/helper/sql/CommonSQL.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../helper-common/src/main/java/com/dulgi/helper/sql/CreateSQL.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../helper-common/src/main/java/com/dulgi/helper/sql/DDLException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../helper-common/src/main/java/com/dulgi/helper/sql/legacy/BoardSql.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../helper-common/src/main/java/com/dulgi/helper/sql/legacy/MemberSql.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../helper-common/src/test/java/com/dulgi/helper/sql/CommonSQL.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../helper-common/src/test/java/com/dulgi/helper/sql/CreateSQL.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/oidev/assignment/kafka/consumer/config/HibernateConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/oidev/assignment/kafka/consumer/dto/Metric_jpa_tmp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/config/hibernate.cfg.xml.tmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/config/hibernate.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../helper-common/HELP.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../helper-common/HELP.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../helper-common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../helper-common/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../helper-common/src/main/java/com/dulgi/helper/common/Legacy.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../helper-common/src/main/java/com/dulgi/helper/common/MyLogger_tmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../helper-common/src/main/java/com/dulgi/helper/common/Parser.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../helper-common/src/main/java/com/dulgi/helper/common/PropertiesMD.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../helper-common/src/main/java/com/dulgi/helper/common/PropertiesEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../helper-common/src/main/java/com/dulgi/helper/common/Sql.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../helper-common/src/main/java/com/dulgi/helper/annotation/NeedToChange.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../helper-common/src/main/java/com/dulgi/helper/annotation/NeedToChange.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../helper-common/src/main/java/com/dulgi/helper/common/CommonReflectionApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../helper-common/src/main/java/com/dulgi/helper/common/Core.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../helper-common/src/main/java/com/dulgi/helper/common/Core.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../helper-common/src/main/java/com/dulgi/helper/common/GenericHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../helper-common/src/main/java/com/dulgi/helper/common/GenericHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../helper-common/src/main/java/com/dulgi/helper/common/JDBCFunction.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../helper-common/src/main/java/com/dulgi/helper/common/JDBCFunction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../helper-common/src/main/java/com/dulgi/helper/common/Regex.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../helper-common/src/main/java/com/dulgi/helper/regex/Regex.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../helper-common/src/main/java/com/dulgi/helper/common/StringConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../helper-common/src/main/java/com/dulgi/helper/common/StringConverter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../helper-common/src/main/java/com/dulgi/helper/entity/DataSourceEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../helper-common/src/main/java/com/dulgi/helper/entity/DataSourceEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../helper-common/src/test/java/com/dulgi/CommonReferctionApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../helper-common/src/test/java/com/dulgi/helper/common/CommonReferctionApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../helper-common/src/main/java/com/dulgi/helper/entity/CommonEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../helper-common/src/main/java/com/dulgi/helper/entity/CommonEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../helper-common/src/main/java/com/dulgi/helper/entity/ConfigurationEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../helper-common/src/main/java/com/dulgi/helper/entity/ConfigurationEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../helper-common/src/main/java/com/dulgi/helper/entity/DTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../helper-common/src/main/java/com/dulgi/helper/entity/DTOEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../helper-common/src/main/java/com/dulgi/helper/legacy/Legacy.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../helper-common/src/main/java/com/dulgi/helper/legacy/Legacy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../helper-common/src/main/java/com/dulgi/helper/legacy/Sql.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../helper-common/src/main/java/com/dulgi/helper/legacy/Sql.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../helper-common/src/main/java/com/dulgi/helper/sql/CommonSqlGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../helper-common/src/main/java/com/dulgi/helper/sql/CommonSqlGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../helper-common/src/test/java/com/dulgi/helper/common/CommonReferctionApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../helper-common/src/test/java/com/dulgi/helper/common/CommonReferctionApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/catalina.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/catalina.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/oidev/assignment/kafka/consumer/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/oidev/assignment/kafka/consumer/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/aop-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/config_tmp/aop-config.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/config_tmp/applicationContext.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TestTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/oidev/assignment/kafka/consumer/TestTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/oidev/assignment/kafka/consumer/config/ConsumerConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/oidev/assignment/kafka/consumer/config/ConsumerConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/oidev/assignment/kafka/consumer/config/JdbcConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/oidev/assignment/kafka/consumer/config/JdbcConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/oidev/assignment/kafka/consumer/dto/CommonMetric.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/oidev/assignment/kafka/consumer/dto/Metric.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/oidev/assignment/kafka/consumer/processor/CommonProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/oidev/assignment/kafka/consumer/processor/MetatronProcessor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/oidev/assignment/kafka/consumer/service/ConsumerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/oidev/assignment/kafka/consumer/service/ConsumerService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/config/consumer.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/config/consumer.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/config/jdbc.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/config/jdbc.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,6 +58,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -50,27 +78,26 @@
   <component name="JpbToolWindowState">
     <option name="myId2FirstActivated">
       <map>
+        <entry key="com.haulmont.jpb.jpaInspector" value="true" />
+        <entry key="com.haulmont.jpb.jpaPalette" value="true" />
         <entry key="com.haulmont.jpb.jpaStructure" value="true" />
       </map>
     </option>
     <option name="myId2Visible">
       <map>
-        <entry key="com.haulmont.jpb.jpaStructure" value="true" />
+        <entry key="com.haulmont.jpb.jpaInspector" value="true" />
+        <entry key="com.haulmont.jpb.jpaPalette" value="true" />
+        <entry key="com.haulmont.jpb.jpaStructure" value="false" />
       </map>
     </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="MavenImportPreferences">
-    <option name="generalSettings">
-      <MavenGeneralSettings>
-        <option name="useMavenConfig" value="true" />
-      </MavenGeneralSettings>
-    </option>
-  </component>
   <component name="ProjectId" id="24reKcMJYGdWqyjO25zdyd4pyQa" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -81,7 +108,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../helper-common/pom.xml" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -89,7 +116,11 @@
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/../../helper-common/src/main/java/com/dulgi/helper/sql" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/../../helper-common/src/main/java/com/dulgi/helper/sql/legacy" />
       <recent name="$PROJECT_DIR$/../../helper-common/src/main/java/com/dulgi/helper/legacy" />
       <recent name="$PROJECT_DIR$/src/main/resources/config_tmp" />
       <recent name="$PROJECT_DIR$" />
@@ -98,9 +129,22 @@
       <recent name="org.oidev.assignment.kafka.consumer" />
       <recent name="com.dulgi.helper.common" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.oidev.assignment.kafka.consumer.dto" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="d" />
+      <command value="k" />
+      <command value="nt" />
+      <command value="e" />
+    </option>
   </component>
   <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="MAIN_CLASS_NAME" value="org.oidev.assignment.kafka.consumer.Main" />
       <module name="kafka-consumer" />
       <extension name="coverage">
@@ -109,6 +153,45 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CommonSQL.enumTypeToSetTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="helper-common" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.dulgi.helper.sql.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.dulgi.helper.sql" />
+      <option name="MAIN_CLASS_NAME" value="com.dulgi.helper.sql.CommonSQL" />
+      <option name="METHOD_NAME" value="enumTypeToSetTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CommonSQL.setMysqlType" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="helper-common" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.dulgi.helper.sql.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.dulgi.helper.sql" />
+      <option name="MAIN_CLASS_NAME" value="com.dulgi.helper.sql.CommonSQL" />
+      <option name="METHOD_NAME" value="setMysqlType" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CommonReflectionApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="helper-common-java" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.dulgi.helper.common.CommonReflectionApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -130,6 +213,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.CommonSQL.enumTypeToSetTest" />
+        <item itemvalue="JUnit.CommonSQL.setMysqlType" />
       </list>
     </recent_temporary>
   </component>
@@ -144,7 +229,19 @@
       <workItem from="1644393071814" duration="503000" />
       <workItem from="1644393580326" duration="3634000" />
       <workItem from="1644452348539" duration="7307000" />
-      <workItem from="1644459798270" duration="10895000" />
+      <workItem from="1644459798270" duration="20523000" />
+      <workItem from="1644490047433" duration="6068000" />
+      <workItem from="1644655495741" duration="10564000" />
+      <workItem from="1644916121577" duration="994000" />
+      <workItem from="1644935350493" duration="25000" />
+      <workItem from="1644970812987" duration="14029000" />
+      <workItem from="1645057713165" duration="12511000" />
+      <workItem from="1645086883783" duration="8409000" />
+      <workItem from="1645179550768" duration="589000" />
+      <workItem from="1645409513261" duration="6401000" />
+      <workItem from="1645489881974" duration="4407000" />
+      <workItem from="1645529409832" duration="18117000" />
+      <workItem from="1645662002314" duration="18675000" />
     </task>
     <task id="LOCAL-00001" summary="modified methods those get properties of entity">
       <created>1644453844571</created>
@@ -202,7 +299,91 @@
       <option name="project" value="LOCAL" />
       <updated>1644478519874</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="lot">
+      <created>1644479289008</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1644479289008</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Core.loadProps">
+      <created>1644486661871</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1644486661871</updated>
+    </task>
+    <task id="LOCAL-00011" summary="NeedToChange proto">
+      <created>1644816403971</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1644816403971</updated>
+    </task>
+    <task id="LOCAL-00012" summary="some comments to NeedToChange annotation">
+      <created>1644816611761</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1644816611761</updated>
+    </task>
+    <task id="LOCAL-00013" summary="separate CommonEntity and ConfigurationEntity">
+      <created>1644971863240</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1644971863240</updated>
+    </task>
+    <task id="LOCAL-00014" summary="change Bean creation Annotation @Bean to @Service, Field Injection to Constructor Injection">
+      <created>1644972045995</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1644972045995</updated>
+    </task>
+    <task id="LOCAL-00015" summary="changed Entity structure">
+      <created>1644972222577</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1644972222577</updated>
+    </task>
+    <task id="LOCAL-00016" summary="CommonSqlGenerator tmp">
+      <created>1644972291192</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1644972291192</updated>
+    </task>
+    <task id="LOCAL-00017" summary="change consumer group.id">
+      <created>1644972360165</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1644972360165</updated>
+    </task>
+    <task id="LOCAL-00018" summary="CommonEntity Type changed">
+      <created>1644972463904</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1644972463904</updated>
+    </task>
+    <task id="LOCAL-00019" summary="tmp GenericHelper (how to get Parameterized Type)">
+      <created>1644972508245</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1644972508245</updated>
+    </task>
+    <task id="LOCAL-00020" summary="JdbcConfiguration - changed EntityLib type, not decided if it use spring-jdbc or JPA">
+      <created>1644972619917</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1644972619917</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -231,22 +412,44 @@
     <MESSAGE value="regex proto" />
     <MESSAGE value="jdbcconfig proto" />
     <MESSAGE value="CommonEntity proto" />
-    <option name="LAST_COMMIT_MESSAGE" value="CommonEntity proto" />
+    <MESSAGE value="lot" />
+    <MESSAGE value="Core.loadProps" />
+    <MESSAGE value="NeedToChange proto" />
+    <MESSAGE value="some comments to NeedToChange annotation" />
+    <MESSAGE value="separate CommonEntity and ConfigurationEntity" />
+    <MESSAGE value="change Bean creation Annotation @Bean to @Service, Field Injection to Constructor Injection" />
+    <MESSAGE value="changed Entity structure" />
+    <MESSAGE value="CommonSqlGenerator tmp" />
+    <MESSAGE value="change consumer group.id" />
+    <MESSAGE value="CommonEntity Type changed" />
+    <MESSAGE value="tmp GenericHelper (how to get Parameterized Type)" />
+    <MESSAGE value="JdbcConfiguration - changed EntityLib type, not decided if it use spring-jdbc or JPA" />
+    <option name="LAST_COMMIT_MESSAGE" value="JdbcConfiguration - changed EntityLib type, not decided if it use spring-jdbc or JPA" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.NullPointerException" package="java.lang" />
+          <option name="timeStamp" value="6" />
+        </breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/oidev/assignment/kafka/consumer/config/JdbcConfig.java</url>
-          <line>73</line>
-          <option name="timeStamp" value="3" />
+          <url>file://$PROJECT_DIR$/../../helper-common/src/test/java/com/dulgi/helper/sql/CommonSQL.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="23" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/../../helper-common/src/main/java/com/dulgi/helper/common/CommonEntity.java</url>
-          <line>121</line>
-          <option name="timeStamp" value="4" />
+          <url>file://$PROJECT_DIR$/src/main/java/org/oidev/assignment/kafka/consumer/dao/KafkaConsumerDAO.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="25" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="this" />
+        <watch expression="((Class)dtoEntity.entity).classLoader" custom="java.lang.Class" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>

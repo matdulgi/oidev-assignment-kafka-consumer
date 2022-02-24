@@ -1,32 +1,39 @@
 package org.oidev.assignment.kafka.consumer.service;
 
+import com.dulgi.helper.annotation.NeedToChange;
 import org.apache.kafka.clients.consumer.ConsumerRecord;
 import org.apache.kafka.clients.consumer.ConsumerRecords;
 import org.apache.kafka.clients.consumer.KafkaConsumer;
-import org.oidev.assignment.kafka.consumer.processor.CommonProcessor;
+import org.oidev.assignment.kafka.consumer.processor.MetatronProcessor;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.beans.factory.annotation.Qualifier;
-import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Service;
 
 import java.util.*;
+import java.util.stream.DoubleStream;
 
 @Service
 public class ConsumerService {
     KafkaConsumer kafkaConsumer;
-    CommonProcessor commonProcessor;
+    MetatronProcessor commonProcessor;
     Logger logger = LoggerFactory.getLogger(this.getClass());
+
+    @NeedToChange("move to properties")
+    final int batchSize = 5;
+    boolean isBatchMode = true;
+
 
     boolean keepRun = true;
 
-    Queue<ConsumerRecord> queue = new LinkedList<>();
+    Queue<ConsumerRecord<String, String>> buffer = new LinkedList<>();
 
-    public ConsumerService(){ }
+    public ConsumerService(){
+        buffer = new LinkedList<>();
+    }
 
     @Autowired
-    public ConsumerService(KafkaConsumer kafkaConsumer, CommonProcessor commonProcessor){
+    public ConsumerService(KafkaConsumer kafkaConsumer, MetatronProcessor commonProcessor){
         this.kafkaConsumer = kafkaConsumer;
         this.commonProcessor = commonProcessor;
     }
@@ -38,10 +45,23 @@ public class ConsumerService {
 
 //            ConsumerRecords consumerRecords = kafkaConsumer.poll(Long.MAX_VALUE);
             ConsumerRecords<String, String> consumerRecords = kafkaConsumer.poll(10000);
+            System.out.println("all record count :" + consumerRecords.count());
 
+            int k = 1;
             for (ConsumerRecord<String, String> consumerRecord : consumerRecords){
-                logger.info("count : " + consumerRecords.count());
-                commonProcessor.process(consumerRecord);
+                System.out.println(k++ + "th record");
+//                logger.info("count : " + consumerRecords.count());
+
+                if(isBatchMode){
+                    buffer.add(consumerRecord);
+                } else{
+                    commonProcessor.process(consumerRecord);
+                }
+                if(isBatchMode && buffer.size() >= batchSize){
+                    commonProcessor.process(buffer);
+                    kafkaConsumer.commitAsync();
+                    buffer.clear();
+                }
 
             }
         }
