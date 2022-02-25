@@ -1,11 +1,12 @@
 package org.oidev.assignment.kafka.consumer.config;
 
 import com.dulgi.helper.annotation.NeedToChange;
+import com.dulgi.helper.jdbc.JDBCFunction;
 import org.apache.kafka.clients.consumer.KafkaConsumer;
+import org.oidev.assignment.kafka.consumer.dao.MetatronConsumerDAO;
 import org.oidev.assignment.kafka.consumer.processor.MetatronProcessor;
-import org.springframework.context.annotation.Bean;
-import org.springframework.context.annotation.ComponentScan;
-import org.springframework.context.annotation.Configuration;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.annotation.*;
 
 import java.util.HashSet;
 import java.util.Set;
@@ -13,6 +14,9 @@ import java.util.Set;
 import static com.dulgi.helper.common.Core.loadProps;
 
 @Configuration
+@Import(JdbcConfiguration.class)
+//@DependsOn({"metatronConsumerDAO"})
+//@DependsOn("jdbcConfiguration")
 @ComponentScan(basePackages = "org.oidev.assignment.kafka.consumer.service")
 public class ConsumerConfiguration {
     @NeedToChange("make parse properties logic, integrate all properties file")
@@ -20,11 +24,19 @@ public class ConsumerConfiguration {
 //    private KafkaConsumer kafkaConsumer;
     Set<String> topics;
 
+    MetatronConsumerDAO metatronConsumerDAO;
+    JDBCFunction jdbcFunction;
+
     public ConsumerConfiguration() {
         setTopics();
-//        setConsumerProp();
     }
 
+    @Autowired
+    public ConsumerConfiguration(MetatronConsumerDAO metatronConsumerDAO, JDBCFunction jdbcFunction){
+        setTopics();
+        this.metatronConsumerDAO = metatronConsumerDAO;
+        this.jdbcFunction = jdbcFunction;
+    }
 
     @NeedToChange("move the list of topic to other location")
     private void setTopics(){
@@ -42,8 +54,8 @@ public class ConsumerConfiguration {
     }
 
     @Bean
-    public MetatronProcessor commonProcessor(){
-        return new MetatronProcessor();
+    public MetatronProcessor metatronProcessor(){
+        return new MetatronProcessor(metatronConsumerDAO, jdbcFunction);
     }
 
 

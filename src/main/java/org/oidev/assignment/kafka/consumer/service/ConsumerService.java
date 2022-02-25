@@ -60,7 +60,7 @@ public class ConsumerService {
                 if(isBatchMode && buffer.size() >= batchSize){
                     commonProcessor.process(buffer);
                     kafkaConsumer.commitAsync();
-                    buffer.clear();
+//                    buffer.clear();
                 }
 
             }

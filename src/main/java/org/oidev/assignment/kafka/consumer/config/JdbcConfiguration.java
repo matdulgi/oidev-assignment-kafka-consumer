@@ -8,6 +8,7 @@ import java.util.Properties;
 import javax.sql.DataSource;
 
 import com.dulgi.helper.entity.ConfigurationEntity;
+import com.dulgi.helper.jdbc.JDBCFunction;
 import org.apache.commons.dbcp.BasicDataSource;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -41,7 +42,6 @@ public class JdbcConfiguration{
         jdbcProps = new Properties();
         propFile = new ClassPathResource(propFilePath).getFile();
         try (FileInputStream fis = new FileInputStream(propFile)){
-            fis.read();
             jdbcProps.load(fis);
        }
     }
@@ -81,6 +81,11 @@ public class JdbcConfiguration{
         JdbcTemplate jdbcTemplate = new JdbcTemplate();
         jdbcTemplate.setDataSource(basicDataSource());
         return jdbcTemplate;
+    }
+
+    @Bean
+    public JDBCFunction jdbcFunction(){
+        return new JDBCFunction("mysql");
     }
 
 }

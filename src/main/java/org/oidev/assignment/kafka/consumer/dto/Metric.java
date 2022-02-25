@@ -22,6 +22,8 @@ public class Metric implements Serializable {
 
     private String timestamp;
 
+    private String tableName;
+
     private String type;
 
 }

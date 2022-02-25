@@ -1,12 +1,12 @@
 package org.oidev.assignment.kafka.consumer.processor;
 
 import com.dulgi.helper.annotation.NeedToChange;
+import com.dulgi.helper.jdbc.JDBCFunction;
 import org.apache.kafka.clients.consumer.ConsumerRecord;
 import org.json.JSONArray;
 import org.oidev.assignment.kafka.consumer.dao.MetatronConsumerDAO;
 import org.oidev.assignment.kafka.consumer.dto.Metric;
 import org.springframework.beans.BeansException;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.ApplicationContextAware;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
@@ -17,16 +17,17 @@ import java.util.*;
  * this class process the ConsumerRecord
  */
 public class MetatronProcessor implements Processor, ApplicationContextAware {
-    MetatronConsumerDAO kafkaConsumerDao;
+    MetatronConsumerDAO metatronConsumerDAO;
     Queue<Metric> dtoQueue = new LinkedList<>();
+//    private final int dtoBufferSize = 100;
+    JDBCFunction jdbcFunction;
 
     public MetatronProcessor(){
     }
 
-    @Autowired
-    public MetatronProcessor(MetatronConsumerDAO kafkaConsumerDao){
-        this.kafkaConsumerDao = kafkaConsumerDao;
-
+    public MetatronProcessor(MetatronConsumerDAO metatronConsumerDAO, JDBCFunction jdbcFunction){
+        this.metatronConsumerDAO = metatronConsumerDAO;
+        this.jdbcFunction = jdbcFunction;
     }
 
     @NeedToChange("polymorphism for dto")
@@ -36,19 +37,28 @@ public class MetatronProcessor implements Processor, ApplicationContextAware {
         }
     }
 
+    /**
+     * parameter ConsumerRecord includes the list of json per every metric message
+     *  loop
+     *  - parse each json and convert to map
+     *  - convert map to dto
+     *  - dto is saved to buffer
+     * @param consumerRecord
+     */
     public void process(ConsumerRecord<String,String> consumerRecord){
-        System.out.println("sogood");
-        List<Object> msgList = parseKafkaJson(consumerRecord);
+        List<Object> metricJsonList = parseKafkaJson(consumerRecord);
 
-        for(Object e : msgList){
+        for(Object e : metricJsonList){
             System.out.println(e);
 //            System.out.println(obj.getClass().getSuperclass());
             Map<String, String> metricMap = (Map<String,String>)e;
 
             dtoQueue.add(getMetricDTO(metricMap));
-            //DAOInsertLogic
+
         }
-        System.out.println("tmp");
+        //DAOInsertLogic
+        metatronConsumerDAO.insertMetrics(dtoQueue);
+        System.out.println("");
     }
 
     public List<Object> parseKafkaJson(ConsumerRecord<String,String> consumerRecord){
@@ -71,7 +81,9 @@ public class MetatronProcessor implements Processor, ApplicationContextAware {
         metric.setMetricName(metricMap.get("metric_name"));
         metric.setMetricValue(metricMap.get("metric_value"));
         metric.setTimestamp(metricMap.get("timestamp"));
-        return   metric;
+        metric.setTableName(metricMap.get("table_name"));
+        metric.setType(jdbcFunction.evalTypeRegex(metricMap.get("metric_value")));
+        return metric;
     }
 
     @Override
