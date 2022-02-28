@@ -20,7 +20,8 @@ public class ConsumerService {
     Logger logger = LoggerFactory.getLogger(this.getClass());
 
     @NeedToChange("move to properties")
-    final int batchSize = 5;
+//    final int batchSize = 5;
+    final int batchSize = 1;
     boolean isBatchMode = true;
 
 
@@ -45,7 +46,7 @@ public class ConsumerService {
 
 //            ConsumerRecords consumerRecords = kafkaConsumer.poll(Long.MAX_VALUE);
             ConsumerRecords<String, String> consumerRecords = kafkaConsumer.poll(10000);
-            System.out.println("all record count :" + consumerRecords.count());
+            System.out.println("got count :" + consumerRecords.count());
 
             int k = 1;
             for (ConsumerRecord<String, String> consumerRecord : consumerRecords){

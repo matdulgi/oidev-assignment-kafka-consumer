@@ -1,29 +1,27 @@
 package org.oidev.assignment.kafka.consumer.dao;
 
 import com.dulgi.helper.annotation.NeedToChange;
-import com.dulgi.helper.sql.CreateSQL;
 import org.oidev.assignment.kafka.consumer.dto.Metric;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jdbc.BadSqlGrammarException;
-import org.springframework.jdbc.core.JdbcTemplate;
-import org.springframework.jdbc.core.RowMapper;
+import org.springframework.jdbc.core.*;
 import org.springframework.stereotype.Repository;
 import org.springframework.transaction.annotation.Transactional;
 
-import java.sql.ResultSet;
-import java.sql.SQLException;
-import java.util.Queue;
-import java.util.Set;
+import java.sql.*;
+import java.util.*;
+import java.util.regex.Pattern;
 
 @Transactional
 @Repository
 public class MetatronConsumerDAO {
 
     JdbcTemplate jdbcTemplate;
-    Set<String> tables;
+
 
     //tmp
-    CreateSQL createSql = new CreateSQL("Metric");
+    //SQLs
+//    CreateSQL createSql = new CreateSQL("Metric");
 
 
     @Autowired
@@ -31,29 +29,52 @@ public class MetatronConsumerDAO {
         this.jdbcTemplate = jdbcTemplate;
     }
 
-    public void insertMetrics(Queue<Metric> dtoQueue){
-        for(Metric metric : dtoQueue) {
-            try {
-                insertMetric(metric);
-            } catch ( BadSqlGrammarException e ) {
-//                if (e.getStackTrace()[0].toString()){
-                e.printStackTrace();
+    @Autowired
+    public Set<String> searchTables(){
+        // list is each row, map(column, value)
+        List<Map<String, Object>> list = jdbcTemplate.queryForList("show tables");
+        Set<String> set = new HashSet<String>();
+        for(Map<String, Object> map : list){
+            set.add((String)map.get(map.keySet().toArray()[0]));
+        }
+        return set;
+    }
 
-                createTable(metric);
-                insertMetric(metric);
-//            }
-//                else if
+    public void insertMetrics(Queue<Metric> dtoQueue, Set<String> tableDict) {
+        String tableName = null;
+        try(Connection conn = jdbcTemplate.getDataSource().getConnection();
+            Statement statement = conn.createStatement()){
+            while(dtoQueue.peek()!= null) {
+                tableName = dtoQueue.peek().getTableName();
+                if (!tableDict.contains(tableName.toLowerCase())){
+                    createTable(tableName);
+                }
+                statement.addBatch(genInsertMetricSQL(dtoQueue.poll()));
+            }
+            statement.executeBatch();
+        } catch (SQLException e) {
+//            e.printStackTrace();
+            String msg = e.getMessage();
+            System.out.println(msg);
+            if (msg.contains("Duplicate entry")){
+                System.out.println("remove next queue");
+//                dtoQueue.remove();
+            }
+            else if (Pattern.matches("Table.*doesn't exist",msg)){
+                createTable(tableName);
+
             }
         }
     }
 
-    public void insertMetric(Metric metric){
-        jdbcTemplate.queryForObject(genInsertMetricSQL(metric), new RowMapper<Object>() {
-            @Override
-            public Object mapRow(ResultSet rs, int rowNum) throws SQLException {
-                return null;
-            }
-        });
+//    public void insertMetric(Metric[] metric){
+//        jdbcTemplate.batchUpdate()
+//    }
+
+    public void createTable(String tableName){
+        Metric metric = new Metric();
+        metric.setTableName(tableName);
+        createTable(metric);
     }
 
     public void createTable(Metric metric){
@@ -66,7 +87,7 @@ public class MetatronConsumerDAO {
     }
 
     @NeedToChange("It's temporary method to insert data")
-    public String genInsertMetricSQL(Metric dto){
+    private String genInsertMetricSQL(Metric dto){
         return "insert into " + dto.getTableName() + " (system_seq, process_seq, metric_name, metric_value, type, timestamp) " +
                 "values ( " +
                 "'" + dto.getSystemSeq() + "' ," +
@@ -77,16 +98,24 @@ public class MetatronConsumerDAO {
                 "'" + dto.getTimestamp() + "' )";
     }
 
+//    private String genInsertMetricBatchSql(List<Metric> metricList){
+//        String sql = "insert into " + metricList.() + " (system_seq, process_seq, metric_name, metric_value, type, timestamp) " +
+//            "values ( ?, ?, ?, ?, ?, ? )";
+//        return "";
+//    }
+
+
     @NeedToChange("It's temporary method to generate table")
     public String genCreateMetricTableSQL(String tableName, String metricType){
         String sql = "CREATE TABLE if not exists " + "oidev5." + tableName + " ( " +
-                "'system_seq' VARCHAR(10) not null, " +
-                "'process_seq' VARCHAR(10) not null, " +
-                "'metric_name' VARCHAR(50) not null, " +
-                "'metric_value' VARCHAR(100) not null, " +
-                "'type' VARCHAR(100) not null, " +
-                "'timestamp' VARCHAR(10) not null ," +
-                "primary key ( system_seq, process_seq, metric_name ) " +
+                "id INT NOT NULL AUTO_INCREMENT PRIMARY KEY, " +
+                "system_seq INT not null, " +
+                "process_seq INT not null, " +
+                "metric_name VARCHAR(50) not null, " +
+                "metric_value VARCHAR(100) not null, " +
+                "type VARCHAR(100) not null, " +
+                "timestamp Timestamp not null " +
+//                "primary key ( system_seq, process_seq, metric_name, timestamp) " +
                 ")" +
                 "engine=InnoDB default charset=utf8" ;
         return sql;

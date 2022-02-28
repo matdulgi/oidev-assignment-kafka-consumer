@@ -6,24 +6,25 @@ import lombok.Setter;
 import lombok.ToString;
 
 import java.io.Serializable;
+import java.sql.Timestamp;
 
 @Setter
 @Getter
 @ToString
 public class Metric implements Serializable {
 
-    private String systemSeq;
+    private Integer systemSeq;
 
-    private String processSeq;
+    private Integer processSeq;
 
     private String metricName;
 
     private String metricValue;
 
-    private String timestamp;
-
-    private String tableName;
+    private Timestamp timestamp;
 
     private String type;
+
+    private String tableName;
 
 }

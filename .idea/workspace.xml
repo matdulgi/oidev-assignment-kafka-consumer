@@ -4,22 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2b53a501-fdfd-41e0-a215-bc15bc4cf6d3" name="Changes" comment="20220224 record buffer">
-      <change afterPath="$PROJECT_DIR$/../../helper-common/src/main/java/com/dulgi/helper/jdbc/NoMatchTypeRegexException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../helper-common/src/main/java/com/dulgi/helper/regex/MysqlTypeRegex.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/oidev/assignment/kafka/consumer/dao/TestRowMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../helper-common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../helper-common/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../helper-common/src/main/java/com/dulgi/helper/common/JDBCFunction.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../helper-common/src/main/java/com/dulgi/helper/jdbc/JDBCFunction.java" afterDir="false" />
+    <list default="true" id="2b53a501-fdfd-41e0-a215-bc15bc4cf6d3" name="Changes" comment="create Table (if not exists)">
+      <change afterPath="$PROJECT_DIR$/../../helper-common/src/main/java/com/dulgi/helper/jdbc/TypeConvertor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../helper-common/src/main/java/com/dulgi/helper/jdbc/JDBCFunction.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../helper-common/src/main/java/com/dulgi/helper/jdbc/JDBCFunction.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/erd/erd_2.mwb" beforeDir="false" afterPath="$PROJECT_DIR$/erd/erd_2.mwb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/catalina.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/catalina.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/oidev/assignment/kafka/consumer/config/CommonConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/oidev/assignment/kafka/consumer/config/CommonConfiguration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/oidev/assignment/kafka/consumer/config/ConsumerConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/oidev/assignment/kafka/consumer/config/ConsumerConfiguration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/oidev/assignment/kafka/consumer/config/JdbcConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/oidev/assignment/kafka/consumer/config/JdbcConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/oidev/assignment/kafka/consumer/dao/MetatronConsumerDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/oidev/assignment/kafka/consumer/dao/MetatronConsumerDAO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/oidev/assignment/kafka/consumer/dto/Metric.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/oidev/assignment/kafka/consumer/dto/Metric.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/oidev/assignment/kafka/consumer/processor/MetatronProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/oidev/assignment/kafka/consumer/processor/MetatronProcessor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/oidev/assignment/kafka/consumer/processor/Processor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/oidev/assignment/kafka/consumer/processor/RecordProcessor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/oidev/assignment/kafka/consumer/service/ConsumerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/oidev/assignment/kafka/consumer/service/ConsumerService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/config/jdbc.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/config/jdbc.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -112,6 +107,8 @@
       <command value="e" />
       <command value="\" />
       <command value=" " />
+      <command value="`" />
+      <command value="." />
     </option>
   </component>
   <component name="RunManager" selected="Application.Main">
@@ -215,7 +212,8 @@
       <workItem from="1645489881974" duration="4407000" />
       <workItem from="1645529409832" duration="18117000" />
       <workItem from="1645662002314" duration="21586000" />
-      <workItem from="1645705802098" duration="21182000" />
+      <workItem from="1645705802098" duration="22625000" />
+      <workItem from="1646009293311" duration="28566000" />
     </task>
     <task id="LOCAL-00001" summary="modified methods those get properties of entity">
       <created>1644453844571</created>
@@ -364,7 +362,14 @@
       <option name="project" value="LOCAL" />
       <updated>1645692143653</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="create Table (if not exists)">
+      <created>1645776244255</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1645776244255</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -406,32 +411,22 @@
     <MESSAGE value="tmp GenericHelper (how to get Parameterized Type)" />
     <MESSAGE value="JdbcConfiguration - changed EntityLib type, not decided if it use spring-jdbc or JPA" />
     <MESSAGE value="20220224 record buffer" />
-    <option name="LAST_COMMIT_MESSAGE" value="20220224 record buffer" />
+    <MESSAGE value="create Table (if not exists)" />
+    <option name="LAST_COMMIT_MESSAGE" value="create Table (if not exists)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <breakpoint enabled="true" type="java-exception">
-          <properties class="java.lang.NullPointerException" package="java.lang" />
-          <option name="timeStamp" value="6" />
-        </breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/../../helper-common/src/test/java/com/dulgi/helper/sql/CommonSQL.java</url>
           <line>30</line>
           <option name="timeStamp" value="23" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/oidev/assignment/kafka/consumer/dao/MetatronConsumerDAO.java</url>
-          <line>41</line>
-          <option name="timeStamp" value="39" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
         <watch expression="this" />
-        <watch expression="((Class)dtoEntity.entity).classLoader" custom="java.lang.Class" />
-        <watch expression="((Properties)this.jdbcProps).entrySet().toArray()[3]" custom="org.oidev.assignment.kafka.consumer.config.JdbcConfiguration,java.util.Properties" />
       </configuration>
     </watches-manager>
   </component>
